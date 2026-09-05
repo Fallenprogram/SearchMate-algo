@@ -1,0 +1,28 @@
+{
+  "attempt": 1,
+  "black_command": [
+    "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\harness\\runner.py",
+    "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\baselines\\greedy"
+  ],
+  "game_id": "full-greedy-o01-white",
+  "manifest_sha256": "1f7325ef5125527219e142724db1c9f9f92d54e39af04a721cf274fb8048fe7c",
+  "spec": {
+    "base_ms": 120000,
+    "calibration": true,
+    "candidate_color": "white",
+    "clock": "full",
+    "id": "full-greedy-o01-white",
+    "increment_ms": 500,
+    "opening_id": "o01",
+    "opponent": "greedy",
+    "ply_cap": 300,
+    "start_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5"
+  },
+  "started_at": "2026-09-05T10:03:51.413469+00:00",
+  "white_command": [
+    "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\harness\\runner.py",
+    "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\research\\runs\\v0-01\\candidate"
+  ]
+}

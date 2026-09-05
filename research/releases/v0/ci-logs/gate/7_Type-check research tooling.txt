@@ -1,0 +1,9 @@
+﻿2026-09-05T16:07:10.3337331Z ##[group]Run uv run mypy --strict research/*.py .github/scripts/check_submission.py
+2026-09-05T16:07:10.3337930Z [36;1muv run mypy --strict research/*.py .github/scripts/check_submission.py[0m
+2026-09-05T16:07:10.3357328Z shell: /usr/bin/bash -e {0}
+2026-09-05T16:07:10.3357697Z env:
+2026-09-05T16:07:10.3358069Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+2026-09-05T16:07:10.3358497Z   UV_PYTHON: 3.12
+2026-09-05T16:07:10.3359314Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:10.3359677Z ##[endgroup]
+2026-09-05T16:07:10.8266524Z Success: no issues found in 9 source files

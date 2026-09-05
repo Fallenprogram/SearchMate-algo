@@ -1,0 +1,296 @@
+{
+  "attempt": 1,
+  "black": {
+    "color": "black",
+    "command": [
+      "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\harness\\runner.py",
+      "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\baselines\\random"
+    ],
+    "minimum_estimated_after_reply_ms": 9999.434999999721,
+    "minimum_input_time_left_ms": 10000,
+    "move_count": 14,
+    "moves": [
+      {
+        "elapsed_ms": 0.5650000002788147,
+        "estimated_after_reply_ms": 9999.434999999721,
+        "failure": null,
+        "fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 3 5",
+        "input_time_left_ms": 10000,
+        "uci": "f8d6"
+      },
+      {
+        "elapsed_ms": 0.5583000001934124,
+        "estimated_after_reply_ms": 10099.441699999807,
+        "failure": null,
+        "fen": "r1bqk2r/1ppp1ppp/p1nb1n2/4p3/B3P3/2N2N2/PPPP1PPP/R1BQ1RK1 b kq - 5 6",
+        "input_time_left_ms": 10100,
+        "uci": "c6d4"
+      },
+      {
+        "elapsed_ms": 0.6254999989323551,
+        "estimated_after_reply_ms": 10199.374500001068,
+        "failure": null,
+        "fen": "r1bqk2r/1ppp1ppp/p2b1n2/4p3/B2NP3/2N5/PPPP1PPP/R1BQ1RK1 b kq - 0 7",
+        "input_time_left_ms": 10200,
+        "uci": "c7c5"
+      },
+      {
+        "elapsed_ms": 0.35659999957715627,
+        "estimated_after_reply_ms": 10299.643400000423,
+        "failure": null,
+        "fen": "r1bqk2r/1p1p1ppp/p2b1n2/2p1pN2/B3P3/2N5/PPPP1PPP/R1BQ1RK1 b kq - 1 8",
+        "input_time_left_ms": 10300,
+        "uci": "f6d5"
+      },
+      {
+        "elapsed_ms": 0.43120000009366777,
+        "estimated_after_reply_ms": 10399.568799999906,
+        "failure": null,
+        "fen": "r1bqk2r/1p1p1ppp/p2N4/2pnp3/B3P3/2N5/PPPP1PPP/R1BQ1RK1 b kq - 0 9",
+        "input_time_left_ms": 10400,
+        "uci": "e8f8"
+      },
+      {
+        "elapsed_ms": 0.4060000010213116,
+        "estimated_after_reply_ms": 10499.593999998979,
+        "failure": null,
+        "fen": "r1bq1k1r/1p1p1ppp/p2N4/2pNp3/B3P3/8/PPPP1PPP/R1BQ1RK1 b - - 0 10",
+        "input_time_left_ms": 10500,
+        "uci": "d8e7"
+      },
+      {
+        "elapsed_ms": 0.46180000026652124,
+        "estimated_after_reply_ms": 10599.538199999733,
+        "failure": null,
+        "fen": "r1b2k1r/1p1pNppp/p2N4/2p1p3/B3P3/8/PPPP1PPP/R1BQ1RK1 b - - 0 11",
+        "input_time_left_ms": 10600,
+        "uci": "f7f5"
+      },
+      {
+        "elapsed_ms": 0.5034999994677491,
+        "estimated_after_reply_ms": 10699.496500000532,
+        "failure": null,
+        "fen": "r1b2k1r/1p1pN1pp/p7/2p1pN2/B3P3/8/PPPP1PPP/R1BQ1RK1 b - - 0 12",
+        "input_time_left_ms": 10700,
+        "uci": "h7h6"
+      },
+      {
+        "elapsed_ms": 0.4365999993751757,
+        "estimated_after_reply_ms": 10799.563400000625,
+        "failure": null,
+        "fen": "r1b2k1r/1p1p2p1/p5Np/2p1pN2/B3P3/8/PPPP1PPP/R1BQ1RK1 b - - 1 13",
+        "input_time_left_ms": 10800,
+        "uci": "f8f7"
+      },
+      {
+        "elapsed_ms": 0.4031999997096136,
+        "estimated_after_reply_ms": 10899.59680000029,
+        "failure": null,
+        "fen": "r1b4N/1p1p1kp1/p6p/2p1pN2/B3P3/8/PPPP1PPP/R1BQ1RK1 b - - 0 14",
+        "input_time_left_ms": 10900,
+        "uci": "f7f8"
+      },
+      {
+        "elapsed_ms": 0.43550000009418,
+        "estimated_after_reply_ms": 10999.564499999906,
+        "failure": null,
+        "fen": "r1b2k1N/1p1p2p1/p2N3p/2p1p3/B3P3/8/PPPP1PPP/R1BQ1RK1 b - - 2 15",
+        "input_time_left_ms": 11000,
+        "uci": "f8e7"
+      },
+      {
+        "elapsed_ms": 0.35519999983080197,
+        "estimated_after_reply_ms": 11099.64480000017,
+        "failure": null,
+        "fen": "r1b5/1p1pkNp1/p2N3p/2p1p3/B3P3/8/PPPP1PPP/R1BQ1RK1 b - - 4 16",
+        "input_time_left_ms": 11100,
+        "uci": "h6h5"
+      },
+      {
+        "elapsed_ms": 0.3957999997510342,
+        "estimated_after_reply_ms": 11199.604200000249,
+        "failure": null,
+        "fen": "r1b5/1p1pkNp1/p2N4/2p1p2Q/B3P3/8/PPPP1PPP/R1B2RK1 b - - 0 17",
+        "input_time_left_ms": 11200,
+        "uci": "b7b5"
+      },
+      {
+        "elapsed_ms": 0.39370000013150275,
+        "estimated_after_reply_ms": 11299.606299999868,
+        "failure": null,
+        "fen": "r1b5/3pkNp1/p2N4/1pp1Q3/B3P3/8/PPPP1PPP/R1B2RK1 b - - 0 18",
+        "input_time_left_ms": 11300,
+        "uci": "e7f8"
+      }
+    ],
+    "role": "opponent",
+    "startup_failure": null,
+    "startup_ms": 145.98619999924267,
+    "stderr": "",
+    "timing_note": "Input clock is the actual integer passed by the referee. After-reply clock is a perf_counter estimate excluding observation and referee overhead, before increment. The unchanged referee uses monotonic, which can be coarse on Windows."
+  },
+  "candidate_result": "win",
+  "elapsed_s": 3.4485189000006358,
+  "failures": [],
+  "finished_at": "2026-09-05T10:03:26.455527+00:00",
+  "game_id": "short-random-o01-white",
+  "manifest_sha256": "1f7325ef5125527219e142724db1c9f9f92d54e39af04a721cf274fb8048fe7c",
+  "pgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"1-0\"]\n[FEN \"r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5\"]\n[SetUp \"1\"]\n[Termination \"checkmate\"]\n\n5. Nc3 Bd6 6. O-O Nd4 7. Nxd4 c5 8. Nf5 Nd5 9. Nxd6+ Kf8 10. Nxd5 Qe7 11. Nxe7 f5 12. Ndxf5 h6 13. Ng6+ Kf7 14. Nxh8+ Kf8 15. Nd6 Ke7 16. Nhf7 h5 17. Qxh5 b5 18. Qxe5+ Kf8 19. Qe8# 1-0\n",
+  "pgn_sha256": "d34948f8cc1eb9de720c2a67a53d16a4eda923d22e820903e0b80451a44b6ced",
+  "plies": 29,
+  "result": "white",
+  "spec": {
+    "base_ms": 10000,
+    "calibration": true,
+    "candidate_color": "white",
+    "clock": "short",
+    "id": "short-random-o01-white",
+    "increment_ms": 100,
+    "opening_id": "o01",
+    "opponent": "random",
+    "ply_cap": 300,
+    "start_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5"
+  },
+  "started_at": "2026-09-05T10:03:22.988761+00:00",
+  "status": "completed",
+  "termination": "checkmate",
+  "white": {
+    "color": "white",
+    "command": [
+      "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\harness\\runner.py",
+      "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\research\\runs\\v0-01\\candidate"
+    ],
+    "minimum_estimated_after_reply_ms": 8201.272099998881,
+    "minimum_input_time_left_ms": 8289,
+    "move_count": 15,
+    "moves": [
+      {
+        "elapsed_ms": 250.3324999997858,
+        "estimated_after_reply_ms": 9749.667500000214,
+        "failure": null,
+        "fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5",
+        "input_time_left_ms": 10000,
+        "uci": "b1c3"
+      },
+      {
+        "elapsed_ms": 246.62680000074033,
+        "estimated_after_reply_ms": 9603.37319999926,
+        "failure": null,
+        "fen": "r1bqk2r/1ppp1ppp/p1nb1n2/4p3/B3P3/2N2N2/PPPP1PPP/R1BQK2R w KQkq - 4 6",
+        "input_time_left_ms": 9850,
+        "uci": "e1g1"
+      },
+      {
+        "elapsed_ms": 242.87030000050436,
+        "estimated_after_reply_ms": 9457.129699999496,
+        "failure": null,
+        "fen": "r1bqk2r/1ppp1ppp/p2b1n2/4p3/B2nP3/2N2N2/PPPP1PPP/R1BQ1RK1 w kq - 6 7",
+        "input_time_left_ms": 9700,
+        "uci": "f3d4"
+      },
+      {
+        "elapsed_ms": 239.4280999997136,
+        "estimated_after_reply_ms": 9324.571900000286,
+        "failure": null,
+        "fen": "r1bqk2r/1p1p1ppp/p2b1n2/2p1p3/B2NP3/2N5/PPPP1PPP/R1BQ1RK1 w kq - 0 8",
+        "input_time_left_ms": 9564,
+        "uci": "d4f5"
+      },
+      {
+        "elapsed_ms": 236.13010000008217,
+        "estimated_after_reply_ms": 9192.869899999918,
+        "failure": null,
+        "fen": "r1bqk2r/1p1p1ppp/p2b4/2pnpN2/B3P3/2N5/PPPP1PPP/R1BQ1RK1 w kq - 2 9",
+        "input_time_left_ms": 9429,
+        "uci": "f5d6"
+      },
+      {
+        "elapsed_ms": 232.74689999925613,
+        "estimated_after_reply_ms": 9062.253100000744,
+        "failure": null,
+        "fen": "r1bq1k1r/1p1p1ppp/p2N4/2pnp3/B3P3/2N5/PPPP1PPP/R1BQ1RK1 w - - 1 10",
+        "input_time_left_ms": 9295,
+        "uci": "c3d5"
+      },
+      {
+        "elapsed_ms": 229.05209999953513,
+        "estimated_after_reply_ms": 8915.947900000465,
+        "failure": null,
+        "fen": "r1b2k1r/1p1pqppp/p2N4/2pNp3/B3P3/8/PPPP1PPP/R1BQ1RK1 w - - 1 11",
+        "input_time_left_ms": 9145,
+        "uci": "d5e7"
+      },
+      {
+        "elapsed_ms": 226.07720000087284,
+        "estimated_after_reply_ms": 8799.922799999127,
+        "failure": null,
+        "fen": "r1b2k1r/1p1pN1pp/p2N4/2p1pp2/B3P3/8/PPPP1PPP/R1BQ1RK1 w - - 0 12",
+        "input_time_left_ms": 9026,
+        "uci": "d6f5"
+      },
+      {
+        "elapsed_ms": 222.6520000003802,
+        "estimated_after_reply_ms": 8669.34799999962,
+        "failure": null,
+        "fen": "r1b2k1r/1p1pN1p1/p6p/2p1pN2/B3P3/8/PPPP1PPP/R1BQ1RK1 w - - 0 13",
+        "input_time_left_ms": 8892,
+        "uci": "e7g6"
+      },
+      {
+        "elapsed_ms": 219.69410000019707,
+        "estimated_after_reply_ms": 8553.305899999803,
+        "failure": null,
+        "fen": "r1b4r/1p1p1kp1/p5Np/2p1pN2/B3P3/8/PPPP1PPP/R1BQ1RK1 w - - 2 14",
+        "input_time_left_ms": 8773,
+        "uci": "g6h8"
+      },
+      {
+        "elapsed_ms": 216.69050000127754,
+        "estimated_after_reply_ms": 8437.309499998722,
+        "failure": null,
+        "fen": "r1b2k1N/1p1p2p1/p6p/2p1pN2/B3P3/8/PPPP1PPP/R1BQ1RK1 w - - 1 15",
+        "input_time_left_ms": 8654,
+        "uci": "f5d6"
+      },
+      {
+        "elapsed_ms": 214.23939999840513,
+        "estimated_after_reply_ms": 8336.760600001595,
+        "failure": null,
+        "fen": "r1b4N/1p1pk1p1/p2N3p/2p1p3/B3P3/8/PPPP1PPP/R1BQ1RK1 w - - 3 16",
+        "input_time_left_ms": 8551,
+        "uci": "h8f7"
+      },
+      {
+        "elapsed_ms": 211.26079999885405,
+        "estimated_after_reply_ms": 8221.739200001146,
+        "failure": null,
+        "fen": "r1b5/1p1pkNp1/p2N4/2p1p2p/B3P3/8/PPPP1PPP/R1BQ1RK1 w - - 0 17",
+        "input_time_left_ms": 8433,
+        "uci": "d1h5"
+      },
+      {
+        "elapsed_ms": 112.72790000111854,
+        "estimated_after_reply_ms": 8201.272099998881,
+        "failure": null,
+        "fen": "r1b5/3pkNp1/p2N4/1pp1p2Q/B3P3/8/PPPP1PPP/R1B2RK1 w - - 0 18",
+        "input_time_left_ms": 8314,
+        "uci": "h5e5"
+      },
+      {
+        "elapsed_ms": 3.018700001121033,
+        "estimated_after_reply_ms": 8285.981299998879,
+        "failure": null,
+        "fen": "r1b2k2/3p1Np1/p2N4/1pp1Q3/B3P3/8/PPPP1PPP/R1B2RK1 w - - 1 19",
+        "input_time_left_ms": 8289,
+        "uci": "e5e8"
+      }
+    ],
+    "role": "candidate",
+    "startup_failure": null,
+    "startup_ms": 175.70469999918714,
+    "stderr": "",
+    "timing_note": "Input clock is the actual integer passed by the referee. After-reply clock is a perf_counter estimate excluding observation and referee overhead, before increment. The unchanged referee uses monotonic, which can be coarse on Windows."
+  }
+}

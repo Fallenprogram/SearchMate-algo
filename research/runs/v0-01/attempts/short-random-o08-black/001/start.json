@@ -1,0 +1,28 @@
+{
+  "attempt": 1,
+  "black_command": [
+    "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\harness\\runner.py",
+    "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\research\\runs\\v0-01\\candidate"
+  ],
+  "game_id": "short-random-o08-black",
+  "manifest_sha256": "1f7325ef5125527219e142724db1c9f9f92d54e39af04a721cf274fb8048fe7c",
+  "spec": {
+    "base_ms": 10000,
+    "calibration": false,
+    "candidate_color": "black",
+    "clock": "short",
+    "id": "short-random-o08-black",
+    "increment_ms": 100,
+    "opening_id": "o08",
+    "opponent": "random",
+    "ply_cap": 300,
+    "start_fen": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 5 4"
+  },
+  "started_at": "2026-09-05T10:06:14.306075+00:00",
+  "white_command": [
+    "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\harness\\runner.py",
+    "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\baselines\\random"
+  ]
+}

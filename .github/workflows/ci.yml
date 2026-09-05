@@ -15,6 +15,12 @@ jobs:
           enable-cache: true
       - run: uv sync
       - run: make gate
+      - name: Lint release compatibility checker
+        run: uv run ruff check .github/scripts/check_submission.py
+      - name: Type-check research tooling
+        run: uv run mypy --strict research/*.py .github/scripts/check_submission.py
+      - name: Test player and research reliability
+        run: uv run python -m unittest discover -s research -p 'test_*.py' -v
 
   harness:
     strategy:

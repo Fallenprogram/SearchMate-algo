@@ -1,0 +1,14 @@
+{
+  "agent_sha256": "ff94c0620c916490a70d429a4f764a46cb30a9a02be3b1ba4147a9621fde1352",
+  "extraction_verified": true,
+  "members": [
+    "agent.py"
+  ],
+  "root_and_tested_snapshot_identical": true,
+  "uncompressed_bytes": 7342,
+  "zip_bytes": 7456,
+  "zip_method": "stored",
+  "zip_sha256": "2fd30951173a967e3394c59df62844e1d5a15514b853458c8c7de0c306fc1c84",
+  "zip_timestamp": "1980-01-01T00:00:00",
+  "zip_unix_mode": "100644"
+}

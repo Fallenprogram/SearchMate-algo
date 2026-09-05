@@ -1,0 +1,16 @@
+﻿2026-09-05T16:07:11.8044862Z ##[group]Run uv run python -m harness.arena --opponent baselines/random --games 2 --base-ms 5000
+2026-09-05T16:07:11.8045663Z [36;1muv run python -m harness.arena --opponent baselines/random --games 2 --base-ms 5000[0m
+2026-09-05T16:07:11.8151340Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-09-05T16:07:11.8151692Z env:
+2026-09-05T16:07:11.8151893Z   UV_TOOL_BIN_DIR: D:\a\_temp\uv-tool-bin-dir
+2026-09-05T16:07:11.8152173Z   UV_TOOL_DIR: D:\a\_temp\uv-tool-dir
+2026-09-05T16:07:11.8152448Z   UV_PYTHON_INSTALL_DIR: D:\a\_temp\uv-python-dir
+2026-09-05T16:07:11.8152719Z   UV_PYTHON: 3.12
+2026-09-05T16:07:11.8152911Z   UV_CACHE_DIR: D:\a\_temp\setup-uv-cache
+2026-09-05T16:07:11.8153148Z ##[endgroup]
+2026-09-05T16:07:21.0926102Z game 1/2: white by checkmate
+2026-09-05T16:07:21.0926656Z game 2/2: black by checkmate
+2026-09-05T16:07:21.0926902Z 
+2026-09-05T16:07:21.0927040Z . vs baselines\random over 2 games
+2026-09-05T16:07:21.0927422Z +2 =0 -0, score 100.0%
+2026-09-05T16:07:21.0928034Z terminations: checkmate 2

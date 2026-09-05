@@ -1,0 +1,26 @@
+{
+  "phase": "unchanged starter environment preflight",
+  "source_task": "01a070b7-89fe-7212-bef2-9cc9d58913be",
+  "source_directory": "C:\\Users\\cheej\\.codex\\tmp\\searchmate-preflight",
+  "original_checkout": "8b5b08bb4f612dd9127f2223b0e859bfc4da3b10",
+  "games_reexecuted": false,
+  "counts_toward_v0_campaign": false,
+  "files": [
+    {
+      "name": "starter-white.pgn",
+      "sha256": "122418d7f990439332830303f703022ceafef5e2035054290b7ff28382e7d1a5"
+    },
+    {
+      "name": "starter-black.pgn",
+      "sha256": "7746ef15e15fdf5ac207868254c9ee67f26bbb38331c23445880568be2d76eeb"
+    },
+    {
+      "name": "starter-white.log",
+      "sha256": "0875c5dcfd0a5b3febb103db2f4cdcfd734be79433cbb51e9039ed30023539f7"
+    },
+    {
+      "name": "starter-black.log",
+      "sha256": "9433c02c147b527a327b60793b2636d1be2993863945a651961930254ebfd45a"
+    }
+  ]
+}

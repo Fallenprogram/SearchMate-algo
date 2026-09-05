@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-09-05T10:09:55.208372+00:00",
+  "candidate": "v0-candidate-001",
+  "source": "read-only bounded review by inherited-model subagent; observations checked with python-chess",
+  "cases": [
+    {
+      "game": "short-minimax-o01-black",
+      "pgn": "games/short-minimax-o01-black.pgn",
+      "result": "draw",
+      "termination": "threefold_repetition",
+      "observed_pattern": "Opponent Qc6+/Qe6+ checks and candidate Rc7/Rd7 replies; referee stopped at claimable prospective third occurrence after42.Qe6+",
+      "material_at_end": {
+        "candidate": "Q+2R+5P",
+        "opponent": "Q+B+4P",
+        "nominal_difference": 8
+      },
+      "candidate_last_input_ms": 6478,
+      "candidate_last_reply_ms": 162.33,
+      "limitation": "A repetition occurred despite nominal material advantage. This does not prove the draw was avoidable or the position objectively won. FEN-only v0 has no prior-game-position memory.",
+      "source_changed": false
+    },
+    {
+      "game": "short-minimax-o01-white",
+      "pgn": "games/short-minimax-o01-white.pgn",
+      "result": "win",
+      "observed_finish": "16.Nc6#",
+      "plies": 23,
+      "limitation": "One illustrative win is not a strength estimate."
+    }
+  ]
+}

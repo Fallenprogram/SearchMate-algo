@@ -1,0 +1,46 @@
+﻿2026-09-05T16:07:02.3260269Z ##[group]Run astral-sh/setup-uv@v7
+2026-09-05T16:07:02.3260673Z with:
+2026-09-05T16:07:02.3260899Z   python-version: 3.12
+2026-09-05T16:07:02.3261148Z   enable-cache: true
+2026-09-05T16:07:02.3261396Z   activate-environment: false
+2026-09-05T16:07:02.3261749Z   working-directory: D:\a\SearchMate-algo\SearchMate-algo
+2026-09-05T16:07:02.3264928Z   github-token: ***
+2026-09-05T16:07:02.3265613Z   cache-dependency-glob: **/*requirements*.txt
+**/*requirements*.in
+**/*constraints*.txt
+**/*constraints*.in
+**/pyproject.toml
+**/uv.lock
+**/*.py.lock
+
+2026-09-05T16:07:02.3266358Z   restore-cache: true
+2026-09-05T16:07:02.3266587Z   save-cache: true
+2026-09-05T16:07:02.3266805Z   prune-cache: true
+2026-09-05T16:07:02.3267853Z   cache-python: false
+2026-09-05T16:07:02.3268127Z   ignore-nothing-to-cache: false
+2026-09-05T16:07:02.3268417Z   ignore-empty-workdir: false
+2026-09-05T16:07:02.3268687Z   add-problem-matchers: true
+2026-09-05T16:07:02.3268939Z   resolution-strategy: highest
+2026-09-05T16:07:02.3269273Z ##[endgroup]
+2026-09-05T16:07:02.5192786Z Trying to find version for uv in: D:\a\SearchMate-algo\SearchMate-algo\uv.toml
+2026-09-05T16:07:02.5194003Z Could not find file: D:\a\SearchMate-algo\SearchMate-algo\uv.toml
+2026-09-05T16:07:02.5195424Z Trying to find version for uv in: D:\a\SearchMate-algo\SearchMate-algo\pyproject.toml
+2026-09-05T16:07:02.5205874Z Could not determine uv version from uv.toml or pyproject.toml. Falling back to latest.
+2026-09-05T16:07:02.5209186Z Fetching version data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+2026-09-05T16:07:02.6123970Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.12.10/uv-x86_64-pc-windows-msvc.zip" ...
+2026-09-05T16:07:03.1459466Z [command]C:\Windows\system32\tar.exe x -C D:\a\_temp\6149ef6e-e80e-4220-8333-cc8c04e13f0e -f D:\a\_temp\a420b08c-d743-4812-a359-54982d96e59b
+2026-09-05T16:07:03.3095478Z Set UV_TOOL_BIN_DIR to D:\a\_temp\uv-tool-bin-dir
+2026-09-05T16:07:03.3100405Z Added D:\a\_temp\uv-tool-bin-dir to the path
+2026-09-05T16:07:03.3110297Z Added C:\hostedtoolcache\windows\uv\0.12.10\x86_64 to the path
+2026-09-05T16:07:03.3113298Z Set UV_TOOL_DIR to D:\a\_temp\uv-tool-dir
+2026-09-05T16:07:03.3117424Z Set UV_PYTHON_INSTALL_DIR to D:\a\_temp\uv-python-dir
+2026-09-05T16:07:03.3121603Z Added D:\a\_temp\uv-python-dir to the path
+2026-09-05T16:07:03.3124941Z Set UV_PYTHON to 3.12
+2026-09-05T16:07:03.3144071Z Set UV_CACHE_DIR to D:\a\_temp\setup-uv-cache
+2026-09-05T16:07:03.3144428Z Successfully installed uv version 0.12.10
+2026-09-05T16:07:03.3145995Z Searching files using cache dependency glob: D:\a\SearchMate-algo\SearchMate-algo\**\*requirements*.txt,D:\a\SearchMate-algo\SearchMate-algo\**\*requirements*.in,D:\a\SearchMate-algo\SearchMate-algo\**\*constraints*.txt,D:\a\SearchMate-algo\SearchMate-algo\**\*constraints*.in,D:\a\SearchMate-algo\SearchMate-algo\**\pyproject.toml,D:\a\SearchMate-algo\SearchMate-algo\**\uv.lock,D:\a\SearchMate-algo\SearchMate-algo\**\*.py.lock
+2026-09-05T16:07:03.3450977Z D:\a\SearchMate-algo\SearchMate-algo\pyproject.toml
+2026-09-05T16:07:03.6473112Z D:\a\SearchMate-algo\SearchMate-algo\uv.lock
+2026-09-05T16:07:03.6488500Z Found 2 files to hash.
+2026-09-05T16:07:03.6500199Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-pc-windows-msvc-windows-2025-3.12-pruned-979fc9fa8b5fdfae1de6a8815c5033c57f9ce9b846df42aae38db5bf901d6b7f
+2026-09-05T16:07:04.0464446Z No GitHub Actions cache found for key: setup-uv-2-x86_64-pc-windows-msvc-windows-2025-3.12-pruned-979fc9fa8b5fdfae1de6a8815c5033c57f9ce9b846df42aae38db5bf901d6b7f

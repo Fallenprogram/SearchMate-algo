@@ -1,0 +1,9 @@
+﻿2026-09-05T16:07:10.3057646Z ##[group]Run uv run ruff check .github/scripts/check_submission.py
+2026-09-05T16:07:10.3058169Z [36;1muv run ruff check .github/scripts/check_submission.py[0m
+2026-09-05T16:07:10.3080676Z shell: /usr/bin/bash -e {0}
+2026-09-05T16:07:10.3081068Z env:
+2026-09-05T16:07:10.3081443Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+2026-09-05T16:07:10.3081852Z   UV_PYTHON: 3.12
+2026-09-05T16:07:10.3082327Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:10.3082719Z ##[endgroup]
+2026-09-05T16:07:10.3294018Z All checks passed!

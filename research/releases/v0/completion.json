@@ -1,0 +1,45 @@
+{
+  "agent_sha256": "ff94c0620c916490a70d429a4f764a46cb30a9a02be3b1ba4147a9621fde1352",
+  "artifact_sha256": "6e46bd2f4b02d24850a0e22c84a3f60d271382736089554fa88c84aad9076cdd",
+  "at": "2026-09-05T16:24:06.936026+00:00",
+  "champion": "v0",
+  "compatibility_artifact_id": 9972748641,
+  "compatibility_run_id": 33977425446,
+  "compatibility_status": "pass in restricted nonofficial Linux container",
+  "compatibility_url": "https://github.com/Fallenprogram/SearchMate-algo/actions/runs/33977425446",
+  "competition_upload": "not performed",
+  "container_peak_memory_bytes": 40103936,
+  "container_restrictions_verified": true,
+  "creation_record": "research/releases/v0/release.json",
+  "evidence_sha256": {
+    "research/releases/v0/linux-compatibility/container-inspect.json": "7835f9f57f96b49d31897901bb6fef6206091742d73cad2ed7f9f422a55069da",
+    "research/releases/v0/linux-compatibility/image-build.stderr.txt": "50f038282d0f46d6da83248ce8f9b8608c2bdfe8d0914fa750996a7b5f17ca72",
+    "research/releases/v0/linux-compatibility/image-build.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/releases/v0/linux-compatibility/package.json": "02d3b5877019b0dddafac91ea92f9f034f2acb6f8b336e75fe758c57db54e020",
+    "research/releases/v0/linux-compatibility/report.json": "1a649f590c54626c877815ea71d12fa0ad056ba8abb663a8dd9195b6b3bb3fe4",
+    "research/releases/v0/linux-compatibility/runtime-records.json": "95ff43c39b90b29b484a195c78921556bd78aba92e4486a3f2ca333fe1d37d1b",
+    "research/releases/v0/linux-compatibility/runtime.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/releases/v0/linux-compatibility/runtime.stdout.txt": "207907da05cb6d899d1e6c6a388c83614a4c7d0391c7d9cef1ba441217b8ee0e"
+  },
+  "fixture_calls": 96,
+  "fresh_process_calls": 2,
+  "full_clock_games": 2,
+  "full_clock_results": [
+    "white win by checkmate",
+    "black win by checkmate"
+  ],
+  "limitations": [
+    "This is python:3.12-slim with chess 1.11.2, not the official competition image.",
+    "The GitHub runner CPU model and scheduler differ from the competition host.",
+    "The harness, opponent, and candidate share the container's CPU and memory limits.",
+    "The repository harness does not suspend a player while its opponent thinks.",
+    "The unchanged harness's 300-ply cap differs from the current official contract; these games do not emulate that adjudication boundary.",
+    "A pass is compatibility evidence; only the dashboard establishes upload acceptance."
+  ],
+  "platform_acceptance": "not yet observed; manual upload and dashboard validation remain",
+  "record_id": "release-v0-001-compatible",
+  "runtime_failures": 0,
+  "source_commit": "efc6643ae2cf32e40962c723623ef75aaee6bf1b",
+  "v1": "not started; numeric gate remains unapproved",
+  "zip_sha256": "2fd30951173a967e3394c59df62844e1d5a15514b853458c8c7de0c306fc1c84"
+}
