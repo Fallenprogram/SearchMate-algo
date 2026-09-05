@@ -1,0 +1,318 @@
+﻿2026-09-05T16:06:55.3628915Z Current runner version: '2.337.0'
+2026-09-05T16:06:55.3652603Z ##[group]Runner Image Provisioner
+2026-09-05T16:06:55.3653468Z Hosted Compute Agent
+2026-09-05T16:06:55.3654072Z Version: 20260828.587
+2026-09-05T16:06:55.3654723Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+2026-09-05T16:06:55.3655439Z Build Date: 2026-08-28T16:44:25Z
+2026-09-05T16:06:55.3656090Z Worker ID: {7aeef0fd-9807-4193-81b9-251a33ed25f1}
+2026-09-05T16:06:55.3656817Z Azure Region: westus3
+2026-09-05T16:06:55.3657400Z ##[endgroup]
+2026-09-05T16:06:55.3658960Z ##[group]Operating System
+2026-09-05T16:06:55.3659584Z Ubuntu
+2026-09-05T16:06:55.3660072Z 24.04.4
+2026-09-05T16:06:55.3660601Z LTS
+2026-09-05T16:06:55.3661123Z ##[endgroup]
+2026-09-05T16:06:55.3661761Z ##[group]Runner Image
+2026-09-05T16:06:55.3662327Z Image: ubuntu-24.04
+2026-09-05T16:06:55.3662859Z Version: 20260831.293.1
+2026-09-05T16:06:55.3664074Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260831.293/images/ubuntu/Ubuntu2404-Readme.md
+2026-09-05T16:06:55.3665507Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260831.293
+2026-09-05T16:06:55.3666420Z ##[endgroup]
+2026-09-05T16:06:55.3667864Z ##[group]GITHUB_TOKEN Permissions
+2026-09-05T16:06:55.3670183Z Contents: read
+2026-09-05T16:06:55.3670738Z Metadata: read
+2026-09-05T16:06:55.3671287Z Packages: read
+2026-09-05T16:06:55.3671844Z ##[endgroup]
+2026-09-05T16:06:55.3673764Z Secret source: Actions
+2026-09-05T16:06:55.3674737Z Prepare workflow directory
+2026-09-05T16:06:55.3968492Z Prepare all required actions
+2026-09-05T16:06:55.4016728Z Getting action download info
+2026-09-05T16:06:55.6926184Z Download action repository 'actions/checkout@v5' (SHA:fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09)
+2026-09-05T16:06:55.8243164Z Download action repository 'astral-sh/setup-uv@v7' (SHA:37802adc94f370d6bfd71619e3f0bf239e1f3b78)
+2026-09-05T16:06:56.7586737Z Complete job name: gate
+2026-09-05T16:06:56.8256993Z ##[group]Run actions/checkout@v5
+2026-09-05T16:06:56.8257884Z with:
+2026-09-05T16:06:56.8258497Z   repository: Fallenprogram/SearchMate-algo
+2026-09-05T16:06:56.8262864Z   token: ***
+2026-09-05T16:06:56.8263473Z   ssh-strict: true
+2026-09-05T16:06:56.8264006Z   ssh-user: git
+2026-09-05T16:06:56.8264545Z   persist-credentials: true
+2026-09-05T16:06:56.8265140Z   clean: true
+2026-09-05T16:06:56.8265675Z   sparse-checkout-cone-mode: true
+2026-09-05T16:06:56.8266321Z   fetch-depth: 1
+2026-09-05T16:06:56.8266881Z   fetch-tags: false
+2026-09-05T16:06:56.8267432Z   show-progress: true
+2026-09-05T16:06:56.8267979Z   lfs: false
+2026-09-05T16:06:56.8268485Z   submodules: false
+2026-09-05T16:06:56.8269526Z   set-safe-directory: true
+2026-09-05T16:06:56.8270145Z   allow-unsafe-pr-checkout: false
+2026-09-05T16:06:56.8270978Z ##[endgroup]
+2026-09-05T16:06:56.9218402Z Syncing repository: Fallenprogram/SearchMate-algo
+2026-09-05T16:06:56.9221885Z ##[group]Getting Git version info
+2026-09-05T16:06:56.9223416Z Working directory is '/home/runner/work/SearchMate-algo/SearchMate-algo'
+2026-09-05T16:06:56.9225462Z [command]/usr/bin/git version
+2026-09-05T16:06:56.9233723Z git version 2.55.0
+2026-09-05T16:06:56.9251261Z ##[endgroup]
+2026-09-05T16:06:56.9262585Z Temporarily overriding HOME='/home/runner/work/_temp/4f822526-39ed-4a9c-a6a9-a9f16640c541' before making global git config changes
+2026-09-05T16:06:56.9264901Z Adding repository directory to the temporary git global config as a safe directory
+2026-09-05T16:06:56.9266895Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/SearchMate-algo/SearchMate-algo
+2026-09-05T16:06:56.9311182Z Deleting the contents of '/home/runner/work/SearchMate-algo/SearchMate-algo'
+2026-09-05T16:06:56.9314454Z ##[group]Initializing the repository
+2026-09-05T16:06:56.9318800Z [command]/usr/bin/git init /home/runner/work/SearchMate-algo/SearchMate-algo
+2026-09-05T16:06:56.9434018Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-09-05T16:06:56.9435904Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-09-05T16:06:56.9437982Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-09-05T16:06:56.9439477Z hint: call:
+2026-09-05T16:06:56.9441032Z hint:
+2026-09-05T16:06:56.9442008Z hint: 	git config --global init.defaultBranch <name>
+2026-09-05T16:06:56.9443101Z hint:
+2026-09-05T16:06:56.9444167Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-09-05T16:06:56.9445743Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-09-05T16:06:56.9447045Z hint:
+2026-09-05T16:06:56.9447658Z hint: 	git branch -m <name>
+2026-09-05T16:06:56.9448290Z hint:
+2026-09-05T16:06:56.9449986Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-09-05T16:06:56.9451843Z Initialized empty Git repository in /home/runner/work/SearchMate-algo/SearchMate-algo/.git/
+2026-09-05T16:06:56.9454952Z [command]/usr/bin/git remote add origin https://github.com/Fallenprogram/SearchMate-algo
+2026-09-05T16:06:56.9484523Z ##[endgroup]
+2026-09-05T16:06:56.9485981Z ##[group]Disabling automatic garbage collection
+2026-09-05T16:06:56.9487191Z [command]/usr/bin/git config --local gc.auto 0
+2026-09-05T16:06:56.9511939Z ##[endgroup]
+2026-09-05T16:06:56.9513313Z ##[group]Setting up auth
+2026-09-05T16:06:56.9516665Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-09-05T16:06:56.9544153Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-09-05T16:06:56.9870712Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-09-05T16:06:56.9875784Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-09-05T16:06:57.0058464Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-09-05T16:06:57.0087387Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-09-05T16:06:57.0271756Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-09-05T16:06:57.0300020Z ##[endgroup]
+2026-09-05T16:06:57.0300955Z ##[group]Fetching the repository
+2026-09-05T16:06:57.0309133Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +45ab093835c5fd1f77dd523869c76a59e7ce8e0c:refs/remotes/origin/codex/searchmate-v0
+2026-09-05T16:06:57.9063266Z From https://github.com/Fallenprogram/SearchMate-algo
+2026-09-05T16:06:57.9066077Z  * [new ref]         45ab093835c5fd1f77dd523869c76a59e7ce8e0c -> origin/codex/searchmate-v0
+2026-09-05T16:06:57.9072116Z ##[endgroup]
+2026-09-05T16:06:57.9074665Z ##[group]Determining the checkout info
+2026-09-05T16:06:57.9076969Z ##[endgroup]
+2026-09-05T16:06:57.9078055Z [command]/usr/bin/git sparse-checkout disable
+2026-09-05T16:06:57.9122937Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-09-05T16:06:57.9150290Z ##[group]Checking out the ref
+2026-09-05T16:06:57.9153592Z [command]/usr/bin/git checkout --progress --force -B codex/searchmate-v0 refs/remotes/origin/codex/searchmate-v0
+2026-09-05T16:06:57.9490683Z Switched to a new branch 'codex/searchmate-v0'
+2026-09-05T16:06:57.9496273Z branch 'codex/searchmate-v0' set up to track 'origin/codex/searchmate-v0'.
+2026-09-05T16:06:57.9502305Z ##[endgroup]
+2026-09-05T16:06:57.9540486Z [command]/usr/bin/git log -1 --format=%H
+2026-09-05T16:06:57.9563256Z 45ab093835c5fd1f77dd523869c76a59e7ce8e0c
+2026-09-05T16:06:57.9952680Z ##[group]Run astral-sh/setup-uv@v7
+2026-09-05T16:06:57.9953833Z with:
+2026-09-05T16:06:57.9954728Z   python-version: 3.12
+2026-09-05T16:06:57.9955701Z   enable-cache: true
+2026-09-05T16:06:57.9956748Z   activate-environment: false
+2026-09-05T16:06:57.9958379Z   working-directory: /home/runner/work/SearchMate-algo/SearchMate-algo
+2026-09-05T16:06:57.9967564Z   github-token: ***
+2026-09-05T16:06:57.9969977Z   cache-dependency-glob: **/*requirements*.txt
+**/*requirements*.in
+**/*constraints*.txt
+**/*constraints*.in
+**/pyproject.toml
+**/uv.lock
+**/*.py.lock
+
+2026-09-05T16:06:57.9972391Z   restore-cache: true
+2026-09-05T16:06:57.9973386Z   save-cache: true
+2026-09-05T16:06:57.9974303Z   prune-cache: true
+2026-09-05T16:06:57.9975250Z   cache-python: false
+2026-09-05T16:06:57.9976256Z   ignore-nothing-to-cache: false
+2026-09-05T16:06:57.9977354Z   ignore-empty-workdir: false
+2026-09-05T16:06:57.9978523Z   add-problem-matchers: true
+2026-09-05T16:06:57.9979895Z   resolution-strategy: highest
+2026-09-05T16:06:57.9981017Z ##[endgroup]
+2026-09-05T16:06:58.1617524Z Trying to find version for uv in: /home/runner/work/SearchMate-algo/SearchMate-algo/uv.toml
+2026-09-05T16:06:58.1620719Z Could not find file: /home/runner/work/SearchMate-algo/SearchMate-algo/uv.toml
+2026-09-05T16:06:58.1624052Z Trying to find version for uv in: /home/runner/work/SearchMate-algo/SearchMate-algo/pyproject.toml
+2026-09-05T16:06:58.1641200Z Could not determine uv version from uv.toml or pyproject.toml. Falling back to latest.
+2026-09-05T16:06:58.1646821Z Fetching version data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+2026-09-05T16:06:58.2808276Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.12.10/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+2026-09-05T16:06:58.5983283Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/8f9b65ed-4889-49be-b43a-7f6047972033 -f /home/runner/work/_temp/35e43c96-fbe3-46c8-aad9-d32d6481dd69
+2026-09-05T16:06:59.1217549Z Added /home/runner/.local/bin to the path
+2026-09-05T16:06:59.1219543Z Added /opt/hostedtoolcache/uv/0.12.10/x86_64 to the path
+2026-09-05T16:06:59.1220558Z Set UV_PYTHON_INSTALL_DIR to /home/runner/work/_temp/uv-python-dir
+2026-09-05T16:06:59.1221468Z Added /home/runner/work/_temp/uv-python-dir to the path
+2026-09-05T16:06:59.1222446Z Set UV_PYTHON to 3.12
+2026-09-05T16:06:59.1245259Z Set UV_CACHE_DIR to /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:06:59.1246039Z Successfully installed uv version 0.12.10
+2026-09-05T16:06:59.1248528Z Searching files using cache dependency glob: /home/runner/work/SearchMate-algo/SearchMate-algo/**/*requirements*.txt,/home/runner/work/SearchMate-algo/SearchMate-algo/**/*requirements*.in,/home/runner/work/SearchMate-algo/SearchMate-algo/**/*constraints*.txt,/home/runner/work/SearchMate-algo/SearchMate-algo/**/*constraints*.in,/home/runner/work/SearchMate-algo/SearchMate-algo/**/pyproject.toml,/home/runner/work/SearchMate-algo/SearchMate-algo/**/uv.lock,/home/runner/work/SearchMate-algo/SearchMate-algo/**/*.py.lock
+2026-09-05T16:06:59.1510582Z /home/runner/work/SearchMate-algo/SearchMate-algo/pyproject.toml
+2026-09-05T16:06:59.2534937Z /home/runner/work/SearchMate-algo/SearchMate-algo/uv.lock
+2026-09-05T16:06:59.2543209Z Found 2 files to hash.
+2026-09-05T16:06:59.2598928Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12-pruned-ddcb6756719bcda0539e63393a1f31d8c14311c1435177b54e0c1d685c6340a8
+2026-09-05T16:06:59.4540530Z No GitHub Actions cache found for key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12-pruned-ddcb6756719bcda0539e63393a1f31d8c14311c1435177b54e0c1d685c6340a8
+2026-09-05T16:06:59.5179629Z ##[group]Run uv sync
+2026-09-05T16:06:59.5180137Z [36;1muv sync[0m
+2026-09-05T16:06:59.5210627Z shell: /usr/bin/bash -e {0}
+2026-09-05T16:06:59.5211154Z env:
+2026-09-05T16:06:59.5211577Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+2026-09-05T16:06:59.5212081Z   UV_PYTHON: 3.12
+2026-09-05T16:06:59.5212492Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:06:59.5212938Z ##[endgroup]
+2026-09-05T16:06:59.5745792Z Using CPython 3.12.3 interpreter at: /usr/bin/python3.12
+2026-09-05T16:06:59.5746523Z Creating virtual environment at: .venv
+2026-09-05T16:06:59.5770550Z Resolved 26 packages in 0.80ms
+2026-09-05T16:06:59.6675600Z Downloading torch (182.9MiB)
+2026-09-05T16:06:59.6679404Z Downloading mypy (14.6MiB)
+2026-09-05T16:06:59.6680351Z Downloading onnxruntime (22.1MiB)
+2026-09-05T16:06:59.6681883Z Downloading ruff (9.8MiB)
+2026-09-05T16:06:59.6684912Z Downloading sympy (6.0MiB)
+2026-09-05T16:06:59.6685936Z Downloading networkx (2.0MiB)
+2026-09-05T16:06:59.6687468Z Downloading llvmlite (57.1MiB)
+2026-09-05T16:06:59.6688219Z Downloading numba (3.7MiB)
+2026-09-05T16:06:59.6690424Z Downloading numpy (15.9MiB)
+2026-09-05T16:06:59.6691060Z Downloading ast-serialize (1.2MiB)
+2026-09-05T16:06:59.9890204Z  Downloaded ast-serialize
+2026-09-05T16:07:00.0515307Z  Downloaded networkx
+2026-09-05T16:07:00.1530630Z  Downloaded numba
+2026-09-05T16:07:00.2402282Z  Downloaded sympy
+2026-09-05T16:07:00.3181583Z  Downloaded ruff
+2026-09-05T16:07:00.4299020Z    Building chess==1.11.2
+2026-09-05T16:07:00.4397425Z  Downloaded mypy
+2026-09-05T16:07:00.4661085Z  Downloaded numpy
+2026-09-05T16:07:00.5089903Z  Downloaded onnxruntime
+2026-09-05T16:07:00.8750207Z  Downloaded llvmlite
+2026-09-05T16:07:01.1956411Z       Built chess==1.11.2
+2026-09-05T16:07:01.8744362Z  Downloaded torch
+2026-09-05T16:07:01.8744937Z Prepared 24 packages in 2.29s
+2026-09-05T16:07:02.0099335Z Installed 24 packages in 135ms
+2026-09-05T16:07:02.0099878Z  + ast-serialize==0.8.0
+2026-09-05T16:07:02.0100483Z  + chess==1.11.2
+2026-09-05T16:07:02.0100848Z  + filelock==3.32.4
+2026-09-05T16:07:02.0101298Z  + flatbuffers==25.12.19
+2026-09-05T16:07:02.0101718Z  + fsspec==2026.7.0
+2026-09-05T16:07:02.0102047Z  + jinja2==3.1.6
+2026-09-05T16:07:02.0102447Z  + librt==0.15.0
+2026-09-05T16:07:02.0102806Z  + llvmlite==0.49.0
+2026-09-05T16:07:02.0103350Z  + markupsafe==3.0.3
+2026-09-05T16:07:02.0103743Z  + mpmath==1.3.0
+2026-09-05T16:07:02.0104017Z  + mypy==2.3.1
+2026-09-05T16:07:02.0104409Z  + mypy-extensions==1.1.0
+2026-09-05T16:07:02.0104751Z  + networkx==3.6.1
+2026-09-05T16:07:02.0105046Z  + numba==0.67.0
+2026-09-05T16:07:02.0105360Z  + numpy==2.5.2
+2026-09-05T16:07:02.0105639Z  + onnxruntime==1.29.0
+2026-09-05T16:07:02.0105943Z  + packaging==26.3
+2026-09-05T16:07:02.0106233Z  + pathspec==1.1.1
+2026-09-05T16:07:02.0106515Z  + protobuf==7.36.0
+2026-09-05T16:07:02.0106830Z  + ruff==0.16.5
+2026-09-05T16:07:02.0107106Z  + setuptools==84.0.0
+2026-09-05T16:07:02.0107388Z  + sympy==1.14.0
+2026-09-05T16:07:02.0107705Z  + torch==2.13.0+cpu
+2026-09-05T16:07:02.0107987Z  + typing-extensions==4.16.0
+2026-09-05T16:07:02.0229069Z ##[group]Run make gate
+2026-09-05T16:07:02.0229403Z [36;1mmake gate[0m
+2026-09-05T16:07:02.0251831Z shell: /usr/bin/bash -e {0}
+2026-09-05T16:07:02.0252374Z env:
+2026-09-05T16:07:02.0252762Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+2026-09-05T16:07:02.0253187Z   UV_PYTHON: 3.12
+2026-09-05T16:07:02.0253536Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:02.0253920Z ##[endgroup]
+2026-09-05T16:07:02.0488055Z uv run ruff check .
+2026-09-05T16:07:02.1108358Z All checks passed!
+2026-09-05T16:07:02.1121170Z uv run mypy
+2026-09-05T16:07:03.5329855Z Success: no issues found in 9 source files
+2026-09-05T16:07:03.5365468Z uv run python -m harness.arena --opponent baselines/random --games 2 --base-ms 5000
+2026-09-05T16:07:10.2861142Z game 1/2: white by checkmate
+2026-09-05T16:07:10.2861767Z game 2/2: draw by threefold_repetition
+2026-09-05T16:07:10.2862015Z 
+2026-09-05T16:07:10.2862146Z . vs baselines/random over 2 games
+2026-09-05T16:07:10.2862831Z +1 =1 -0, score 75.0%
+2026-09-05T16:07:10.2863254Z terminations: checkmate 1, threefold_repetition 1
+2026-09-05T16:07:10.3057662Z ##[group]Run uv run ruff check .github/scripts/check_submission.py
+2026-09-05T16:07:10.3058171Z [36;1muv run ruff check .github/scripts/check_submission.py[0m
+2026-09-05T16:07:10.3080685Z shell: /usr/bin/bash -e {0}
+2026-09-05T16:07:10.3081071Z env:
+2026-09-05T16:07:10.3081447Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+2026-09-05T16:07:10.3081855Z   UV_PYTHON: 3.12
+2026-09-05T16:07:10.3082330Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:10.3082722Z ##[endgroup]
+2026-09-05T16:07:10.3294043Z All checks passed!
+2026-09-05T16:07:10.3337343Z ##[group]Run uv run mypy --strict research/*.py .github/scripts/check_submission.py
+2026-09-05T16:07:10.3337933Z [36;1muv run mypy --strict research/*.py .github/scripts/check_submission.py[0m
+2026-09-05T16:07:10.3357337Z shell: /usr/bin/bash -e {0}
+2026-09-05T16:07:10.3357699Z env:
+2026-09-05T16:07:10.3358072Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+2026-09-05T16:07:10.3358499Z   UV_PYTHON: 3.12
+2026-09-05T16:07:10.3359326Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:10.3359680Z ##[endgroup]
+2026-09-05T16:07:10.8266552Z Success: no issues found in 9 source files
+2026-09-05T16:07:10.8332387Z ##[group]Run uv run python -m unittest discover -s research -p 'test_*.py' -v
+2026-09-05T16:07:10.8333083Z [36;1muv run python -m unittest discover -s research -p 'test_*.py' -v[0m
+2026-09-05T16:07:10.8356533Z shell: /usr/bin/bash -e {0}
+2026-09-05T16:07:10.8356903Z env:
+2026-09-05T16:07:10.8357291Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+2026-09-05T16:07:10.8357744Z   UV_PYTHON: 3.12
+2026-09-05T16:07:10.8358087Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:10.8358488Z ##[endgroup]
+2026-09-05T16:07:11.2372192Z test_bad_resolution_links_fail (test_gate.GateTests.test_bad_resolution_links_fail) ... ok
+2026-09-05T16:07:11.2373782Z test_candidate_failure_overrides_score_and_completeness (test_gate.GateTests.test_candidate_failure_overrides_score_and_completeness) ... ok
+2026-09-05T16:07:11.2441646Z test_duplicate_fixture_fails (test_gate.GateTests.test_duplicate_fixture_fails) ... ok
+2026-09-05T16:07:11.3450483Z test_evaluate_resolves_both_old_start_and_interruption (test_gate.GateTests.test_evaluate_resolves_both_old_start_and_interruption) ... ok
+2026-09-05T16:07:11.3738920Z test_external_interruption_resolution (test_gate.GateTests.test_external_interruption_resolution) ... ok
+2026-09-05T16:07:11.3930508Z test_fixture_content_is_rechecked (test_gate.GateTests.test_fixture_content_is_rechecked) ... ok
+2026-09-05T16:07:11.3931996Z test_incomplete_and_malformed_evidence_never_pass (test_gate.GateTests.test_incomplete_and_malformed_evidence_never_pass) ... ok
+2026-09-05T16:07:11.3933342Z test_missing_files_return_incomplete (test_gate.GateTests.test_missing_files_return_incomplete) ... ok
+2026-09-05T16:07:11.3934431Z test_no_minimum_win_rate (test_gate.GateTests.test_no_minimum_win_rate) ... ok
+2026-09-05T16:07:11.5883824Z test_observed_failure_cannot_be_resolved (test_gate.GateTests.test_observed_failure_cannot_be_resolved) ... ok
+2026-09-05T16:07:11.5885070Z test_opponent_and_interruption_never_pass (test_gate.GateTests.test_opponent_and_interruption_never_pass) ... ok
+2026-09-05T16:07:11.5885984Z test_path_escape_is_rejected (test_gate.GateTests.test_path_escape_is_rejected) ... ok
+2026-09-05T16:07:11.5886701Z test_wrong_opponent_allocation_fails (test_gate.GateTests.test_wrong_opponent_allocation_fails) ... ok
+2026-09-05T16:07:11.5891414Z test_fifty_move_draw_not_claimable_at_98_halfmoves (test_player.PlayerReliabilityTests.test_fifty_move_draw_not_claimable_at_98_halfmoves) ... ok
+2026-09-05T16:07:11.5897247Z test_nested_timeout_restores_board_and_existing_history (test_player.PlayerReliabilityTests.test_nested_timeout_restores_board_and_existing_history) ... ok
+2026-09-05T16:07:11.5899576Z test_prospective_fifty_move_draw_at_99_halfmoves (test_player.PlayerReliabilityTests.test_prospective_fifty_move_draw_at_99_halfmoves) ... ok
+2026-09-05T16:07:11.5905638Z test_prospective_repetition_at_seven_plies (test_player.PlayerReliabilityTests.test_prospective_repetition_at_seven_plies) ... ok
+2026-09-05T16:07:11.5914692Z test_timeout_before_completed_iteration_retains_legal_fallback (test_player.PlayerReliabilityTests.test_timeout_before_completed_iteration_retains_legal_fallback) ... ok
+2026-09-05T16:07:11.5919674Z test_timeout_retains_last_completed_iteration (test_player.PlayerReliabilityTests.test_timeout_retains_last_completed_iteration) ... ok
+2026-09-05T16:07:11.8250485Z test_black_candidate_failure_and_opponent_failure_are_distinct (test_runner.CampaignTests.test_black_candidate_failure_and_opponent_failure_are_distinct) ... ok
+2026-09-05T16:07:12.0206940Z test_both_startup_failures_remain_void_and_count_each_side (test_runner.CampaignTests.test_both_startup_failures_remain_void_and_count_each_side) ... ok
+2026-09-05T16:07:12.2149708Z test_completed_artifact_tampering_is_rejected (test_runner.CampaignTests.test_completed_artifact_tampering_is_rejected) ... ok
+2026-09-05T16:07:12.5405128Z test_crash_after_durable_outcome_recovers_without_replaying_failure (test_runner.CampaignTests.test_crash_after_durable_outcome_recovers_without_replaying_failure) ... ok
+2026-09-05T16:07:13.0877096Z test_illegal_reply_is_attributed_to_candidate_and_never_replayed (test_runner.CampaignTests.test_illegal_reply_is_attributed_to_candidate_and_never_replayed) ... ok
+2026-09-05T16:07:13.2178360Z test_immutable_file_cannot_be_overwritten (test_runner.CampaignTests.test_immutable_file_cannot_be_overwritten) ... ok
+2026-09-05T16:07:13.6455995Z test_interruption_keeps_attempt_evidence_and_resume_uses_new_attempt (test_runner.CampaignTests.test_interruption_keeps_attempt_evidence_and_resume_uses_new_attempt) ... ok
+2026-09-05T16:07:14.0433467Z test_manifest_rejects_candidate_harness_checker_opponent_and_snapshot_changes (test_runner.CampaignTests.test_manifest_rejects_candidate_harness_checker_opponent_and_snapshot_changes) ... ok
+2026-09-05T16:07:14.2057282Z test_manifest_rejects_schedule_and_dependency_metadata_changes (test_runner.CampaignTests.test_manifest_rejects_schedule_and_dependency_metadata_changes) ... ok
+2026-09-05T16:07:14.3315601Z test_mutable_research_memory_does_not_change_frozen_manifest (test_runner.CampaignTests.test_mutable_research_memory_does_not_change_frozen_manifest) ... ok
+2026-09-05T16:07:14.4358188Z test_observer_passes_legal_moves_through_original_wire_and_referee (test_runner.CampaignTests.test_observer_passes_legal_moves_through_original_wire_and_referee) ... ok
+2026-09-05T16:07:14.5728990Z test_power_loss_start_sentinel_becomes_interrupted_evidence (test_runner.CampaignTests.test_power_loss_start_sentinel_becomes_interrupted_evidence) ... ok
+2026-09-05T16:07:14.5979668Z test_all_openings_are_distinct_legal_and_nonterminal (test_runner.ScheduleTests.test_all_openings_are_distinct_legal_and_nonterminal) ... ok
+2026-09-05T16:07:14.6100537Z test_fixed_counts_and_color_reversed_pairs (test_runner.ScheduleTests.test_fixed_counts_and_color_reversed_pairs) ... ok
+2026-09-05T16:07:14.6357768Z test_pgn_rejects_mismatched_result_opening_and_illegal_moves (test_runner.ScheduleTests.test_pgn_rejects_mismatched_result_opening_and_illegal_moves) ... ok
+2026-09-05T16:07:14.6358419Z 
+2026-09-05T16:07:14.6358617Z ----------------------------------------------------------------------
+2026-09-05T16:07:14.6359459Z Ran 34 tests in 3.615s
+2026-09-05T16:07:14.6359670Z 
+2026-09-05T16:07:14.6359779Z OK
+2026-09-05T16:07:14.6689839Z Post job cleanup.
+2026-09-05T16:07:14.7723988Z UV_CACHE_DIR is already set to /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:14.7729355Z UV_PYTHON_INSTALL_DIR is already set to /home/runner/work/_temp/uv-python-dir
+2026-09-05T16:07:14.7738079Z Pruning cache...
+2026-09-05T16:07:14.7751973Z [command]/opt/hostedtoolcache/uv/0.12.10/x86_64/uv cache prune --ci --force
+2026-09-05T16:07:14.7863252Z Pruning cache at: /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:14.9289790Z Removed 19057 files (12.8MiB)
+2026-09-05T16:07:14.9322781Z Including uv cache path: /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:14.9445534Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/SearchMate-algo/SearchMate-algo --files-from manifest.txt --use-compress-program zstdmt
+2026-09-05T16:07:15.6412812Z Sent 295552 of 295552 (100.0%), 0.6 MBs/sec
+2026-09-05T16:07:15.8615733Z uv cache saved with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12-pruned-ddcb6756719bcda0539e63393a1f31d8c14311c1435177b54e0c1d685c6340a8
+2026-09-05T16:07:15.9254904Z Post job cleanup.
+2026-09-05T16:07:16.0055902Z [command]/usr/bin/git version
+2026-09-05T16:07:16.0088384Z git version 2.55.0
+2026-09-05T16:07:16.0127767Z Temporarily overriding HOME='/home/runner/work/_temp/7131219e-f698-4263-be4c-d155bd671920' before making global git config changes
+2026-09-05T16:07:16.0129134Z Adding repository directory to the temporary git global config as a safe directory
+2026-09-05T16:07:16.0134050Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/SearchMate-algo/SearchMate-algo
+2026-09-05T16:07:16.0168121Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-09-05T16:07:16.0198454Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-09-05T16:07:16.0407138Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-09-05T16:07:16.0431348Z http.https://github.com/.extraheader
+2026-09-05T16:07:16.0440968Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-09-05T16:07:16.0467252Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-09-05T16:07:16.0648069Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-09-05T16:07:16.0675777Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-09-05T16:07:16.1006114Z Cleaning up orphan processes

@@ -4,8 +4,11 @@ on:
   push:
     branches: [codex/searchmate-v0]
     paths:
-      - research/champions/v0/**
-      - research/releases/v0/**
+      - agent.py
+      - research/champions/v0/agent.py
+      - research/releases/v0/release.json
+      - .github/scripts/check_submission.py
+      - .github/workflows/compatibility.yml
   workflow_dispatch:
     inputs:
       expected_agent_sha256:

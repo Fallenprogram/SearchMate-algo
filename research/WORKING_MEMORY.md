@@ -1,15 +1,15 @@
 # SearchMate working memory
 
-Updated: **2026-09-05**. Memory: **m0-bootstrap**. Phase: **v0 setup complete**.
+Updated: **2026-09-06 SGT**. Memory: **m0-bootstrap**. Phase: **v0 release preparation**.
 
 | Field | Current state |
 |---|---|
-| Champion | None; promotion awaits explicit approval |
+| Champion | v0; exact tested baseline frozen under the user's requested release sequence |
 | Candidate | v0-candidate-001; local tests passed |
 | Source SHA-256 | `ff94c0620c916490a70d429a4f764a46cb30a9a02be3b1ba4147a9621fde1352` |
 | Branch | `codex/searchmate-v0` |
-| Status | Pending human review of the completed baseline |
-| Current objective | Present the tested candidate; do not begin v1 or package/upload |
+| Status | Implementation pushed; GitHub CI passed; ZIP created; container verification pending |
+| Current objective | Finish the authorized v0 release; user performs competition upload manually |
 | Observed weaknesses | Two minimax checkmate losses in the Slav pair; ten repetition draws; see representative evidence |
 | Active hypothesis | None selected for v1; original setup reliability criterion passed |
 | Retrieved lessons | None; no accepted RSI lessons or memory-effect claim |
@@ -40,10 +40,14 @@ created, no matched control ran, and no untouched final-test result is claimed.
 The user removed the three-hour cutoff before implementation; the declared test
 counts and pass criteria stayed fixed.
 
-Open limitations: Windows results do not establish Linux compatibility or
-platform-enforced resource behavior. Baseline random choices were uncontrolled.
+Open limitations: GitHub CI passed on Linux, Windows, and macOS, but restricted
+container execution and platform acceptance remain pending. Baseline random choices were uncontrolled.
 Tactical and repetition observations are diagnosis inputs, not proof of a repair.
 
-Stopping point reached: implementation and local verification are complete.
-Champion promotion, ZIP creation, upload, and v1 implementation remain pending
-separate approvals. The proposed player artifact is only `agent.py` (7,342 bytes).
+The user subsequently requested the complete repository/release sequence. The
+baseline champion is recorded in `champions/v0/approval.json`; package and CI
+evidence are in `releases/v0/`. `submission.zip` contains only the tested
+`agent.py` (7,342 bytes); its archive hash identifies the upload artifact.
+No competition upload or v1 implementation has occurred. The numeric v1 gate
+remains unapproved. See [competition feedback](COMPETITION_FEEDBACK.md) for
+bringing later platform observations into the development lineage.

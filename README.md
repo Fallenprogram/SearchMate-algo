@@ -7,12 +7,15 @@ human decisions.
 
 **v0 local verification passed:** 120 campaign games, 108 wins, 10 draws, 2 losses,
 and zero runtime failures. Read the [baseline report](research/runs/v0-01/REPORT.md)
-and [automatic gate result](research/runs/v0-01/gate.json). The candidate awaits
-human review; no champion, ZIP, or upload has been created.
+and [automatic gate result](research/runs/v0-01/gate.json). The exact tested player
+is now frozen as the [v0 champion](research/champions/v0/approval.json) under the
+user's release-sequence authorization. Its single-file ZIP has been created;
+restricted Linux container checks are pending. Nothing has been uploaded to the
+competition.
 
-The next milestone is tracked in [v0 release preparation](research/RELEASE_V0.md):
-save the reviewed work to GitHub, complete CI and package compatibility checks,
-and prepare the entry for the user's manual upload. See
+Release preparation is tracked in [the release notes](research/RELEASE_V0.md) and
+[package record](research/releases/v0/release.json). GitHub's Linux, Windows, and
+macOS checks passed for the implementation commit. See
 [competition feedback](research/COMPETITION_FEEDBACK.md) for what to bring back
 after validation and rated games.
 
@@ -72,15 +75,15 @@ deterministic completion decision are stored with the validation evidence.
 
 ## Status and approval boundary
 
-v0 is a candidate during construction and testing. A local pass does not promote
-it, create an archive, or authorize upload. Linux compatibility and enforcement
-of the competition's CPU, memory, filesystem, and network restrictions remain
-separate platform checks. No v1 optimization begins before its numeric admission
-gate receives approval.
+The user authorized the v0 release sequence after reviewing local results.
+Promotion and package provenance are recorded separately from the original
+candidate-only campaign. Restricted container checks and actual platform
+acceptance remain separate observations. No v1 optimization begins before its
+numeric admission gate receives approval.
 
 The proposed package contains only `agent.py`; the research records, reference
-opponents, and harness stay outside it. Do not create a submission ZIP or upload
-without the user's explicit authorization. Re-read the live
+opponents, and harness stay outside it. The user will upload the approved ZIP
+manually; no automation submits it. Re-read the live
 [competition documentation](https://aichessathon.com/docs) and
 [rules](https://aichessathon.com/terms) before later submission work.
 

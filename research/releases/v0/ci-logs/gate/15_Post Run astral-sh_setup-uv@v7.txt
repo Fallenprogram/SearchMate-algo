@@ -1,0 +1,11 @@
+﻿2026-09-05T16:07:14.6689825Z Post job cleanup.
+2026-09-05T16:07:14.7723938Z UV_CACHE_DIR is already set to /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:14.7729348Z UV_PYTHON_INSTALL_DIR is already set to /home/runner/work/_temp/uv-python-dir
+2026-09-05T16:07:14.7738072Z Pruning cache...
+2026-09-05T16:07:14.7751965Z [command]/opt/hostedtoolcache/uv/0.12.10/x86_64/uv cache prune --ci --force
+2026-09-05T16:07:14.7863194Z Pruning cache at: /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:14.9289744Z Removed 19057 files (12.8MiB)
+2026-09-05T16:07:14.9322743Z Including uv cache path: /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:14.9445496Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/SearchMate-algo/SearchMate-algo --files-from manifest.txt --use-compress-program zstdmt
+2026-09-05T16:07:15.6412757Z Sent 295552 of 295552 (100.0%), 0.6 MBs/sec
+2026-09-05T16:07:15.8615557Z uv cache saved with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12-pruned-ddcb6756719bcda0539e63393a1f31d8c14311c1435177b54e0c1d685c6340a8

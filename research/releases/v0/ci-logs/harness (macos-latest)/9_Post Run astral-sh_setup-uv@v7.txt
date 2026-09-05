@@ -1,0 +1,11 @@
+﻿2026-09-05T16:07:12.1382580Z Post job cleanup.
+2026-09-05T16:07:12.2499040Z UV_CACHE_DIR is already set to /Users/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:12.2500900Z UV_PYTHON_INSTALL_DIR is already set to /Users/runner/work/_temp/uv-python-dir
+2026-09-05T16:07:12.2513630Z Pruning cache...
+2026-09-05T16:07:12.2523610Z [command]/Users/runner/hostedtoolcache/uv/0.12.10/aarch64/uv cache prune --ci --force
+2026-09-05T16:07:12.2608900Z Pruning cache at: /Users/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:13.1311870Z Removed 19513 files (864.8MiB)
+2026-09-05T16:07:13.1421850Z Including uv cache path: /Users/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:13.1610780Z [command]/opt/homebrew/bin/gtar --posix -cf cache.tzst --exclude cache.tzst -P -C /Users/runner/work/SearchMate-algo/SearchMate-algo --files-from manifest.txt --delay-directory-restore --use-compress-program zstdmt
+2026-09-05T16:07:13.4991030Z Sent 295600 of 295600 (100.0%), 3.2 MBs/sec
+2026-09-05T16:07:13.5796800Z uv cache saved with key: setup-uv-2-aarch64-apple-darwin-macos-16-3.12-pruned-ddcb6756719bcda0539e63393a1f31d8c14311c1435177b54e0c1d685c6340a8

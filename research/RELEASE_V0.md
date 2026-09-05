@@ -56,3 +56,26 @@ After manual upload, follow [COMPETITION_FEEDBACK.md](COMPETITION_FEEDBACK.md).
 The useful feedback includes the accepted submission version, validation log,
 complete game results for a stated interval, PGNs, and own-team timing logs.
 An improvement experiment still needs the separately approved v1 gate.
+
+## Prepared release — 6 September 2026 SGT
+
+Implementation commit `45ab093835c5fd1f77dd523869c76a59e7ce8e0c` is pushed to
+`codex/searchmate-v0`, with [draft PR #1](https://github.com/Fallenprogram/SearchMate-algo/pull/1)
+open for review. [GitHub CI](https://github.com/Fallenprogram/SearchMate-algo/actions/runs/33976844707)
+passed its Linux gate and Windows/macOS smoke jobs. The exact job records and
+logs are saved in `releases/v0/`.
+
+The [champion decision](champions/v0/approval.json) records the user's request to
+execute the proposed sequence. It freezes the original tested player as the
+initial baseline; it makes no superiority or memory-effect claim.
+
+`submission.zip` is **7,456 bytes**, containing only `agent.py` (**7,342 bytes**).
+Its SHA-256 is
+`2fd30951173a967e3394c59df62844e1d5a15514b853458c8c7de0c306fc1c84`.
+The archive was inspected and its extracted source matched the original tested
+player. The [release creation record](releases/v0/release.json) binds both hashes
+and preserves the completed GitHub evidence. The ZIP remains a local artifact,
+excluded from Git; no competition upload has occurred.
+
+Restricted Linux container execution is **pending** at this entry. Preserve the
+creation record and add the resulting check evidence separately when available.

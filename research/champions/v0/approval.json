@@ -1,0 +1,21 @@
+{
+  "agent_sha256": "ff94c0620c916490a70d429a4f764a46cb30a9a02be3b1ba4147a9621fde1352",
+  "approved_at": "2026-09-05T16:13:55.266309+00:00",
+  "authorization": {
+    "basis": "User requested execution of the proposed repository, CI, v0 champion, ZIP and compatibility sequence; competition upload reserved for manual user action.",
+    "scope": "Freeze the already tested v0 baseline and prepare its release; no v1 work or automated competition upload.",
+    "task_id": "01a070e7-c24b-77d3-a38b-e77b75990948",
+    "user_quote": "In that case, I think the recommended sequence is great. Can you help me with this proposed sequence"
+  },
+  "candidate": "v0-candidate-001",
+  "champion": "v0",
+  "ci_conclusion": "success",
+  "ci_url": "https://github.com/Fallenprogram/SearchMate-algo/actions/runs/33976844707",
+  "local_gate": "research/runs/v0-01/gate.json",
+  "local_gate_decision": "pass",
+  "memory_version": "m0-bootstrap",
+  "platform_acceptance": "pending manual upload and dashboard validation",
+  "promotion_type": "initial baseline, not a v1 superiority claim",
+  "schema_version": 1,
+  "source_commit": "45ab093835c5fd1f77dd523869c76a59e7ce8e0c"
+}

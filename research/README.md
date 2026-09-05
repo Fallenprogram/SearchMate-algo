@@ -4,10 +4,12 @@ This directory records the approved v0 implementation and local evaluation. The
 player is the repository's `agent.py`. Research code and evidence stay outside
 `harness/`; the official harness must remain unchanged.
 
-The current deliverable is a tested **candidate**, its evidence, and a report.
-Champion promotion, submission ZIP creation, and upload each remain subject to the
-user's recorded approval boundaries. Routine implementation and the complete test
-campaign were authorized on 2026-09-05, including testing beyond three hours.
+The tested v0 is now an approved baseline champion, with a single-file release
+ZIP and restricted Linux container checks pending. The user requested the
+repository/release sequence after local verification; the competition upload
+remains a manual user action. See [release preparation](RELEASE_V0.md).
+Routine implementation and the complete test campaign were authorized on
+2026-09-05, including testing beyond three hours.
 
 | Record | Purpose |
 |---|---|
@@ -37,8 +39,9 @@ evolving memory.
 
 [REPORT.md](runs/v0-01/REPORT.md) contains the completed 120-game results and
 limitations; [gate.json](runs/v0-01/gate.json) records the automatic local pass.
-The tested candidate snapshot is `runs/v0-01/candidate/agent.py`; root-level
-`candidates/` and `champions/` are reserved for later approved research stages.
+The tested candidate snapshot is `runs/v0-01/candidate/agent.py`;
+`champions/v0/agent.py` preserves the identical approved baseline. The original
+report and gate retain their candidate-only status at the time they were written.
 [The v1 gate proposal](V1_GATE_PROPOSAL.md) is a recommendation only.
 
 ## Running the local tools

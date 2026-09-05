@@ -1,0 +1,19 @@
+﻿2026-09-05T16:07:02.0229053Z ##[group]Run make gate
+2026-09-05T16:07:02.0229400Z [36;1mmake gate[0m
+2026-09-05T16:07:02.0251822Z shell: /usr/bin/bash -e {0}
+2026-09-05T16:07:02.0252368Z env:
+2026-09-05T16:07:02.0252758Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+2026-09-05T16:07:02.0253185Z   UV_PYTHON: 3.12
+2026-09-05T16:07:02.0253534Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:07:02.0253918Z ##[endgroup]
+2026-09-05T16:07:02.0487999Z uv run ruff check .
+2026-09-05T16:07:02.1108330Z All checks passed!
+2026-09-05T16:07:02.1121145Z uv run mypy
+2026-09-05T16:07:03.5329807Z Success: no issues found in 9 source files
+2026-09-05T16:07:03.5365435Z uv run python -m harness.arena --opponent baselines/random --games 2 --base-ms 5000
+2026-09-05T16:07:10.2861089Z game 1/2: white by checkmate
+2026-09-05T16:07:10.2861763Z game 2/2: draw by threefold_repetition
+2026-09-05T16:07:10.2862011Z 
+2026-09-05T16:07:10.2862143Z . vs baselines/random over 2 games
+2026-09-05T16:07:10.2862650Z +1 =1 -0, score 75.0%
+2026-09-05T16:07:10.2863251Z terminations: checkmate 1, threefold_repetition 1

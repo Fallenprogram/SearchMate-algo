@@ -1,0 +1,44 @@
+﻿2026-09-05T16:06:57.9952658Z ##[group]Run astral-sh/setup-uv@v7
+2026-09-05T16:06:57.9953828Z with:
+2026-09-05T16:06:57.9954721Z   python-version: 3.12
+2026-09-05T16:06:57.9955696Z   enable-cache: true
+2026-09-05T16:06:57.9956745Z   activate-environment: false
+2026-09-05T16:06:57.9958375Z   working-directory: /home/runner/work/SearchMate-algo/SearchMate-algo
+2026-09-05T16:06:57.9967554Z   github-token: ***
+2026-09-05T16:06:57.9969945Z   cache-dependency-glob: **/*requirements*.txt
+**/*requirements*.in
+**/*constraints*.txt
+**/*constraints*.in
+**/pyproject.toml
+**/uv.lock
+**/*.py.lock
+
+2026-09-05T16:06:57.9972387Z   restore-cache: true
+2026-09-05T16:06:57.9973382Z   save-cache: true
+2026-09-05T16:06:57.9974300Z   prune-cache: true
+2026-09-05T16:06:57.9975247Z   cache-python: false
+2026-09-05T16:06:57.9976252Z   ignore-nothing-to-cache: false
+2026-09-05T16:06:57.9977351Z   ignore-empty-workdir: false
+2026-09-05T16:06:57.9978520Z   add-problem-matchers: true
+2026-09-05T16:06:57.9979823Z   resolution-strategy: highest
+2026-09-05T16:06:57.9981014Z ##[endgroup]
+2026-09-05T16:06:58.1617449Z Trying to find version for uv in: /home/runner/work/SearchMate-algo/SearchMate-algo/uv.toml
+2026-09-05T16:06:58.1620706Z Could not find file: /home/runner/work/SearchMate-algo/SearchMate-algo/uv.toml
+2026-09-05T16:06:58.1624029Z Trying to find version for uv in: /home/runner/work/SearchMate-algo/SearchMate-algo/pyproject.toml
+2026-09-05T16:06:58.1641161Z Could not determine uv version from uv.toml or pyproject.toml. Falling back to latest.
+2026-09-05T16:06:58.1646794Z Fetching version data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+2026-09-05T16:06:58.2808205Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.12.10/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+2026-09-05T16:06:58.5983106Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/8f9b65ed-4889-49be-b43a-7f6047972033 -f /home/runner/work/_temp/35e43c96-fbe3-46c8-aad9-d32d6481dd69
+2026-09-05T16:06:59.1217483Z Added /home/runner/.local/bin to the path
+2026-09-05T16:06:59.1219530Z Added /opt/hostedtoolcache/uv/0.12.10/x86_64 to the path
+2026-09-05T16:06:59.1220550Z Set UV_PYTHON_INSTALL_DIR to /home/runner/work/_temp/uv-python-dir
+2026-09-05T16:06:59.1221461Z Added /home/runner/work/_temp/uv-python-dir to the path
+2026-09-05T16:06:59.1222434Z Set UV_PYTHON to 3.12
+2026-09-05T16:06:59.1245207Z Set UV_CACHE_DIR to /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:06:59.1246034Z Successfully installed uv version 0.12.10
+2026-09-05T16:06:59.1248457Z Searching files using cache dependency glob: /home/runner/work/SearchMate-algo/SearchMate-algo/**/*requirements*.txt,/home/runner/work/SearchMate-algo/SearchMate-algo/**/*requirements*.in,/home/runner/work/SearchMate-algo/SearchMate-algo/**/*constraints*.txt,/home/runner/work/SearchMate-algo/SearchMate-algo/**/*constraints*.in,/home/runner/work/SearchMate-algo/SearchMate-algo/**/pyproject.toml,/home/runner/work/SearchMate-algo/SearchMate-algo/**/uv.lock,/home/runner/work/SearchMate-algo/SearchMate-algo/**/*.py.lock
+2026-09-05T16:06:59.1510538Z /home/runner/work/SearchMate-algo/SearchMate-algo/pyproject.toml
+2026-09-05T16:06:59.2534869Z /home/runner/work/SearchMate-algo/SearchMate-algo/uv.lock
+2026-09-05T16:06:59.2543166Z Found 2 files to hash.
+2026-09-05T16:06:59.2598596Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12-pruned-ddcb6756719bcda0539e63393a1f31d8c14311c1435177b54e0c1d685c6340a8
+2026-09-05T16:06:59.4540468Z No GitHub Actions cache found for key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12-pruned-ddcb6756719bcda0539e63393a1f31d8c14311c1435177b54e0c1d685c6340a8

@@ -1,0 +1,11 @@
+﻿2026-09-05T16:07:21.2377712Z Post job cleanup.
+2026-09-05T16:07:21.3837778Z UV_CACHE_DIR is already set to D:\a\_temp\setup-uv-cache
+2026-09-05T16:07:21.3845634Z UV_PYTHON_INSTALL_DIR is already set to D:\a\_temp\uv-python-dir
+2026-09-05T16:07:21.3857814Z Pruning cache...
+2026-09-05T16:07:21.3891854Z [command]C:\hostedtoolcache\windows\uv\0.12.10\x86_64\uv.exe cache prune --ci --force
+2026-09-05T16:07:21.4098847Z Pruning cache at: D:\a\_temp\setup-uv-cache
+2026-09-05T16:07:23.0661114Z Removed 18891 files (763.5MiB)
+2026-09-05T16:07:23.0708436Z Including uv cache path: D:\a\_temp\setup-uv-cache
+2026-09-05T16:07:23.1687060Z [command]"C:\Program Files\Git\usr\bin\tar.exe" --posix -cf cache.tzst --exclude cache.tzst -P -C D:/a/SearchMate-algo/SearchMate-algo --files-from manifest.txt --force-local --use-compress-program "zstd -T0"
+2026-09-05T16:07:24.1773194Z Sent 295310 of 295310 (100.0%), 0.5 MBs/sec
+2026-09-05T16:07:24.4346474Z uv cache saved with key: setup-uv-2-x86_64-pc-windows-msvc-windows-2025-3.12-pruned-979fc9fa8b5fdfae1de6a8815c5033c57f9ce9b846df42aae38db5bf901d6b7f

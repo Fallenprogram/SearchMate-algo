@@ -1,0 +1,59 @@
+﻿2026-09-05T16:06:59.5179597Z ##[group]Run uv sync
+2026-09-05T16:06:59.5180110Z [36;1muv sync[0m
+2026-09-05T16:06:59.5210603Z shell: /usr/bin/bash -e {0}
+2026-09-05T16:06:59.5211150Z env:
+2026-09-05T16:06:59.5211572Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+2026-09-05T16:06:59.5212076Z   UV_PYTHON: 3.12
+2026-09-05T16:06:59.5212487Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+2026-09-05T16:06:59.5212934Z ##[endgroup]
+2026-09-05T16:06:59.5745751Z Using CPython 3.12.3 interpreter at: /usr/bin/python3.12
+2026-09-05T16:06:59.5746514Z Creating virtual environment at: .venv
+2026-09-05T16:06:59.5770507Z Resolved 26 packages in 0.80ms
+2026-09-05T16:06:59.6675538Z Downloading torch (182.9MiB)
+2026-09-05T16:06:59.6679379Z Downloading mypy (14.6MiB)
+2026-09-05T16:06:59.6680340Z Downloading onnxruntime (22.1MiB)
+2026-09-05T16:06:59.6681872Z Downloading ruff (9.8MiB)
+2026-09-05T16:06:59.6684867Z Downloading sympy (6.0MiB)
+2026-09-05T16:06:59.6685926Z Downloading networkx (2.0MiB)
+2026-09-05T16:06:59.6687281Z Downloading llvmlite (57.1MiB)
+2026-09-05T16:06:59.6688210Z Downloading numba (3.7MiB)
+2026-09-05T16:06:59.6690409Z Downloading numpy (15.9MiB)
+2026-09-05T16:06:59.6691055Z Downloading ast-serialize (1.2MiB)
+2026-09-05T16:06:59.9890153Z  Downloaded ast-serialize
+2026-09-05T16:07:00.0515250Z  Downloaded networkx
+2026-09-05T16:07:00.1530595Z  Downloaded numba
+2026-09-05T16:07:00.2402237Z  Downloaded sympy
+2026-09-05T16:07:00.3181534Z  Downloaded ruff
+2026-09-05T16:07:00.4298968Z    Building chess==1.11.2
+2026-09-05T16:07:00.4397387Z  Downloaded mypy
+2026-09-05T16:07:00.4661050Z  Downloaded numpy
+2026-09-05T16:07:00.5089815Z  Downloaded onnxruntime
+2026-09-05T16:07:00.8750141Z  Downloaded llvmlite
+2026-09-05T16:07:01.1956360Z       Built chess==1.11.2
+2026-09-05T16:07:01.8744287Z  Downloaded torch
+2026-09-05T16:07:01.8744931Z Prepared 24 packages in 2.29s
+2026-09-05T16:07:02.0099280Z Installed 24 packages in 135ms
+2026-09-05T16:07:02.0099874Z  + ast-serialize==0.8.0
+2026-09-05T16:07:02.0100436Z  + chess==1.11.2
+2026-09-05T16:07:02.0100844Z  + filelock==3.32.4
+2026-09-05T16:07:02.0101294Z  + flatbuffers==25.12.19
+2026-09-05T16:07:02.0101715Z  + fsspec==2026.7.0
+2026-09-05T16:07:02.0102045Z  + jinja2==3.1.6
+2026-09-05T16:07:02.0102445Z  + librt==0.15.0
+2026-09-05T16:07:02.0102803Z  + llvmlite==0.49.0
+2026-09-05T16:07:02.0103342Z  + markupsafe==3.0.3
+2026-09-05T16:07:02.0103740Z  + mpmath==1.3.0
+2026-09-05T16:07:02.0104015Z  + mypy==2.3.1
+2026-09-05T16:07:02.0104402Z  + mypy-extensions==1.1.0
+2026-09-05T16:07:02.0104712Z  + networkx==3.6.1
+2026-09-05T16:07:02.0105044Z  + numba==0.67.0
+2026-09-05T16:07:02.0105358Z  + numpy==2.5.2
+2026-09-05T16:07:02.0105637Z  + onnxruntime==1.29.0
+2026-09-05T16:07:02.0105941Z  + packaging==26.3
+2026-09-05T16:07:02.0106232Z  + pathspec==1.1.1
+2026-09-05T16:07:02.0106513Z  + protobuf==7.36.0
+2026-09-05T16:07:02.0106828Z  + ruff==0.16.5
+2026-09-05T16:07:02.0107104Z  + setuptools==84.0.0
+2026-09-05T16:07:02.0107386Z  + sympy==1.14.0
+2026-09-05T16:07:02.0107695Z  + torch==2.13.0+cpu
+2026-09-05T16:07:02.0107985Z  + typing-extensions==4.16.0
