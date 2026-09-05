@@ -1,6 +1,6 @@
 # SearchMate working memory
 
-Updated: **2026-09-06 SGT**. Memory: **m0-bootstrap**. Phase: **v0 release preparation**.
+Updated: **2026-09-06 SGT**. Memory: **m0-bootstrap**. Phase: **v0 release checks complete**.
 
 | Field | Current state |
 |---|---|
@@ -8,8 +8,8 @@ Updated: **2026-09-06 SGT**. Memory: **m0-bootstrap**. Phase: **v0 release prepa
 | Candidate | v0-candidate-001; local tests passed |
 | Source SHA-256 | `ff94c0620c916490a70d429a4f764a46cb30a9a02be3b1ba4147a9621fde1352` |
 | Branch | `codex/searchmate-v0` |
-| Status | Implementation pushed; GitHub CI passed; ZIP created; container verification pending |
-| Current objective | Finish the authorized v0 release; user performs competition upload manually |
+| Status | GitHub CI passed; ZIP created; restricted Linux verification passed |
+| Current objective | User reviews PR and uploads ZIP manually; preserve subsequent platform feedback |
 | Observed weaknesses | Two minimax checkmate losses in the Slav pair; ten repetition draws; see representative evidence |
 | Active hypothesis | None selected for v1; original setup reliability criterion passed |
 | Retrieved lessons | None; no accepted RSI lessons or memory-effect claim |
@@ -40,8 +40,9 @@ created, no matched control ran, and no untouched final-test result is claimed.
 The user removed the three-hour cutoff before implementation; the declared test
 counts and pass criteria stayed fixed.
 
-Open limitations: GitHub CI passed on Linux, Windows, and macOS, but restricted
-container execution and platform acceptance remain pending. Baseline random choices were uncontrolled.
+Open limitations: GitHub CI and restricted Linux container checks passed, but
+the container is not the exact organiser image/hardware. Platform acceptance
+remains pending. Baseline random choices were uncontrolled.
 Tactical and repetition observations are diagnosis inputs, not proof of a repair.
 
 The user subsequently requested the complete repository/release sequence. The
@@ -51,3 +52,7 @@ evidence are in `releases/v0/`. `submission.zip` contains only the tested
 No competition upload or v1 implementation has occurred. The numeric v1 gate
 remains unapproved. See [competition feedback](COMPETITION_FEEDBACK.md) for
 bringing later platform observations into the development lineage.
+
+The [current release status](releases/v0/STATUS.md) links the successful Linux
+run: 96 legal/timely fixtures, 2 fresh-process calls, and 2 full-clock checkmate
+wins with effective resource restrictions verified and no runtime failures.

@@ -142,3 +142,25 @@ its candidate hash remain unchanged. GitHub authentication and remote execution
 are separate from local check results; planned workflows are not recorded as
 completed compatibility evidence. No v1 implementation or accepted RSI memory
 lesson is introduced by this preparation.
+
+## A-0007 — GitHub review and v0 release verification
+
+The user completed the requested GitHub sign-in. Root committed and pushed the
+implementation with a descriptive commit message and opened draft PR #1 for
+review. GitHub CI passed on Linux, Windows, and macOS. Root then recorded the
+user's release-sequence authorization, froze the exact v0 player as the initial
+champion, and created its deterministic single-file ZIP. An independent read-only
+review checked the archive against the root, tested candidate, champion, source
+commit and preserved evidence.
+
+The separate restricted Linux workflow passed. Root downloaded its raw artifact
+and independently checked the package/source/release hashes, 96 fixture results,
+fresh-process checks, full-clock games, and effective container settings. Source
+code was not changed during release preparation. The completed campaign and
+release-creation metadata remain unchanged; subsequent evidence was added in new
+records. Raw logs retain their original whitespace and byte hashes.
+
+No competition upload or v1 experiment was performed. The feedback guide
+distinguishes permitted development feedback, the platform's acceptance evidence,
+and the research protocol's untouched final evaluation. Memory remains
+m0-bootstrap with no accepted RSI lesson or causal memory-effect claim.

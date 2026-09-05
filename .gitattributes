@@ -9,3 +9,7 @@
 # files with byte-level hashes. Preserve all research bytes, including the
 # append-only ledger, logs, snapshots, and future champion/release records.
 /research/** -text diff whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Raw CI/container logs intentionally retain their original timestamp spacing.
+/research/releases/**/ci-logs/** -whitespace
+/research/releases/**/linux-compatibility/*.txt -whitespace

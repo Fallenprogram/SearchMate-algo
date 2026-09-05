@@ -72,3 +72,26 @@ logs with initialization, move timing, and remaining clocks. See
 after the user's manual upload. No platform result is inferred from this source
 check. Docker and WSL are unavailable on the local Windows host; Linux/container
 verification is being prepared as a separate GitHub Actions workflow.
+
+## P-0004 — Restricted Linux compatibility passed
+
+Completed **2026-09-06 SGT** on GitHub Actions, release commit
+`efc6643ae2cf32e40962c723623ef75aaee6bf1b`.
+[Run 33977425446](https://github.com/Fallenprogram/SearchMate-algo/actions/runs/33977425446)
+passed 96 timed fixtures, two fresh-process calls and two full-clock games using
+the extracted release player. Both games ended by checkmate. The rebuilt ZIP's
+hash matched the local artifact, and the source matched the approved v0 champion.
+
+Effective Docker restrictions were checked from container inspection: one CPU
+quota, 2,000,000,000-byte memory/swap ceiling, no network, read-only root and bind
+mounts, 256,000,000-byte temporary scratch, 128 processes, an unprivileged user,
+and dropped capabilities. Cgroup peak memory was 40,103,936 bytes for the combined
+workload and no out-of-memory event occurred. See the
+[raw report](releases/v0/linux-compatibility/report.json) and
+[completion record](releases/v0/completion.json).
+
+This uses Python 3.12 with chess 1.11.2 in a nonofficial image on a GitHub CPU;
+the checker and opponent share the constrained container. The stated referee
+differences remain. The result supplies compatibility evidence, not an exact
+platform-runtime reproduction. **No upload, dashboard acceptance or rated
+competition result has been observed.** The user will upload manually.

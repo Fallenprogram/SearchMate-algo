@@ -9,12 +9,12 @@ human decisions.
 and zero runtime failures. Read the [baseline report](research/runs/v0-01/REPORT.md)
 and [automatic gate result](research/runs/v0-01/gate.json). The exact tested player
 is now frozen as the [v0 champion](research/champions/v0/approval.json) under the
-user's release-sequence authorization. Its single-file ZIP has been created;
-restricted Linux container checks are pending. Nothing has been uploaded to the
-competition.
+user's release-sequence authorization. Its single-file ZIP passed the restricted
+Linux container checks and is prepared for manual upload. Nothing has been
+uploaded to the competition.
 
 Release preparation is tracked in [the release notes](research/RELEASE_V0.md) and
-[package record](research/releases/v0/release.json). GitHub's Linux, Windows, and
+[current release status](research/releases/v0/STATUS.md). GitHub's Linux, Windows, and
 macOS checks passed for the implementation commit. See
 [competition feedback](research/COMPETITION_FEEDBACK.md) for what to bring back
 after validation and rated games.
@@ -77,9 +77,9 @@ deterministic completion decision are stored with the validation evidence.
 
 The user authorized the v0 release sequence after reviewing local results.
 Promotion and package provenance are recorded separately from the original
-candidate-only campaign. Restricted container checks and actual platform
-acceptance remain separate observations. No v1 optimization begins before its
-numeric admission gate receives approval.
+candidate-only campaign. Restricted container checks passed; actual platform
+acceptance still requires dashboard validation after manual upload. No v1
+optimization begins before its numeric admission gate receives approval.
 
 The proposed package contains only `agent.py`; the research records, reference
 opponents, and harness stay outside it. The user will upload the approved ZIP

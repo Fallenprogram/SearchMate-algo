@@ -4,6 +4,10 @@ Started: **2026-09-05**. Release player: `v0-candidate-001`.
 Source SHA-256:
 `ff94c0620c916490a70d429a4f764a46cb30a9a02be3b1ba4147a9621fde1352`.
 
+**Current status: release checks passed; prepared for manual upload.** Read the
+[final status](releases/v0/STATUS.md) and [completion record](releases/v0/completion.json).
+The entries below preserve the preparation sequence and their point-in-time states.
+
 The user requested the recommended sequence: repository housekeeping, a clear
 commit and push for review, GitHub checks, v0 champion approval, packaging,
 remaining compatibility checks, and a competition upload performed manually by
@@ -79,3 +83,17 @@ excluded from Git; no competition upload has occurred.
 
 Restricted Linux container execution is **pending** at this entry. Preserve the
 creation record and add the resulting check evidence separately when available.
+
+## Completed compatibility check — 6 September 2026 SGT
+
+[The Linux container run](https://github.com/Fallenprogram/SearchMate-algo/actions/runs/33977425446)
+passed all 96 timed fixtures, two fresh-process calls, and two full-clock games.
+Its archive hash equals the user's local ZIP. Effective resource restrictions
+were verified; no runtime or memory failure occurred. The original release
+record remains unchanged, with this subsequent pass preserved separately in
+[completion.json](releases/v0/completion.json) and its linked raw artifacts.
+
+The ZIP is ready for the user's manual validation upload, subject to the recorded
+differences from the exact platform. No upload has been performed. The draft PR
+contains the implementation and release evidence for review; v1 remains outside
+this completed release task.

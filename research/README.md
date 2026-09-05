@@ -5,9 +5,9 @@ player is the repository's `agent.py`. Research code and evidence stay outside
 `harness/`; the official harness must remain unchanged.
 
 The tested v0 is now an approved baseline champion, with a single-file release
-ZIP and restricted Linux container checks pending. The user requested the
+ZIP that passed restricted Linux container checks. The user requested the
 repository/release sequence after local verification; the competition upload
-remains a manual user action. See [release preparation](RELEASE_V0.md).
+remains a manual user action. See [current release status](releases/v0/STATUS.md).
 Routine implementation and the complete test campaign were authorized on
 2026-09-05, including testing beyond three hours.
 
