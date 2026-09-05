@@ -1,0 +1,27 @@
+{
+  "at": "2026-09-05T10:05:27.119956+00:00",
+  "manifest_sha256": "1f7325ef5125527219e142724db1c9f9f92d54e39af04a721cf274fb8048fe7c",
+  "games_included": [
+    "short-random-o01-white",
+    "short-random-o01-black",
+    "short-greedy-o01-white",
+    "short-greedy-o01-black",
+    "short-minimax-o01-white",
+    "short-minimax-o01-black",
+    "full-greedy-o01-white",
+    "full-greedy-o01-black"
+  ],
+  "calibration_games": 8,
+  "count_toward_fixed_suite": true,
+  "game_elapsed_s": 63.70201150000139,
+  "short_mean_s": 4.488871783333707,
+  "full_mean_s": 18.384390399999575,
+  "remaining_games": 112,
+  "rough_remaining_game_seconds": 586.1267514333704,
+  "limitations": [
+    "Only one opening per calibrated opponent/clock",
+    "Numba startup and full-clock minimax not yet measured",
+    "Long draws and host load can greatly lengthen remaining games"
+  ],
+  "decision": "Continue unchanged120-game campaign; no runtime cutoff or code change"
+}

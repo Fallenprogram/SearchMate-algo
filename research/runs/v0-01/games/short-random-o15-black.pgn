@@ -1,0 +1,12 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "r1bqkbnr/pp2pppp/2n5/3p4/3P4/3B4/PPP2PPP/RNBQK1NR w KQkq - 2 5"]
+[SetUp "1"]
+[Termination "checkmate"]
+
+5. Nd2 Nxd4 6. h3 h6 7. Ndf3 Qa5+ 8. Kf1 Nxf3 9. Qxf3 d4 10. Bf5 Qxf5 11. Qxb7 Bxb7 12. c3 Ba6+ 13. Ke1 Qe4+ 14. Be3 Qxg2 15. Bc1 Qxh1 16. b3 Qxg1+ 17. Kd2 Qxf2+ 18. Kd1 Qe2# 0-1

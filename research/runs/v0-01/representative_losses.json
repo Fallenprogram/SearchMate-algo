@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-05T10:17:07.082183+00:00",
+  "candidate": "v0-candidate-001",
+  "source": "read-only inherited-model review of the two PGNs and timing records; no engine used",
+  "cases": [
+    {
+      "game": "short-minimax-o21-white",
+      "result": "loss by checkmate",
+      "plies": 86,
+      "finish": "47...Qg3#",
+      "observations": [
+        "Late knight and rook losses preceded queen-and-rook checks against the exposed king"
+      ],
+      "minimum_input_ms": 6109,
+      "minimum_estimated_after_reply_ms": 6010.55
+    },
+    {
+      "game": "short-minimax-o21-black",
+      "result": "loss by checkmate",
+      "plies": 81,
+      "finish": "45.Be6#",
+      "observations": [
+        "24.Nf7+ attacked the king on d6, queen on d8, and rook on h8",
+        "25.Nxd8 removed the queen;28.Nxh8 and31.Nxa8 removed both rooks"
+      ],
+      "minimum_input_ms": 6406,
+      "minimum_estimated_after_reply_ms": 6300.05
+    }
+  ],
+  "interpretation": "Actual tactical/material losses with substantial clock remaining. This identifies development evidence, not a proven repair or objective engine evaluation. No candidate edits were made."
+}

@@ -1,0 +1,18 @@
+{
+  "agent_sha256": "ff94c0620c916490a70d429a4f764a46cb30a9a02be3b1ba4147a9621fde1352",
+  "command": [
+    "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\.venv\\Scripts\\python.exe",
+    "-m",
+    "harness.arena",
+    "--opponent",
+    "baselines/random",
+    "--games",
+    "2",
+    "--base-ms",
+    "5000"
+  ],
+  "exit_code": 0,
+  "output_path": "research/runs/v0-official-smoke-01.txt",
+  "output_sha256": "97ce7847dc7be8c034bb2d6b4644702f7410851798997b61182c9f1480109463",
+  "provenance": "Executed by the root task before campaign preparation; complete tool output retained. Two checkmates, +2 =0 -0."
+}

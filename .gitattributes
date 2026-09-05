@@ -1,0 +1,11 @@
+# Keep the tested player stable on every checkout.
+/agent.py text eol=lf
+/.github/** text eol=lf
+/.gitattributes text eol=lf
+/.gitignore text eol=lf
+/README.md text eol=lf
+
+# Frozen research sources and evidence contain LF, CRLF, and mixed-line-ending
+# files with byte-level hashes. Preserve all research bytes, including the
+# append-only ledger, logs, snapshots, and future champion/release records.
+/research/** -text diff whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

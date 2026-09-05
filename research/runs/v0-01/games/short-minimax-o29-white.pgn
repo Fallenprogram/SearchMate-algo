@@ -1,0 +1,12 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r1bqk1nr/pp1pppbp/2n3p1/2p5/2P5/2N3P1/PP1PPPBP/R1BQK1NR w KQkq - 2 5"]
+[SetUp "1"]
+[Termination "checkmate"]
+
+5. Bxc6 dxc6 6. Ne4 Kf8 7. Nxc5 Ke8 8. Nf3 b6 9. Na4 Qd6 10. O-O Bf5 11. h4 g5 12. hxg5 h5 13. d4 h4 14. gxh4 Rh5 15. Be3 Rb8 16. a3 b5 17. Qb3 b4 18. axb4 Be4 19. c5 Qg6 20. Nd2 Rxh4 21. Nxe4 Rxe4 22. Bd2 Rg4+ 23. Kh1 Qe4+ 24. Qf3 Rh4+ 25. Kg1 Qxf3 26. exf3 Bxd4 27. f4 Rh3 28. f5 Rg3+ 29. Kh1 Rh3+ 30. Kg2 Rh4 31. Kg1 Rh3 32. Bf4 Rxb4 33. Rfe1 Kf8 34. Re4 Rxa4 35. Rxa4 Bxb2 36. Rxa7 Rd3 37. Ra8+ Kg7 38. Kf1 Rd1+ 39. Ke2 Rb1 40. Kd3 Rd1+ 41. Kc2 Rd5 42. Kxb2 Rxf5 43. Be3 Kh7 44. Rh4+ Nh6 45. Rxh6+ Kg7 46. Bd4+ e5 47. Be3 Rf3 48. Bd2 Rxf2 49. Kc2 Rf3 50. Rxc6 Rf1 51. Re8 Ra1 52. Rxe5 Ra2+ 53. Kd3 Ra3+ 54. Kd4 Ra4+ 55. Kd5 Ra2 56. Bc3 Ra4 57. Re4+ f6 58. Rxa4 Kf7 59. gxf6 Kg6 60. Bd4 Kh6 61. f7+ Kh7 62. Rf6 Kg7 63. f8=Q+ Kh7 64. Ra7# 1-0

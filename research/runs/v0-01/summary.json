@@ -1,0 +1,63 @@
+{
+  "all_checks_passed": null,
+  "by_clock_and_opponent": {
+    "full-greedy": {
+      "draw": 0,
+      "loss": 0,
+      "void": 0,
+      "win": 4
+    },
+    "full-minimax": {
+      "draw": 0,
+      "loss": 0,
+      "void": 0,
+      "win": 4
+    },
+    "short-greedy": {
+      "draw": 0,
+      "loss": 0,
+      "void": 0,
+      "win": 24
+    },
+    "short-minimax": {
+      "draw": 6,
+      "loss": 2,
+      "void": 0,
+      "win": 8
+    },
+    "short-numba": {
+      "draw": 3,
+      "loss": 0,
+      "void": 0,
+      "win": 5
+    },
+    "short-random": {
+      "draw": 1,
+      "loss": 0,
+      "void": 0,
+      "win": 63
+    }
+  },
+  "candidate_failure_count": 0,
+  "candidate_results": {
+    "draw": 10,
+    "loss": 2,
+    "void": 0,
+    "win": 108
+  },
+  "checks_note": "separate position, import, timing, lint and typing checks are required",
+  "complete": true,
+  "completed_games": 120,
+  "expected_games": 120,
+  "failures": [],
+  "game_elapsed_s": 880.916013300006,
+  "interpretation": "v0 evolution/setup evidence; no promotion and no held-out claim",
+  "interrupted_attempts": [],
+  "manifest_sha256": "1f7325ef5125527219e142724db1c9f9f92d54e39af04a721cf274fb8048fe7c",
+  "schema_version": 1,
+  "terminations": {
+    "checkmate": 110,
+    "threefold_repetition": 10
+  },
+  "updated_at": "2026-09-05T10:20:05.306201+00:00"
+}

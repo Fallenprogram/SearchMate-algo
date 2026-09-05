@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "at": "2026-09-05T10:02:59.189125+00:00",
+  "agent_sha256": "ff94c0620c916490a70d429a4f764a46cb30a9a02be3b1ba4147a9621fde1352",
+  "fixture_report": {
+    "path": "research/runs/v0-checks-01.json",
+    "sha256": "66348887ce09ad2e7625b63e91f8a02615700897632eade65cc7168c7777cee2"
+  },
+  "official_smoke": {
+    "path": "research/runs/v0-official-smoke-01.json",
+    "sha256": "e7e5f9ba8203c072db6430dcd853aae500d19e0ca14356a543defe6998a1e050"
+  },
+  "commands": [
+    {
+      "name": "ruff",
+      "command": [
+        "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\.venv\\Scripts\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "."
+      ],
+      "exit_code": 0,
+      "output_path": "research/runs/v0-quality-01-ruff.txt",
+      "output_sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+    },
+    {
+      "name": "mypy",
+      "command": [
+        "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\.venv\\Scripts\\python.exe",
+        "-m",
+        "mypy",
+        "--strict",
+        "agent.py",
+        "harness",
+        "research/__init__.py",
+        "research/checks.py",
+        "research/gate.py",
+        "research/positions.py",
+        "research/runner.py",
+        "research/test_gate.py",
+        "research/test_player.py",
+        "research/test_runner.py"
+      ],
+      "exit_code": 0,
+      "output_path": "research/runs/v0-quality-01-mypy.txt",
+      "output_sha256": "63da153bcdac04b2cc982479df4378f21b20029f9acb87ad908fb4d5befe6a43"
+    },
+    {
+      "name": "unit",
+      "command": [
+        "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\.venv\\Scripts\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "research",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output_path": "research/runs/v0-quality-01-unit.txt",
+      "output_sha256": "d62daf2ad73e7ca498311b9d31449de36d901dcb9192fbba2f81a44eca282a45"
+    }
+  ],
+  "interruption_resolutions": []
+}

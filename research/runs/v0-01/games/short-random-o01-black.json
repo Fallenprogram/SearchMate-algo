@@ -1,0 +1,112 @@
+{
+  "attempt": 1,
+  "black": {
+    "color": "black",
+    "command": [
+      "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\harness\\runner.py",
+      "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\research\\runs\\v0-01\\candidate"
+    ],
+    "minimum_estimated_after_reply_ms": 9603.293299998404,
+    "minimum_input_time_left_ms": 9700,
+    "move_count": 3,
+    "moves": [
+      {
+        "elapsed_ms": 250.39250000008906,
+        "estimated_after_reply_ms": 9749.607499999911,
+        "failure": null,
+        "fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P1P1/5N2/PPPP1P1P/RNBQK2R b KQkq - 0 5",
+        "input_time_left_ms": 10000,
+        "uci": "f6e4"
+      },
+      {
+        "elapsed_ms": 246.7067000015959,
+        "estimated_after_reply_ms": 9603.293299998404,
+        "failure": null,
+        "fen": "r1bqkb1r/1ppp1ppp/p1n5/4p3/B3n1P1/8/PPPP1P1P/RNBQK1NR b KQkq - 1 6",
+        "input_time_left_ms": 9850,
+        "uci": "d8h4"
+      },
+      {
+        "elapsed_ms": 3.2618000004731584,
+        "estimated_after_reply_ms": 9696.738199999527,
+        "failure": null,
+        "fen": "r1b1kb1r/1ppp1ppp/p1n5/4p3/B3n1Pq/8/PPPPNP1P/RNBQK2R b KQkq - 3 7",
+        "input_time_left_ms": 9700,
+        "uci": "h4f2"
+      }
+    ],
+    "role": "candidate",
+    "startup_failure": null,
+    "startup_ms": 139.5781999999599,
+    "stderr": "",
+    "timing_note": "Input clock is the actual integer passed by the referee. After-reply clock is a perf_counter estimate excluding observation and referee overhead, before increment. The unchanged referee uses monotonic, which can be coarse on Windows."
+  },
+  "candidate_result": "win",
+  "elapsed_s": 0.7782313999996404,
+  "failures": [],
+  "finished_at": "2026-09-05T10:03:27.491768+00:00",
+  "game_id": "short-random-o01-black",
+  "manifest_sha256": "1f7325ef5125527219e142724db1c9f9f92d54e39af04a721cf274fb8048fe7c",
+  "pgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"0-1\"]\n[FEN \"r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5\"]\n[SetUp \"1\"]\n[Termination \"checkmate\"]\n\n5. g4 Nxe4 6. Ng1 Qh4 7. Ne2 Qxf2# 0-1\n",
+  "pgn_sha256": "f527a3e56f5eb2a161fa2a19b511f36b8a8fd106fcf0087c41a726555c61cc4b",
+  "plies": 6,
+  "result": "black",
+  "spec": {
+    "base_ms": 10000,
+    "calibration": true,
+    "candidate_color": "black",
+    "clock": "short",
+    "id": "short-random-o01-black",
+    "increment_ms": 100,
+    "opening_id": "o01",
+    "opponent": "random",
+    "ply_cap": 300,
+    "start_fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5"
+  },
+  "started_at": "2026-09-05T10:03:26.713936+00:00",
+  "status": "completed",
+  "termination": "checkmate",
+  "white": {
+    "color": "white",
+    "command": [
+      "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\harness\\runner.py",
+      "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\baselines\\random"
+    ],
+    "minimum_estimated_after_reply_ms": 9999.502000000575,
+    "minimum_input_time_left_ms": 10000,
+    "move_count": 3,
+    "moves": [
+      {
+        "elapsed_ms": 0.4979999994247919,
+        "estimated_after_reply_ms": 9999.502000000575,
+        "failure": null,
+        "fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5",
+        "input_time_left_ms": 10000,
+        "uci": "g2g4"
+      },
+      {
+        "elapsed_ms": 0.5643999993480975,
+        "estimated_after_reply_ms": 10099.435600000652,
+        "failure": null,
+        "fen": "r1bqkb1r/1ppp1ppp/p1n5/4p3/B3n1P1/5N2/PPPP1P1P/RNBQK2R w KQkq - 0 6",
+        "input_time_left_ms": 10100,
+        "uci": "f3g1"
+      },
+      {
+        "elapsed_ms": 0.47559999984514434,
+        "estimated_after_reply_ms": 10199.524400000155,
+        "failure": null,
+        "fen": "r1b1kb1r/1ppp1ppp/p1n5/4p3/B3n1Pq/8/PPPP1P1P/RNBQK1NR w KQkq - 2 7",
+        "input_time_left_ms": 10200,
+        "uci": "g1e2"
+      }
+    ],
+    "role": "opponent",
+    "startup_failure": null,
+    "startup_ms": 129.9074999988079,
+    "stderr": "",
+    "timing_note": "Input clock is the actual integer passed by the referee. After-reply clock is a perf_counter estimate excluding observation and referee overhead, before increment. The unchanged referee uses monotonic, which can be coarse on Windows."
+  }
+}

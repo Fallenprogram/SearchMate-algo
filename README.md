@@ -1,83 +1,93 @@
-# AI Chessathon starter
+# SearchMate
 
-Fork this to build an agent for [AI Chessathon](https://aichessathon.com). It gives you a working
-submission, baselines to beat, and a local harness that speaks the same protocol and enforces the
-same clock as the platform, so you can see whether a change actually helped before you upload it.
+SearchMate is a Recuris-inspired chess research project built on the AI Chessathon
+starter. The first milestone is an original, readable classical player and an
+honest local baseline. Candidate promotion, packaging, and upload are separate
+human decisions.
 
-```
-git clone https://github.com/advitrocks9/aichessathon-starter
-cd aichessathon-starter
-make setup
-make play
-```
+**v0 local verification passed:** 120 campaign games, 108 wins, 10 draws, 2 losses,
+and zero runtime failures. Read the [baseline report](research/runs/v0-01/REPORT.md)
+and [automatic gate result](research/runs/v0-01/gate.json). The candidate awaits
+human review; no champion, ZIP, or upload has been created.
 
-That plays your agent against a baseline over a full 120 s + 0.5 s game and prints the result.
-When you like it, `make zip` and drop `submission.zip` on your dashboard.
+The next milestone is tracked in [v0 release preparation](research/RELEASE_V0.md):
+save the reviewed work to GitHub, complete CI and package compatibility checks,
+and prepare the entry for the user's manual upload. See
+[competition feedback](research/COMPETITION_FEEDBACK.md) for what to bring back
+after validation and rated games.
 
-## Writing an agent
+## Player
 
-`agent.py` is the whole submission. One function:
+`agent.py` is the entire intended player artifact. It exposes:
 
 ```python
 def get_move(fen: str, time_left_ms: int) -> str:
-    return "e2e4"
+    ...  # a legal UCI move
 ```
 
-The fork ships a legal random-mover, so the loop works before you write anything. Replace the body.
+v0 uses python-chess, iterative-deepening negamax with alpha-beta pruning, material
+and modest positional evaluation, and deterministic basic move ordering. It keeps
+a legal fallback and retains the last completed search result when its deadline
+expires. At 50 ms or less it immediately returns a legal fallback; otherwise its
+search allowance is capped at 1.5 seconds and a conservative share of the clock.
 
-```
-make play                                          # one game, real time control
-make arena                                         # 20 fast games, prints a score
-make play FEN="<fen>"                              # start from a given position
-uv run python -m harness.play --black baselines/minimax --pgn game.pgn
-uv run python -m harness.arena --opponent ../my-old-version --games 200
-```
+This is intentionally a small baseline. It has no neural model, opening book,
+tablebase, quiescence search, transposition table, or external game-time service.
+A FEN cannot restore earlier repetition history; v0 recognizes repetition only
+within its reconstructed search history. Fixed-depth behavior is deterministic;
+wall-time stopping can produce different depths on different machines.
 
-Anything your agent prints shows up under the result, so `print` debugging works. The platform
-keeps it too. Every rated game leaves a log on your dashboard next to the PGN, holding your
-output plus your init time, your time on each move, and the clock you had left. Only your team
-can read it.
+## Development and evidence
 
-## The ladder
+The approved environment is the locked `.venv` on Windows. No dependency changes
+are needed. The official `harness/` remains unchanged. Research tooling invokes
+its wire runner and referee, preserving the original clock and game rules.
 
-Measured with `harness/arena.py`. Beating greedy is a search. Beating minimax is a search plus an
-evaluation worth searching with.
+Start with [research/README.md](research/README.md), the approved
+[protocol](research/RESEARCH_PROTOCOL.md), and the fixed
+[v0 completion criteria](research/GATE_SPEC.md). Current state is in
+[Working Memory](research/WORKING_MEMORY.md). Source provenance and the recorded
+researcher configuration are in [the assistance log](research/ASSISTANCE_LOG.md).
 
-| Matchup | Games | Time control | Score |
-|---|---|---|---|
-| random vs greedy | 20 | 10 s + 0.1 s | 10.0% (+1 =2 -17) |
-| greedy vs minimax | 6 | 120 s + 0.5 s | 0.0% (+0 =0 -6) |
-| numba vs minimax | 6 | 10 s + 0.5 s | 66.7% (+2 =4 -0) |
+The v0 campaign contains 120 sequential games over 32 frozen development
+positions. Results, PGNs, per-move timings, source hashes, and attempts are saved
+under `research/runs/`. The first eight games calibrate runtime and count toward
+the same campaign. Resuming preserves completed results and rejects changed
+candidate, opponent, harness, checker, protocol, or schedule inputs.
 
-- `baselines/random` plays a uniformly random legal move. It is what `agent.py` starts as.
-- `baselines/greedy` searches one ply on material.
-- `baselines/minimax` searches two plies on material and mobility, with no time management.
-- `baselines/numba` is `minimax` with the evaluation jitted. It is barely stronger, which is
-  the point: jitting a shallow search buys headroom, not depth. Read it for the warm-up call
-  at the bottom, which is how you keep compilation off your clock.
+Example commands from the repository root, using a **new** run directory only
+when starting a new campaign:
 
-## What's here
-
-```
-agent.py             your submission
-baselines/           random, greedy, minimax, numba; each is a directory with an agent.py
-harness/runner.py    the process the platform runs your agent in
-harness/referee.py   the clock, legality, draw and adjudication rules
-harness/rules.py     the event constants the harness enforces
-harness/sandbox.py   the one process, spoken to as the platform speaks to a container
-harness/play.py      one game between two agent directories
-harness/arena.py     many games, with a score
-harness/package.py   builds submission.zip with agent.py at the root
-docs/IDEAS.md        where the strength actually comes from
+```powershell
+.venv/Scripts/python.exe -m research.runner prepare --run-dir research/runs/v0-01
+.venv/Scripts/python.exe -m research.runner run --run-dir research/runs/v0-01 --max-games 8
+.venv/Scripts/python.exe -m research.runner run --run-dir research/runs/v0-01
+.venv/Scripts/python.exe -m research.runner summary --run-dir research/runs/v0-01
 ```
 
-Local games start from the normal position unless you pass `--fen`. Rated games start from
-curated neutral positions.
+The fixed suite has no minimum win rate. Local completion requires all designated
+checks and games, zero candidate runtime failures, and resolved infrastructure
+issues. Testing may exceed three hours, as authorized. Quality commands and the
+deterministic completion decision are stored with the validation evidence.
 
-The harness is here so your games are honest, not so you can pre-validate an upload. Acceptance
-happens on the platform, and the validation log on your dashboard is the authority on it.
+## Status and approval boundary
 
-## The rules
+v0 is a candidate during construction and testing. A local pass does not promote
+it, create an archive, or authorize upload. Linux compatibility and enforcement
+of the competition's CPU, memory, filesystem, and network restrictions remain
+separate platform checks. No v1 optimization begins before its numeric admission
+gate receives approval.
 
-[aichessathon.com/docs](https://aichessathon.com/docs) is canonical and changes. Read it before
-you upload.
+The proposed package contains only `agent.py`; the research records, reference
+opponents, and harness stay outside it. Do not create a submission ZIP or upload
+without the user's explicit authorization. Re-read the live
+[competition documentation](https://aichessathon.com/docs) and
+[rules](https://aichessathon.com/terms) before later submission work.
+
+## Starter provenance
+
+This fork retains the supplied baselines and unchanged harness from
+[advitrocks9/aichessathon-starter](https://github.com/advitrocks9/aichessathon-starter).
+Its original license is in [LICENSE](LICENSE). The player implementation and
+research tooling were created for SearchMate; assistance is disclosed in the
+research records.

@@ -1,0 +1,53 @@
+name: v0 Linux compatibility
+
+on:
+  push:
+    branches: [codex/searchmate-v0]
+    paths:
+      - research/champions/v0/**
+      - research/releases/v0/**
+  workflow_dispatch:
+    inputs:
+      expected_agent_sha256:
+        description: Optional agent SHA-256; must match the committed v0 release record
+        required: false
+        default: ""
+        type: string
+      expected_zip_sha256:
+        description: Optional ZIP SHA-256; must match the committed v0 release record
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  compatibility:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v7
+        with:
+          python-version: "3.12"
+      - name: Check the extracted submission in a restricted Linux container
+        env:
+          EXPECTED_AGENT_SHA256: ${{ inputs.expected_agent_sha256 }}
+          EXPECTED_ZIP_SHA256: ${{ inputs.expected_zip_sha256 }}
+          RESULT_DIRECTORY: ${{ runner.temp }}/searchmate-compatibility
+        run: >-
+          uv run --no-project --with chess==1.11.2 python
+          .github/scripts/check_submission.py
+          --release-metadata research/releases/v0/release.json
+          --expected-agent-sha256 "$EXPECTED_AGENT_SHA256"
+          --expected-zip-sha256 "$EXPECTED_ZIP_SHA256"
+          --output "$RESULT_DIRECTORY"
+      - name: Preserve compatibility evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v0-linux-compatibility-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/searchmate-compatibility/
+          if-no-files-found: error
+          retention-days: 90

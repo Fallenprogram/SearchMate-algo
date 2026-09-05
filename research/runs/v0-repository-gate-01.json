@@ -1,0 +1,17 @@
+{
+  "archive_created": false,
+  "decision": "pass",
+  "failure_reasons": [],
+  "gate_version": "searchmate-v0-safety.1",
+  "incomplete_reasons": [],
+  "interrupted_attempts": [],
+  "interruption_resolutions": [],
+  "manifest_sha256": "1f7325ef5125527219e142724db1c9f9f92d54e39af04a721cf274fb8048fe7c",
+  "platform_checks": "pending",
+  "promotion": "not authorized",
+  "run_dir": "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\research\\runs\\v0-01",
+  "schema_version": 1,
+  "validation": "C:\\Users\\cheej\\Documents\\Codex\\2026-09-05\\i-need-help-on-something-i\\outputs\\SearchMate-algo\\research\\runs\\v0-validation-01.json",
+  "validation_sha256": "3e4dfb08465b0876d29da5d9ef13a82ad995dcb4f1a9d58c76de11a33159a003",
+  "win_rate_threshold": null
+}
