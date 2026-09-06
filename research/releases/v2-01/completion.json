@@ -1,0 +1,113 @@
+{
+  "accepted_memory_patch": null,
+  "agent_sha256": "1bec488584769b1d58e9e9d38851d696c5285379e96390b468689131fc8b4cee",
+  "artifact_sha256": "82c318c8e6d4cde430b1e0e34be4849a79cc022dfa745395a5638292e595bd79",
+  "at": "2026-09-06T11:00:24.617445+00:00",
+  "branch": "codex/searchmate-v2-release",
+  "candidate": "v2-01",
+  "compatibility_artifact_id": 9987871595,
+  "compatibility_run_id": 34028612862,
+  "compatibility_status": "pass in restricted nonofficial Linux container",
+  "compatibility_url": "https://github.com/Fallenprogram/SearchMate-algo/actions/runs/34028612862",
+  "competition_upload": "not performed; user manual action reserved",
+  "creation_record": "research/releases/v2-01/release.json",
+  "creation_record_sha256": "d823591f35a41a96b5dd194dae07498f26140c37d369d4993795abcf90576387",
+  "evidence_sha256": {
+    ".github/scripts/check_v2_submission.py": "45aa574bf1c4a8955bce44f829fe71c1980d69a04a15699e8bb9a705b7a5da8f",
+    ".github/workflows/v2-compatibility.yml": "05c99e65d43682fc662870c21592ae3624d3d755081772a18dbc7b0c2df5bb51",
+    "research/releases/v2-01/github-evidence/34028612856/jobs.json": "5403a3e880c394ed6c1325defd4355d5b83faeb6aca207682cc4b4b006ce39f0",
+    "research/releases/v2-01/github-evidence/34028612856/logs.zip": "c1044c86b9533798884a2ebbfed0cd44f29be461c9f260f5ab51252d2811bc4b",
+    "research/releases/v2-01/github-evidence/34028612856/run.json": "532306b7d349b245a1ac8a2c907ce7ac58ff08a295b0093cbaf8a0bfec62ef96",
+    "research/releases/v2-01/github-evidence/34028612862/artifact.zip": "82c318c8e6d4cde430b1e0e34be4849a79cc022dfa745395a5638292e595bd79",
+    "research/releases/v2-01/github-evidence/34028612862/artifacts.json": "f2c7bc06b3e56b38dde8248d48bd3680875c3630537baa47bebbc7f7f58b0a2f",
+    "research/releases/v2-01/github-evidence/34028612862/jobs.json": "5946ecb5288245409006143fca4b1792b251da603f63e48534e2252bdf597ca0",
+    "research/releases/v2-01/github-evidence/34028612862/logs.zip": "20a1d9423ad9a22ce0a4dc821fe9c047bf4683de7a95862a0ff3a3744ab36c7c",
+    "research/releases/v2-01/github-evidence/34028612862/run.json": "71d7a7d41e1e33abf571a75d7218c23881c6ad3c4bde934303dfab2d6e441aa7",
+    "research/releases/v2-01/github-evidence/pull-request.json": "e975af22639602aba4086919971f1acf7ba7b32c925560b4998b4c09d5560051",
+    "research/releases/v2-01/github-evidence/sha256.json": "f08041be1c1e1f78b1b9762e51e1beeb3ac07512c83d60df9cfa9c76bf1e807e",
+    "research/releases/v2-01/linux-compatibility/container-inspect.json": "6d262352b1f9a2a8a3d0cb6a8855df4682b5e74e87494e6a16df489630be5cbb",
+    "research/releases/v2-01/linux-compatibility/image-build.stderr.txt": "f1266a78cacebb78d3ec6c8a7104d90519031989a269f8cad507270f915f4f79",
+    "research/releases/v2-01/linux-compatibility/image-build.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/releases/v2-01/linux-compatibility/package.json": "1584dd540b43f347cf06d073f085c86ca1b5bb94cdaf17339e9d377fc0dd032d",
+    "research/releases/v2-01/linux-compatibility/release-metadata.json": "d823591f35a41a96b5dd194dae07498f26140c37d369d4993795abcf90576387",
+    "research/releases/v2-01/linux-compatibility/report.json": "696e74c0eb2e54f3d49d897645f7615dc9e2b7c327e260b16e7a64a1ae42ae01",
+    "research/releases/v2-01/linux-compatibility/runtime-records.json": "2fa185c6492c75c80047e562d917ad09ba74ab67e4278e5b7ef659f736fa3599",
+    "research/releases/v2-01/linux-compatibility/runtime.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "research/releases/v2-01/linux-compatibility/runtime.stdout.txt": "e1e194da9da4f64ecf6ed3eb878ddcf92c9dd556c42832f545e5897715c19314",
+    "research/releases/v2-01/linux-compatibility/submission.zip": "278d9818bbe5ac82427e5a483e4acbfde9cb98569f49aec74c2c99bac0bd9bde",
+    "research/releases/v2-01/local-checks/fixtures.json": "89ba07e157b26362edc67a7c5daf0610361f754168b7c07949deeb57b768f48c",
+    "research/releases/v2-01/release.json": "d823591f35a41a96b5dd194dae07498f26140c37d369d4993795abcf90576387",
+    "research/releases/v2-01/tooling/test_check_v2_submission.py": "3c9cbcdec4cef076eb44c01e89279d74fc91f49cdc1c837037a98b17bb55a689"
+  },
+  "formal_champion_promoted": false,
+  "frozen_evaluation_integrity": {
+    "all_outcome_evidence_hashes_verified": true,
+    "candidate_freeze_sha256": "ad0a4ea71afcaef868ed59ba335e860c5edc742cd8afc93af36752318a7e0434",
+    "final_holdout_used": false,
+    "global_freeze_sha256": "2203352b61c3627140dcaed63ad16eaa90676d72bac5a95f874d3359ef1cda75"
+  },
+  "independent_audit": {
+    "additional_engine_calls": 0,
+    "passed": true,
+    "scope": "source, metadata, ZIP, all 11 support hashes versus exact Git blobs/regenerated fixtures, all artifact bytes, raw calls and complete PGN replay, 18 effective restrictions and memory events"
+  },
+  "limitations": [
+    "This is python:3.12-slim with chess 1.11.2, not the official competition image.",
+    "The GitHub runner CPU model and scheduler differ from the competition host.",
+    "The harness, opponent, and candidate share the container's CPU and memory limits.",
+    "The repository harness does not suspend a player while its opponent thinks.",
+    "The unchanged harness receives an explicit 600-ply cap. Its material adjudication at that boundary is not the platform's draw rule, so any cap ending fails this check.",
+    "A pass is compatibility evidence; only the dashboard establishes upload acceptance."
+  ],
+  "linux_checks": {
+    "candidate_wins": 2,
+    "container_peak_memory_bytes": 40042496,
+    "container_restrictions_verified": true,
+    "fixture_calls": 96,
+    "fresh_process_calls": 2,
+    "full_clock_games": 2,
+    "game_plies": [
+      33,
+      32
+    ],
+    "oom_killed": false,
+    "runtime_failures": 0,
+    "startup_ms": [
+      53.488280999999915,
+      52.42656800000134,
+      52.78051499999492
+    ],
+    "terminations": [
+      "checkmate",
+      "checkmate"
+    ]
+  },
+  "live_competition_version": "last user-associated v0; no v2 upload or validation observed",
+  "local_checks": {
+    "checker_mypy_strict": "pass",
+    "checker_ruff": "pass",
+    "checker_unit_tests": 7,
+    "fixture_calls": 96,
+    "internal_checks": 10,
+    "passed": true
+  },
+  "memory_version": "m0-bootstrap",
+  "platform_acceptance": "pending manual upload and dashboard validation",
+  "player_changed_after_evaluation": false,
+  "prior_root_player_sha256": "ff94c0620c916490a70d429a4f764a46cb30a9a02be3b1ba4147a9621fde1352",
+  "prior_root_zip_sha256": "2fd30951173a967e3394c59df62844e1d5a15514b853458c8c7de0c306fc1c84",
+  "pull_request": "https://github.com/Fallenprogram/SearchMate-algo/pull/2",
+  "pull_request_status": "draft; not merged",
+  "record_id": "release-v2-01-compatible",
+  "repository_ci": {
+    "conclusion": "success",
+    "run_id": 34028612856,
+    "scope": "generic CI tests root v0; dedicated workflow tests v2",
+    "url": "https://github.com/Fallenprogram/SearchMate-algo/actions/runs/34028612856"
+  },
+  "source_commit": "3de85d359ee689e26fb9cd8bc5bb0203b9b4ff6e",
+  "status": "ready_for_user_manual_validation_upload",
+  "zip_bytes": 8658,
+  "zip_path": "research/releases/v2-01/submission-v2-01.zip",
+  "zip_sha256": "278d9818bbe5ac82427e5a483e4acbfde9cb98569f49aec74c2c99bac0bd9bde"
+}

@@ -1,0 +1,257 @@
+[
+  {
+    "AppArmorProfile": "docker-default",
+    "Args": [
+      "-I",
+      "/checks/check_v2_submission.py",
+      "--inside",
+      "--expected-agent-sha256",
+      "1bec488584769b1d58e9e9d38851d696c5285379e96390b468689131fc8b4cee"
+    ],
+    "Config": {
+      "AttachStderr": true,
+      "AttachStdin": false,
+      "AttachStdout": true,
+      "Cmd": [
+        "python",
+        "-I",
+        "/checks/check_v2_submission.py",
+        "--inside",
+        "--expected-agent-sha256",
+        "1bec488584769b1d58e9e9d38851d696c5285379e96390b468689131fc8b4cee"
+      ],
+      "Domainname": "",
+      "Entrypoint": null,
+      "Env": [
+        "HOME=/tmp",
+        "TMPDIR=/tmp",
+        "XDG_CACHE_HOME=/tmp",
+        "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "LANG=C.UTF-8",
+        "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+        "PYTHON_VERSION=3.12.14",
+        "PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "PYTHONUNBUFFERED=1"
+      ],
+      "Hostname": "164946bf81d0",
+      "Image": "searchmate-v2-check-a159ed34747b4f17bfa3f1e21b5eff45:local",
+      "Labels": {},
+      "OnBuild": null,
+      "OpenStdin": false,
+      "StdinOnce": false,
+      "Tty": false,
+      "User": "65532:65532",
+      "Volumes": null,
+      "WorkingDir": "/tmp"
+    },
+    "Created": "2026-09-06T10:52:30.059274782Z",
+    "Driver": "overlay2",
+    "ExecIDs": null,
+    "GraphDriver": {
+      "Data": {
+        "ID": "164946bf81d0be181b564a86953cc3a0e4f532550fc6037fd1e7417e31611644",
+        "LowerDir": "/var/lib/docker/overlay2/40626f8a858381cba2c303d0fb25e7ad2fe34d5520ceb428f19b51d741418ceb-init/diff:/var/lib/docker/overlay2/ixkifq28efx15itkqgk01ae3q/diff:/var/lib/docker/overlay2/r6jgmner5b9pydfken83qpk3q/diff:/var/lib/docker/overlay2/52e219eec2f1fd7fd61424512b6ca2a41817f9f057f063fa7ae11e7a5ed35a79/diff:/var/lib/docker/overlay2/cbf2c43e7319e2a2d87c52fc266d13f735fc141791ba5557ebdd98123fadee76/diff:/var/lib/docker/overlay2/e95fbaf794e98fc92690aeef803be37b87bc4302eb21eb48481b1e673804472a/diff:/var/lib/docker/overlay2/e91aa61fb00ff663da3edd06027d66cd052b8253f7dfc81c85d2cbfb4e7e390e/diff",
+        "MergedDir": "/var/lib/docker/overlay2/40626f8a858381cba2c303d0fb25e7ad2fe34d5520ceb428f19b51d741418ceb/merged",
+        "UpperDir": "/var/lib/docker/overlay2/40626f8a858381cba2c303d0fb25e7ad2fe34d5520ceb428f19b51d741418ceb/diff",
+        "WorkDir": "/var/lib/docker/overlay2/40626f8a858381cba2c303d0fb25e7ad2fe34d5520ceb428f19b51d741418ceb/work"
+      },
+      "Name": "overlay2"
+    },
+    "HostConfig": {
+      "AutoRemove": false,
+      "Binds": null,
+      "BlkioDeviceReadBps": [],
+      "BlkioDeviceReadIOps": [],
+      "BlkioDeviceWriteBps": [],
+      "BlkioDeviceWriteIOps": [],
+      "BlkioWeight": 0,
+      "BlkioWeightDevice": [],
+      "CapAdd": null,
+      "CapDrop": [
+        "ALL"
+      ],
+      "Cgroup": "",
+      "CgroupParent": "",
+      "CgroupnsMode": "private",
+      "ConsoleSize": [
+        0,
+        0
+      ],
+      "ContainerIDFile": "",
+      "CpuCount": 0,
+      "CpuPercent": 0,
+      "CpuPeriod": 0,
+      "CpuQuota": 0,
+      "CpuRealtimePeriod": 0,
+      "CpuRealtimeRuntime": 0,
+      "CpuShares": 0,
+      "CpusetCpus": "",
+      "CpusetMems": "",
+      "DeviceCgroupRules": null,
+      "DeviceRequests": null,
+      "Devices": [],
+      "Dns": [],
+      "DnsOptions": [],
+      "DnsSearch": [],
+      "ExtraHosts": null,
+      "GroupAdd": null,
+      "IOMaximumBandwidth": 0,
+      "IOMaximumIOps": 0,
+      "IpcMode": "private",
+      "Isolation": "",
+      "Links": null,
+      "LogConfig": {
+        "Config": {},
+        "Type": "json-file"
+      },
+      "MaskedPaths": [
+        "/proc/asound",
+        "/proc/acpi",
+        "/proc/interrupts",
+        "/proc/kcore",
+        "/proc/keys",
+        "/proc/latency_stats",
+        "/proc/timer_list",
+        "/proc/timer_stats",
+        "/proc/sched_debug",
+        "/proc/scsi",
+        "/sys/firmware",
+        "/sys/devices/virtual/powercap"
+      ],
+      "Memory": 2000000000,
+      "MemoryReservation": 0,
+      "MemorySwap": 2000000000,
+      "MemorySwappiness": null,
+      "Mounts": [
+        {
+          "ReadOnly": true,
+          "Source": "/tmp/searchmate-package-lxhyxd8t/player",
+          "Target": "/player",
+          "Type": "bind"
+        },
+        {
+          "ReadOnly": true,
+          "Source": "/tmp/searchmate-package-lxhyxd8t/checks",
+          "Target": "/checks",
+          "Type": "bind"
+        }
+      ],
+      "NanoCpus": 1000000000,
+      "NetworkMode": "none",
+      "OomKillDisable": null,
+      "OomScoreAdj": 0,
+      "PidMode": "",
+      "PidsLimit": 128,
+      "PortBindings": {},
+      "Privileged": false,
+      "PublishAllPorts": false,
+      "ReadonlyPaths": [
+        "/proc/bus",
+        "/proc/fs",
+        "/proc/irq",
+        "/proc/sys",
+        "/proc/sysrq-trigger"
+      ],
+      "ReadonlyRootfs": true,
+      "RestartPolicy": {
+        "MaximumRetryCount": 0,
+        "Name": "no"
+      },
+      "Runtime": "runc",
+      "SecurityOpt": [
+        "no-new-privileges"
+      ],
+      "ShmSize": 67108864,
+      "Tmpfs": {
+        "/tmp": "rw,noexec,nosuid,size=256000000,mode=1777"
+      },
+      "UTSMode": "",
+      "Ulimits": [],
+      "UsernsMode": "",
+      "VolumeDriver": "",
+      "VolumesFrom": null
+    },
+    "HostnamePath": "/var/lib/docker/containers/164946bf81d0be181b564a86953cc3a0e4f532550fc6037fd1e7417e31611644/hostname",
+    "HostsPath": "/var/lib/docker/containers/164946bf81d0be181b564a86953cc3a0e4f532550fc6037fd1e7417e31611644/hosts",
+    "Id": "164946bf81d0be181b564a86953cc3a0e4f532550fc6037fd1e7417e31611644",
+    "Image": "sha256:7b15dcc7d1b640a6d6c1f0f2b1f9ebee38b6e2ecd87c0c025acf9a2353889aff",
+    "LogPath": "/var/lib/docker/containers/164946bf81d0be181b564a86953cc3a0e4f532550fc6037fd1e7417e31611644/164946bf81d0be181b564a86953cc3a0e4f532550fc6037fd1e7417e31611644-json.log",
+    "MountLabel": "",
+    "Mounts": [
+      {
+        "Destination": "/player",
+        "Mode": "",
+        "Propagation": "rprivate",
+        "RW": false,
+        "Source": "/tmp/searchmate-package-lxhyxd8t/player",
+        "Type": "bind"
+      },
+      {
+        "Destination": "/checks",
+        "Mode": "",
+        "Propagation": "rprivate",
+        "RW": false,
+        "Source": "/tmp/searchmate-package-lxhyxd8t/checks",
+        "Type": "bind"
+      }
+    ],
+    "Name": "/searchmate-v2-check-a159ed34747b4f17bfa3f1e21b5eff45",
+    "NetworkSettings": {
+      "Bridge": "",
+      "EndpointID": "",
+      "Gateway": "",
+      "GlobalIPv6Address": "",
+      "GlobalIPv6PrefixLen": 0,
+      "HairpinMode": false,
+      "IPAddress": "",
+      "IPPrefixLen": 0,
+      "IPv6Gateway": "",
+      "LinkLocalIPv6Address": "",
+      "LinkLocalIPv6PrefixLen": 0,
+      "MacAddress": "",
+      "Networks": {
+        "none": {
+          "Aliases": null,
+          "DNSNames": null,
+          "DriverOpts": null,
+          "EndpointID": "",
+          "Gateway": "",
+          "GlobalIPv6Address": "",
+          "GlobalIPv6PrefixLen": 0,
+          "GwPriority": 0,
+          "IPAMConfig": null,
+          "IPAddress": "",
+          "IPPrefixLen": 0,
+          "IPv6Gateway": "",
+          "Links": null,
+          "MacAddress": "",
+          "NetworkID": "6218a3107d1c11524b8f759c90af52ab62132f6e9aa4c7f4130208efdf92a314"
+        }
+      },
+      "Ports": {},
+      "SandboxID": "",
+      "SandboxKey": "",
+      "SecondaryIPAddresses": null,
+      "SecondaryIPv6Addresses": null
+    },
+    "Path": "python",
+    "Platform": "linux",
+    "ProcessLabel": "",
+    "ResolvConfPath": "/var/lib/docker/containers/164946bf81d0be181b564a86953cc3a0e4f532550fc6037fd1e7417e31611644/resolv.conf",
+    "RestartCount": 0,
+    "State": {
+      "Dead": false,
+      "Error": "",
+      "ExitCode": 0,
+      "FinishedAt": "2026-09-06T10:53:22.395651829Z",
+      "OOMKilled": false,
+      "Paused": false,
+      "Pid": 0,
+      "Restarting": false,
+      "Running": false,
+      "StartedAt": "2026-09-06T10:52:30.096110084Z",
+      "Status": "exited"
+    }
+  }
+]

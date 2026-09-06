@@ -1,0 +1,20 @@
+{
+  "agent_sha256": "1bec488584769b1d58e9e9d38851d696c5285379e96390b468689131fc8b4cee",
+  "extraction_verified": true,
+  "members": [
+    "agent.py"
+  ],
+  "runtime_imports": [
+    "chess",
+    "time"
+  ],
+  "source_and_tested_snapshot_identical": true,
+  "source_path": "research/releases/v2-01/player/agent.py",
+  "tested_source_path": "research/runs/v2-01/candidate/agent.py",
+  "uncompressed_bytes": 8544,
+  "zip_bytes": 8658,
+  "zip_method": "stored",
+  "zip_sha256": "278d9818bbe5ac82427e5a483e4acbfde9cb98569f49aec74c2c99bac0bd9bde",
+  "zip_timestamp": "1980-01-01T00:00:00",
+  "zip_unix_mode": "100644"
+}

@@ -1,0 +1,35 @@
+{
+  "agent_sha256": "1bec488584769b1d58e9e9d38851d696c5285379e96390b468689131fc8b4cee",
+  "authorization": {
+    "scope": "Prepare exact tested successor package and compatibility evidence; competition upload reserved for user manual action; no result-driven player edits",
+    "user_quote": "In that case, let's prepare v2 for the next upload testing shall we? While concurrently, we assess if v2 avoids this particular mistake if that's possible? What do you think of this plan?"
+  },
+  "candidate": "v2-01",
+  "compatibility_status": "pending checks of extracted package",
+  "created_at": "2026-09-06T10:44:12.688939+00:00",
+  "evaluation_freeze_sha256": "2203352b61c3627140dcaed63ad16eaa90676d72bac5a95f874d3359ef1cda75",
+  "extraction_verified": true,
+  "local_gate": "research/runs/v2-01/outcome.json",
+  "local_gate_decision": "pass",
+  "local_gate_sha256": "8fb41fcd377903ddaa98ae048489245897ed7f79d74bb766452c109ac25c9447",
+  "members": [
+    "agent.py"
+  ],
+  "memory_version": "m0-bootstrap",
+  "platform_acceptance": "pending user manual upload and dashboard validation",
+  "player_source_changed": false,
+  "prior_root_zip_unchanged_sha256": "2fd30951173a967e3394c59df62844e1d5a15514b853458c8c7de0c306fc1c84",
+  "release_id": "v2-01",
+  "root_agent_unchanged_sha256": "ff94c0620c916490a70d429a4f764a46cb30a9a02be3b1ba4147a9621fde1352",
+  "schema_version": 2,
+  "source_commit": null,
+  "source_path": "research/releases/v2-01/player/agent.py",
+  "tested_source_path": "research/runs/v2-01/candidate/agent.py",
+  "uncompressed_bytes": 8544,
+  "zip_bytes": 8658,
+  "zip_method": "stored",
+  "zip_path": "research/releases/v2-01/submission-v2-01.zip",
+  "zip_sha256": "278d9818bbe5ac82427e5a483e4acbfde9cb98569f49aec74c2c99bac0bd9bde",
+  "zip_timestamp": "1980-01-01T00:00:00",
+  "zip_unix_mode": "100644"
+}
