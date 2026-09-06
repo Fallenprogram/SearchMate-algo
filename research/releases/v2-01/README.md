@@ -9,3 +9,5 @@ The local release ZIP is named `submission-v2-01.zip` and contains only `agent.p
 The completed local evaluation passed the prospectively approved v2 gate: 70 wins, 33 draws and 25 losses versus v0 at short clocks, and 21 wins, 10 draws and 1 loss at full clocks. These are local comparisons, not a predicted competition rating. The local research records referenced by release.json are preserved in the original workspace; this branch publishes only the selected source and release checker, not private competition feedback or the evaluation corpus.
 
 The dedicated `v2-01 Linux compatibility` workflow checks the extracted player using 96 fixtures, two fresh-process calls and two full-clock games, and verifies the effective Docker restrictions. Generic repository CI still checks root v0. The compatibility container is an approximation of the platform; dashboard validation after manual upload establishes acceptance.
+
+Release checks subsequently passed. See [STATUS.md](STATUS.md) and [completion.json](completion.json) for the completed result and manual upload instructions.

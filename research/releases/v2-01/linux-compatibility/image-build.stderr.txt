@@ -1,0 +1,79 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 195B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 ...
+
+#3 [auth] library/python:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.7s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:78387bc3881b8273120a12ebe6c1ab22b018ccc2c9adf565ae1ac9b536e184ea
+#5 resolve docker.io/library/python:3.12-slim@sha256:78387bc3881b8273120a12ebe6c1ab22b018ccc2c9adf565ae1ac9b536e184ea done
+#5 sha256:78387bc3881b8273120a12ebe6c1ab22b018ccc2c9adf565ae1ac9b536e184ea 10.37kB / 10.37kB done
+#5 sha256:2fe5997d249a808b8eeea52c58a1dbffbba28754dc11699ef5c029f2d818ce79 1.75kB / 1.75kB done
+#5 sha256:ec7d6c95cd3692a2e2d228a8b1ca74e4025b54121fcc4c5da6f09cfa473315ad 5.66kB / 5.66kB done
+#5 sha256:6310eb16bf4251731feab01e8f633bf5e2d75a657ccad97f420b1f83cce457be 0B / 29.79MB 0.1s
+#5 sha256:dbd0b7849e6c06b61e1fa6b7ffe053f246ce0075890620e3db64b47bb662433a 0B / 4.27MB 0.1s
+#5 sha256:1560cfed01dc4c72c07f789d860078d74466a1f9a26b33a2e35d887b5f90dd3f 0B / 12.12MB 0.1s
+#5 sha256:6310eb16bf4251731feab01e8f633bf5e2d75a657ccad97f420b1f83cce457be 29.79MB / 29.79MB 0.3s
+#5 sha256:dbd0b7849e6c06b61e1fa6b7ffe053f246ce0075890620e3db64b47bb662433a 4.27MB / 4.27MB 0.3s
+#5 sha256:1560cfed01dc4c72c07f789d860078d74466a1f9a26b33a2e35d887b5f90dd3f 6.29MB / 12.12MB 0.3s
+#5 sha256:1560cfed01dc4c72c07f789d860078d74466a1f9a26b33a2e35d887b5f90dd3f 12.12MB / 12.12MB 0.4s
+#5 sha256:6310eb16bf4251731feab01e8f633bf5e2d75a657ccad97f420b1f83cce457be 29.79MB / 29.79MB 0.5s done
+#5 sha256:dbd0b7849e6c06b61e1fa6b7ffe053f246ce0075890620e3db64b47bb662433a 4.27MB / 4.27MB 0.5s done
+#5 sha256:1560cfed01dc4c72c07f789d860078d74466a1f9a26b33a2e35d887b5f90dd3f 12.12MB / 12.12MB 0.5s done
+#5 sha256:56235e4245636e401a28cf88944d543b29ee028ae3b6c27e03d6b43e7b4eac5f 0B / 249B 0.5s
+#5 extracting sha256:6310eb16bf4251731feab01e8f633bf5e2d75a657ccad97f420b1f83cce457be
+#5 sha256:56235e4245636e401a28cf88944d543b29ee028ae3b6c27e03d6b43e7b4eac5f 249B / 249B 0.6s done
+#5 extracting sha256:6310eb16bf4251731feab01e8f633bf5e2d75a657ccad97f420b1f83cce457be 0.7s done
+#5 extracting sha256:dbd0b7849e6c06b61e1fa6b7ffe053f246ce0075890620e3db64b47bb662433a 0.1s
+#5 extracting sha256:dbd0b7849e6c06b61e1fa6b7ffe053f246ce0075890620e3db64b47bb662433a 0.1s done
+#5 extracting sha256:1560cfed01dc4c72c07f789d860078d74466a1f9a26b33a2e35d887b5f90dd3f
+#5 extracting sha256:1560cfed01dc4c72c07f789d860078d74466a1f9a26b33a2e35d887b5f90dd3f 0.4s done
+#5 extracting sha256:56235e4245636e401a28cf88944d543b29ee028ae3b6c27e03d6b43e7b4eac5f
+#5 extracting sha256:56235e4245636e401a28cf88944d543b29ee028ae3b6c27e03d6b43e7b4eac5f done
+#5 DONE 3.2s
+
+#6 [2/3] RUN python -m pip install --no-cache-dir chess==1.11.2
+#6 1.279 Collecting chess==1.11.2
+#6 1.334   Downloading chess-1.11.2.tar.gz (6.1 MB)
+#6 1.481      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 56.5 MB/s eta 0:00:00
+#6 1.608   Installing build dependencies: started
+#6 2.539   Installing build dependencies: finished with status 'done'
+#6 2.540   Getting requirements to build wheel: started
+#6 2.742   Getting requirements to build wheel: finished with status 'done'
+#6 2.743   Preparing metadata (pyproject.toml): started
+#6 2.912   Preparing metadata (pyproject.toml): finished with status 'done'
+#6 2.914 Building wheels for collected packages: chess
+#6 2.915   Building wheel for chess (pyproject.toml): started
+#6 3.116   Building wheel for chess (pyproject.toml): finished with status 'done'
+#6 3.117   Created wheel for chess: filename=chess-1.11.2-py3-none-any.whl size=147879 sha256=ffaa240a341b0bb264cebb101f6a8b7c9ddd360d1df4acfaff659f46b0f901b0
+#6 3.118   Stored in directory: /tmp/pip-ephem-wheel-cache-jr9hco1u/wheels/83/1f/4e/8f4300f7dd554eb8de70ddfed96e94d3d030ace10c5b53d447
+#6 3.120 Successfully built chess
+#6 3.123 Installing collected packages: chess
+#6 3.215 Successfully installed chess-1.11.2
+#6 3.216 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#6 3.305 
+#6 3.305 [notice] A new release of pip is available: 25.0.1 -> 26.2.1
+#6 3.305 [notice] To update, run: pip install --upgrade pip
+#6 DONE 3.5s
+
+#7 [3/3] WORKDIR /tmp
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.5s done
+#8 writing image sha256:7b15dcc7d1b640a6d6c1f0f2b1f9ebee38b6e2ecd87c0c025acf9a2353889aff done
+#8 naming to docker.io/library/searchmate-v2-check-a159ed34747b4f17bfa3f1e21b5eff45:local done
+#8 DONE 0.5s
