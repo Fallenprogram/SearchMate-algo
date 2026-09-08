@@ -1,96 +1,77 @@
 # SearchMate
 
-SearchMate is a Recuris-inspired chess research project built on the AI Chessathon
-starter. The first milestone is an original, readable classical player and an
-honest local baseline. Candidate promotion, packaging, and upload are separate
-human decisions.
+SearchMate is an original CPU chess engine and a Recuris-inspired research project
+for [AI Chessathon](https://aichessathon.com/). The active submission is
+**competition v3, internal v7-01**, submitted on 7 September 2026. The authenticated
+dashboard was checked on 8 September: its displayed archive hash prefix matches
+the delivered ZIP, and its validation log ends valid.
 
-**v0 local verification passed:** 120 campaign games, 108 wins, 10 draws, 2 losses,
-and zero runtime failures. Read the [baseline report](research/runs/v0-01/REPORT.md)
-and [automatic gate result](research/runs/v0-01/gate.json). The exact tested player
-is now frozen as the [v0 champion](research/champions/v0/approval.json) under the
-user's release-sequence authorization. Its single-file ZIP passed the restricted
-Linux container checks and is prepared for manual upload. Nothing has been
-uploaded to the competition.
+The [current release](research/releases/competition-v3-internal-v7-01/README.md)
+preserves the exact source, delivered ZIP and SHA-256 identities. **Root `agent.py`
+and root packaging commands still refer to historical v0.** Use the named release
+archive when identifying the competition entry.
 
-Release preparation is tracked in [the release notes](research/RELEASE_V0.md) and
-[current release status](research/releases/v0/STATUS.md). GitHub's Linux, Windows, and
-macOS checks passed for the implementation commit. See
-[competition feedback](research/COMPETITION_FEEDBACK.md) for what to bring back
-after validation and rated games.
+## Current player
 
-## Player
+The [competition v3 source](research/releases/competition-v3-internal-v7-01/player/agent.py)
+exposes `get_move(fen: str, time_left_ms: int) -> str`, returning a UCI move.
+It uses an original numeric 0x88 board, reversible make/unmake, legal generation,
+iterative deepening, principal variation search, quiescence and a bounded score
+transposition table. Numba compiles the numeric core on the CPU. The evaluation
+and time-allocation formulas retain released v2's behavior. The readable Python
+source uses NumPy, Numba and python-chess, with no external engine port, neural
+network or runtime network service.
 
-`agent.py` is the entire intended player artifact. It exposes:
+The frozen local screen against v2 passed: **18 wins, 4 draws and 2 losses in
+24 short games; 3 wins and 1 draw in four full-clock games**, with no observed
+player faults or retries. This is a finite comparison, not an Elo estimate or
+competition-rank forecast. The release notes distinguish local Windows checks,
+the inherited draw policy, variable cold startup and platform acceptance.
 
-```python
-def get_move(fen: str, time_left_ms: int) -> str:
-    ...  # a legal UCI move
-```
+The first seven newly archived rated games, rounds 54-60, confirm **4 wins and
+3 losses**, all ending by checkmate. Their
+[game-by-game review](research/releases/competition-v3-internal-v7-01/rated-games-54-60.md)
+records legal continuations, clocks and the limits of build attribution. This
+small rated sample is separate from the local comparison above.
 
-v0 uses python-chess, iterative-deepening negamax with alpha-beta pruning, material
-and modest positional evaluation, and deterministic basic move ordering. It keeps
-a legal fallback and retains the last completed search result when its deadline
-expires. At 50 ms or less it immediately returns a legal fallback; otherwise its
-search allowance is capped at 1.5 seconds and a conservative share of the clock.
+## Versions and research
 
-This is intentionally a small baseline. It has no neural model, opening book,
-tablebase, quiescence search, transposition table, or external game-time service.
-A FEN cannot restore earlier repetition history; v0 recognizes repetition only
-within its reconstructed search history. Fixed-depth behavior is deterministic;
-wall-time stopping can produce different depths on different machines.
+| Competition submission | Internal source | Status |
+|---|---|---|
+| v1 | v0 | Historical baseline; root player preserved |
+| v2 | v2-01 | Previous release and rollback; identical source to internal v1-01 |
+| v3 | v7-01 | Dashboard ACTIVE; archive hash prefix matches the exact preserved ZIP |
 
-## Development and evidence
+Historical internal v3 was a rejected passed-pawn experiment, separate from the
+current competition v3. The [research progress record](research/PROGRESS_2026-09-08.md)
+explains every internal outcome through v9 and the limits of the evidence.
 
-The approved environment is the locked `.venv` on Windows. No dependency changes
-are needed. The official `harness/` remains unchanged. Research tooling invokes
-its wire runner and referee, preserving the original clock and game rules.
+The Researcher operates outside games: collect evidence, define a bounded
+hypothesis, freeze the candidate and checks, evaluate it, and preserve outcomes
+and limitations. The Player does not learn from rated games by itself. This
+adapts ideas from [Recuris](https://github.com/Gen-Verse/Recuris); it is not a
+replication or a measured demonstration that evolving research memory improves
+chess strength. The causal memory-control study remains deferred.
 
-Start with [research/README.md](research/README.md), the approved
-[protocol](research/RESEARCH_PROTOCOL.md), and the fixed
-[v0 completion criteria](research/GATE_SPEC.md). Current state is in
-[Working Memory](research/WORKING_MEMORY.md). Source provenance and the recorded
-researcher configuration are in [the assistance log](research/ASSISTANCE_LOG.md).
+## Evidence and maintenance
 
-The v0 campaign contains 120 sequential games over 32 frozen development
-positions. Results, PGNs, per-move timings, source hashes, and attempts are saved
-under `research/runs/`. The first eight games calibrate runtime and count toward
-the same campaign. Resuming preserves completed results and rejects changed
-candidate, opponent, harness, checker, protocol, or schedule inputs.
+[research/README.md](research/README.md) is the public evidence index. Completed
+reports retain their original dated status; current release/progress records
+supersede earlier pending-upload descriptions. Private runtime logs, withheld
+inputs, reference engines and the bulk corpus are outside this publication and
+submission ZIP. Selected evidence identities are published for traceability.
 
-Example commands from the repository root, using a **new** run directory only
-when starting a new campaign:
-
-```powershell
-.venv/Scripts/python.exe -m research.runner prepare --run-dir research/runs/v0-01
-.venv/Scripts/python.exe -m research.runner run --run-dir research/runs/v0-01 --max-games 8
-.venv/Scripts/python.exe -m research.runner run --run-dir research/runs/v0-01
-.venv/Scripts/python.exe -m research.runner summary --run-dir research/runs/v0-01
-```
-
-The fixed suite has no minimum win rate. Local completion requires all designated
-checks and games, zero candidate runtime failures, and resolved infrastructure
-issues. Testing may exceed three hours, as authorized. Quality commands and the
-deterministic completion decision are stored with the validation evidence.
-
-## Status and approval boundary
-
-The user authorized the v0 release sequence after reviewing local results.
-Promotion and package provenance are recorded separately from the original
-candidate-only campaign. Restricted container checks passed; actual platform
-acceptance still requires dashboard validation after manual upload. No v1
-optimization begins before its numeric admission gate receives approval.
-
-The proposed package contains only `agent.py`; the research records, reference
-opponents, and harness stay outside it. The user will upload the approved ZIP
-manually; no automation submits it. Re-read the live
+The supplied `harness/` and root v0 remain unchanged. Generic repository CI
+exercises that root baseline, not the current release. This update preserves
+existing results and checks source/archive integrity without starting a new
+engine campaign or uploading a player. Consult the current
 [competition documentation](https://aichessathon.com/docs) and
-[rules](https://aichessathon.com/terms) before later submission work.
+[rules](https://aichessathon.com/terms) before future release work.
 
 ## Starter provenance
 
-This fork retains the supplied baselines and unchanged harness from
+This fork retains supplied baselines and the harness from
 [advitrocks9/aichessathon-starter](https://github.com/advitrocks9/aichessathon-starter).
-Its original license is in [LICENSE](LICENSE). The player implementation and
-research tooling were created for SearchMate; assistance is disclosed in the
-research records.
+The original license is in [LICENSE](LICENSE). SearchMate's player implementation
+and research tooling were created with Codex assistance; research records separate
+implementation, observations and unresolved causal explanations.

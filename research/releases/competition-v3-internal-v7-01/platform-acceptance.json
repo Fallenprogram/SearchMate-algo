@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-09-08",
+  "source_url": "https://aichessathon.com/dashboard",
+  "surface": "authenticated dashboard and visible validation-log data URI",
+  "competition_label": "v3",
+  "dashboard_status": "ACTIVE",
+  "internal_candidate_association": "v7-01",
+  "displayed_archive_sha256_prefix": "0053272feb11",
+  "local_archive_sha256": "0053272feb11a4a6f1595a10baa8591bd33d524ac15f01790be87e61c3ee2a7d",
+  "archive_prefix_matches": true,
+  "remote_full_archive_sha256_observed": false,
+  "displayed_submitted_time": "7 Sept 2026, 15:29",
+  "displayed_time_zone_independently_recorded": false,
+  "exact_upload_utc": null,
+  "user_reported_boundary": "after rated round 53 had started",
+  "validation": {
+    "terminal_status": "valid",
+    "terminal_utc_clock_time": "14:32:02Z",
+    "uncompressed_bytes": 37624,
+    "smoke_initialization_seconds": [
+      20.8,
+      26.1
+    ],
+    "smoke_slowest_reply_seconds": [
+      1.5,
+      1.5
+    ],
+    "private_log_sha256": "e5d699adec2a45abe47b2eeb058c3449c872418156fcbff12ef43349a112d3a5",
+    "private_log_hash_status": "bound to exact preserved visible export",
+    "private_log_bytes": 1427,
+    "white_smoke_initialization_seconds": 20.8,
+    "black_smoke_initialization_seconds": 26.1,
+    "white_smoke_slowest_reply_seconds": 1.5,
+    "black_smoke_slowest_reply_seconds": 1.5
+  },
+  "per_game_source_hash_available": false,
+  "raw_validation_log_published": false,
+  "automatic_upload": false,
+  "limitations": [
+    "matching displayed hash prefix is narrower than a full remote archive digest",
+    "validation smoke observations do not bound every future game or startup",
+    "exact upload UTC and per-game source identity remain unavailable"
+  ],
+  "observed_at_utc": "2026-09-08T03:14:33Z",
+  "source_observation_sha256": "062725aaa57664c62d07c81811372f218897eee12f63290f35919976d6324171"
+}

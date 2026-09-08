@@ -1,5 +1,34 @@
 # SearchMate research records
 
+## Current index: 8 September 2026
+
+The dashboard-confirmed active entry is **competition v3, internal v7-01**. Use its
+[release source and exact delivered ZIP](releases/competition-v3-internal-v7-01/README.md),
+not root `agent.py` or root packaging commands, which preserve historical v0.
+
+- [Progress and complete version mapping](PROGRESS_2026-09-08.md): curated outcomes
+  through v9, evidence limits, rated-game continuity and the Recuris approach.
+- [Release identity](releases/competition-v3-internal-v7-01/release.json): source,
+  archive, observed active status, reported submission boundary and rollback hashes.
+- [Platform acceptance observation](releases/competition-v3-internal-v7-01/platform-acceptance.json):
+  matching dashboard hash prefix and sanitized validation facts; private log retained locally.
+- [Rated rounds 54-60](releases/competition-v3-internal-v7-01/rated-games-54-60.md):
+  four wins, three losses, legal replay and public game links; the
+  [machine-readable record](releases/competition-v3-internal-v7-01/rated-games-54-60.json)
+  preserves individual PGN hashes and attributed platform estimates.
+- [Selected evidence and decision provenance](releases/competition-v3-internal-v7-01/evidence-summary.json):
+  original local report/ledger identities without private logs or withheld inputs.
+- [Previous released v2](releases/v2-01/STATUS.md) and
+  [historical v0](releases/v0/STATUS.md): preserved dated release evidence.
+
+The working memory, ledger and protocols below retain their original published
+history. Their old active/pending statuses are superseded by the current release
+and progress records; they are not instructions to resume a completed experiment.
+The complete ongoing local corpus is not published. Recuris remains inspiration
+for the external research process; a causal memory benefit has not been measured.
+
+## Historical v0 documentation, preserved
+
 This directory records the approved v0 implementation and local evaluation. The
 player is the repository's `agent.py`. Research code and evidence stay outside
 `harness/`; the official harness must remain unchanged.

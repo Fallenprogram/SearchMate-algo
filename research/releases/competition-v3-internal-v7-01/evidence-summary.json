@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "publication_date": "2026-09-08",
+  "scope": "curated factual summary of existing local evidence; not a complete public reproduction bundle",
+  "new_engine_calls": 0,
+  "original_local_ledger_snapshot_sha256": "575cbd955cd13ab187f055310c3f5786c7d00e7c0095424c62ee05aa53d04853",
+  "studies": [
+    {
+      "study": "v0",
+      "decision_summary": "historical baseline",
+      "original_report_location": "research/runs/v0-01/REPORT.md",
+      "report_available_in_this_publication": true,
+      "original_report_sha256": "237d1aaa99a33e7c9967ca0054dc33e7bc794ae40829fa9bf5fbc12a59e55a9d",
+      "local_ledger_record_id": "setup-v0-001-complete",
+      "local_ledger_line_number": 3,
+      "local_ledger_exact_line_sha256": "739ed28e04d5683cf60e261ba6589d00f8da014f9a927cfef56ab2bc1948d5b1"
+    },
+    {
+      "study": "v1-01",
+      "decision_summary": "diagnostic admission failed; no formal games",
+      "original_report_location": "research/runs/v1-01/REPORT.md",
+      "report_available_in_this_publication": false,
+      "original_report_sha256": "b955b367b529d587830f42ae7e45fb2bab5d108e36c961a553fa9f018eb3ce09",
+      "local_ledger_record_id": null,
+      "local_ledger_line_number": 9,
+      "local_ledger_exact_line_sha256": "5875cb2faf6794ed24e24c2d1d14b026f9bf01906ec45719ebb36f948d307451"
+    },
+    {
+      "study": "v2-01",
+      "decision_summary": "passed later approved gate",
+      "original_report_location": "research/runs/v2-01/REPORT.md",
+      "report_available_in_this_publication": false,
+      "original_report_sha256": "2af2eefcc280e4865a4106a97334001052a39442b37bb1708122092753925abc",
+      "local_ledger_record_id": "v2-autonomous-batch-complete-001",
+      "local_ledger_line_number": 10,
+      "local_ledger_exact_line_sha256": "327f4db986d4c70a093393fef2253a1a969313ce811ee782b9317790609e1c8b"
+    },
+    {
+      "study": "v3-01",
+      "decision_summary": "failed short strength gate",
+      "original_report_location": "research/next_cycle_v3/REPORT.md",
+      "report_available_in_this_publication": false,
+      "original_report_sha256": "d866ae072e083002abe782f56a55ba8ede52c0b7514d95a8c03bbd9a0265ef85",
+      "local_ledger_record_id": "v3-01-closed-short-strength-failure-001",
+      "local_ledger_line_number": 17,
+      "local_ledger_exact_line_sha256": "a647aca606ccac12aee4025eeff646fd3d8303c8de9bbf3c598510e8cd200c78"
+    },
+    {
+      "study": "v2-diagnosis-01",
+      "decision_summary": "inconclusive",
+      "original_report_location": "research/platform-feedback/local/v2-diagnosis-01/REPORT.md",
+      "report_available_in_this_publication": false,
+      "original_report_sha256": "575a4d4408d2672a7682cfe51c2b73492cbe0f7b4f561e52ec5ecc2647c70a4f",
+      "local_ledger_record_id": "v2-diagnosis-01-complete",
+      "local_ledger_line_number": 23,
+      "local_ledger_exact_line_sha256": "fbce6bf5e200e89c7da971e143a7bcfe24043f24efd4e58233b6a04674bc3377"
+    },
+    {
+      "study": "v4-01",
+      "decision_summary": "failed short strength gate",
+      "original_report_location": "research/platform-feedback/local/v2-overnight-01/REPORT.md",
+      "report_available_in_this_publication": false,
+      "original_report_sha256": "194b975ab5f5381ccdf6a1077e2d3c39a33f00058cc8c32d20fe1415cd130e79",
+      "local_ledger_record_id": "v2-overnight-01-complete",
+      "local_ledger_line_number": 28,
+      "local_ledger_exact_line_sha256": "5e74c1e16356c1282a33581aee3bce84ad0a00006e5ba226789448984d773568"
+    },
+    {
+      "study": "v5-01-efficiency",
+      "decision_summary": "rejected at efficiency gate",
+      "original_report_location": "research/platform-feedback/local/v2-search-upgrade-01/REPORT.md",
+      "report_available_in_this_publication": false,
+      "original_report_sha256": "80181eef333063377e64bebb6750dfaee0f5a39d41f842dd9f348212ee157657",
+      "local_ledger_record_id": "v2-search-upgrade-01-close",
+      "local_ledger_line_number": 30,
+      "local_ledger_exact_line_sha256": "27e9145bef7fdd40d16b8706f8e733035381361b3814459911ceafb6c05e778d"
+    },
+    {
+      "study": "v5-strength-review-01",
+      "decision_summary": "user-stopped incomplete sample",
+      "original_report_location": "research/platform-feedback/local/v5-strength-review-01/REPORT.md",
+      "report_available_in_this_publication": false,
+      "original_report_sha256": "29c8207e877dc8640335f068a483bf0699a362bff8cce8e80973f96734b55883",
+      "local_ledger_record_id": "v5-strength-review-01-close",
+      "local_ledger_line_number": 32,
+      "local_ledger_exact_line_sha256": "8b0a8fec1c39518d80f6d81a12f9212b4b4c577c6010b8ee892997ac0e7bd768"
+    },
+    {
+      "study": "v6-01",
+      "decision_summary": "infrastructure-incomplete before games",
+      "original_report_location": "research/platform-feedback/local/v6-pvs-01/REPORT.md",
+      "report_available_in_this_publication": false,
+      "original_report_sha256": "1083ec4a3fd32bf9b3b8eb4ad853acc2059b524e08652d5474cf029636a980c4",
+      "local_ledger_record_id": "v6-pvs-01-close",
+      "local_ledger_line_number": 34,
+      "local_ledger_exact_line_sha256": "999f9031859476cae9bbd059deee5b1e97095719c425ca49c97969985d27a8cf"
+    },
+    {
+      "study": "v7-01",
+      "decision_summary": "qualified for manual submission; subsequently user-reported submitted",
+      "original_report_location": "research/platform-feedback/local/v7-cpu-01/REPORT.md",
+      "report_available_in_this_publication": false,
+      "original_report_sha256": "d9aecf9032681e04002ddd0cf97d9172cf3a7d88dde1ab095a05037e9a32c060",
+      "local_ledger_record_id": "v7-cpu-01-close",
+      "local_ledger_line_number": 36,
+      "local_ledger_exact_line_sha256": "ca24f6b71fafac9fc76c60bd374308982c1cf62a99c7e2315a58529ebb123124"
+    },
+    {
+      "study": "v8-budget-01",
+      "decision_summary": "time-budget criterion not supported",
+      "original_report_location": "research/platform-feedback/local/v8-budget-01/REPORT.md",
+      "report_available_in_this_publication": false,
+      "original_report_sha256": "0458030eeed0b781f62558b0681ce6291c7603bd94d1a2b50431c1325ad17ceb",
+      "local_ledger_record_id": "v8-budget-01-close",
+      "local_ledger_line_number": 38,
+      "local_ledger_exact_line_sha256": "a455f62e75f66cad4ecfeca80f81fe1b4c498bd4ab344ca663a6f646cf0f2bb6"
+    },
+    {
+      "study": "v9-ttmove-01",
+      "decision_summary": "package_screen_failed; strength untested",
+      "original_report_location": "research/platform-feedback/local/v9-ttmove-01/REPORT.md",
+      "report_available_in_this_publication": false,
+      "original_report_sha256": "ef5faff5bd6e4823c9a63fdbb14a769c985efb035ecf342d6c0743b970895846",
+      "local_ledger_record_id": "v9-ttmove-01-outcome",
+      "local_ledger_line_number": 41,
+      "local_ledger_exact_line_sha256": "1dcfa47e4abec8f1837358ee77111ce05d674a892dc247d704617b30b3464daf"
+    }
+  ],
+  "v7_source_sha256": "768f9112d2740a8a6704f41c5f59e5b7cc7a401fb893f72c904a5fb585848e33",
+  "v7_zip_sha256": "0053272feb11a4a6f1595a10baa8591bd33d524ac15f01790be87e61c3ee2a7d",
+  "memory": {
+    "version": "m0-bootstrap",
+    "accepted_experiential_lesson_patches": 0,
+    "causal_control_executed": false
+  },
+  "private_logs_and_withheld_inputs_published": false
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-09-08",
+  "release_id": "competition-v3-internal-v7-01",
+  "competition_label": "v3",
+  "internal_candidate": "v7-01",
+  "status": "platform_active_hash_prefix_confirmed",
+  "agent_path": "player/agent.py",
+  "agent_sha256": "768f9112d2740a8a6704f41c5f59e5b7cc7a401fb893f72c904a5fb585848e33",
+  "zip_path": "SearchMate-competition-v3-internal-v7-01.zip",
+  "zip_sha256": "0053272feb11a4a6f1595a10baa8591bd33d524ac15f01790be87e61c3ee2a7d",
+  "zip_bytes": 8698,
+  "uncompressed_bytes": 37624,
+  "members": [
+    "agent.py"
+  ],
+  "artifact_action": "byte-identical copy of previously delivered source and ZIP; no rebuild or player edit",
+  "submission": {
+    "reported_date": "2026-09-07",
+    "reported_boundary": "after rated round 53 had started",
+    "exact_upload_time": null,
+    "platform_validation_independently_verified": true,
+    "per_game_source_hash_available": false,
+    "verification_scope": "authenticated dashboard ACTIVE v3, matching displayed archive SHA prefix and valid exported validation log; full remote digest and per-game source hashes unavailable",
+    "dashboard_displayed_submit_time": "7 Sept 2026, 15:29",
+    "dashboard_submit_timezone": null,
+    "displayed_zip_sha256_prefix": "0053272feb11",
+    "acceptance_receipt": "platform-acceptance.json",
+    "dashboard_observed_at_utc": "2026-09-08T03:14:33Z"
+  },
+  "qualification": {
+    "comparison": "released v2-01",
+    "short": {
+      "clock": "10s+0.1s",
+      "games": 24,
+      "wins": 18,
+      "draws": 4,
+      "losses": 2,
+      "points": 20,
+      "required": 18
+    },
+    "full": {
+      "clock": "120s+0.5s",
+      "games": 4,
+      "wins": 3,
+      "draws": 1,
+      "losses": 0,
+      "points": 3.5,
+      "required": 2.5
+    },
+    "faults": 0,
+    "retries": 0,
+    "limitations": [
+      "finite local screen, not an Elo estimate",
+      "historical prospective repetition-claim policy",
+      "local Windows validation; variable cold startup",
+      "combined intervention without component ablation"
+    ]
+  },
+  "rollback": {
+    "release_id": "v2-01",
+    "agent_path": "../v2-01/player/agent.py",
+    "agent_sha256": "1bec488584769b1d58e9e9d38851d696c5285379e96390b468689131fc8b4cee",
+    "retained_local_zip_name": "submission-v2-01.zip",
+    "zip_sha256": "278d9818bbe5ac82427e5a483e4acbfde9cb98569f49aec74c2c99bac0bd9bde"
+  },
+  "root_agent_identity": "historical v0; unchanged",
+  "root_agent_sha256": "ff94c0620c916490a70d429a4f764a46cb30a9a02be3b1ba4147a9621fde1352",
+  "memory_version": "m0-bootstrap",
+  "measured_memory_evolution_benefit": false,
+  "new_engine_calls_for_publication": 0,
+  "automatic_competition_upload": false,
+  "evidence": "evidence-summary.json"
+}
