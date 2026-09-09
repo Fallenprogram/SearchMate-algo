@@ -1,77 +1,83 @@
 # SearchMate
 
 SearchMate is an original CPU chess engine and a Recuris-inspired research project
-for [AI Chessathon](https://aichessathon.com/). The active submission is
-**competition v3, internal v7-01**, submitted on 7 September 2026. The authenticated
-dashboard was checked on 8 September: its displayed archive hash prefix matches
-the delivered ZIP, and its validation log ends valid.
+for [AI Chessathon](https://aichessathon.com/).
 
-The [current release](research/releases/competition-v3-internal-v7-01/README.md)
-preserves the exact source, delivered ZIP and SHA-256 identities. **Root `agent.py`
-and root packaging commands still refer to historical v0.** Use the named release
-archive when identifying the competition entry.
+**Latest prepared release: internal v14-01, intended competition v4.** It repairs
+the exact queen-versus-king conversion failure observed in rated round 64.
+The [release page](research/releases/competition-v4-internal-v14-01/README.md)
+contains the unchanged qualified source, exact ZIP, tablebase data, attribution
+and validation summary. Qualification is for this targeted repair; a large
+overall strength improvement has not been demonstrated.
 
-## Current player
+**Last confirmed competition entry: competition v3/internal v7-01.** The user
+confirmed that all supplied rounds 65–75 used v7 and preceded any v14 upload.
+Current v14 platform acceptance remains unconfirmed.
+Use [current state](research/CURRENT_STATE.md) for the submission boundary.
 
-The [competition v3 source](research/releases/competition-v3-internal-v7-01/player/agent.py)
-exposes `get_move(fen: str, time_left_ms: int) -> str`, returning a UCI move.
-It uses an original numeric 0x88 board, reversible make/unmake, legal generation,
-iterative deepening, principal variation search, quiescence and a bounded score
-transposition table. Numba compiles the numeric core on the CPU. The evaluation
-and time-allocation formulas retain released v2's behavior. The readable Python
-source uses NumPy, Numba and python-chess, with no external engine port, neural
-network or runtime network service.
+Root `agent.py` and root packaging commands preserve historical v0. Use the
+named release ZIP for a submission; do not recreate it with root `make zip`.
 
-The frozen local screen against v2 passed: **18 wins, 4 draws and 2 losses in
-24 short games; 3 wins and 1 draw in four full-clock games**, with no observed
-player faults or retries. This is a finite comparison, not an Elo estimate or
-competition-rank forecast. The release notes distinguish local Windows checks,
-the inherited draw policy, variable cold startup and platform acceptance.
+## Player and release identities
 
-The first seven newly archived rated games, rounds 54-60, confirm **4 wins and
-3 losses**, all ending by checkmate. Their
-[game-by-game review](research/releases/competition-v3-internal-v7-01/rated-games-54-60.md)
-records legal continuations, clocks and the limits of build attribution. This
-small rated sample is separate from the local comparison above.
+The public API stays `get_move(fen: str, time_left_ms: int) -> str`.
+V7 uses an original numeric 0x88 board, reversible make/unmake, legal generation,
+iterative deepening, PVS, quiescence and a bounded score transposition table.
+Numba compiles its numeric core on the CPU. V14 adds a root selector for exactly
+two kings and one queen, using the packaged Syzygy WDL/DTZ data through
+python-chess. It retains v7's ordinary search, evaluation and clock policy,
+including the documented fallback conditions. There is no runtime network call.
 
-## Versions and research
-
-| Competition submission | Internal source | Status |
+| Competition label | Internal source | Recorded status |
 |---|---|---|
-| v1 | v0 | Historical baseline; root player preserved |
-| v2 | v2-01 | Previous release and rollback; identical source to internal v1-01 |
-| v3 | v7-01 | Dashboard ACTIVE; archive hash prefix matches the exact preserved ZIP |
+| v1 | v0 | Historical baseline; root source preserved |
+| v2 | v2-01 | Historical release |
+| v3 | v7-01 | Last confirmed accepted submission; supplied games through 75 |
+| v4 (intended) | v14-01 | Targeted KQK qualification passed; acceptance unconfirmed |
 
-Historical internal v3 was a rejected passed-pawn experiment, separate from the
-current competition v3. The [research progress record](research/PROGRESS_2026-09-08.md)
-explains every internal outcome through v9 and the limits of the evidence.
+V14's exact ZIP SHA-256 is
+`466bebe215e1d93b2b97d41fec4d35f9f097eed00ac51ad44f7c5958db8591b8`.
+The [v7 release](research/releases/competition-v3-internal-v7-01/README.md)
+remains the preserved rollback. Historical internal v3 is a different experiment
+from competition v3.
 
-The Researcher operates outside games: collect evidence, define a bounded
-hypothesis, freeze the candidate and checks, evaluate it, and preserve outcomes
-and limitations. The Player does not learn from rated games by itself. This
-adapts ideas from [Recuris](https://github.com/Gen-Verse/Recuris); it is not a
-replication or a measured demonstration that evolving research memory improves
-chess strength. The causal memory-control study remains deferred.
+## Rated games and measured evidence
 
-## Evidence and maintenance
+The [rated-results record](research/rated-results/README.md) covers supplied
+rounds **26–75**, with source identities, version-attribution limits and the
+round-30 void/draw discrepancy retained.
 
-[research/README.md](research/README.md) is the public evidence index. Completed
-reports retain their original dated status; current release/progress records
-supersede earlier pending-upload descriptions. Private runtime logs, withheld
-inputs, reference engines and the bulk corpus are outside this publication and
-submission ZIP. Selected evidence identities are published for traceability.
+| Supplied v7 rounds | Wins | Draws | Losses | Points |
+|---|---:|---:|---:|---:|
+| 54–64 | 5 | 3 | 3 | 6.5/11 |
+| 65–75 | 4 | 3 | 4 | 5.5/11 |
+| 54–75 combined | 9 | 6 | 7 | 12/22 |
 
-The supplied `harness/` and root v0 remain unchanged. Generic repository CI
-exercises that root baseline, not the current release. This update preserves
-existing results and checks source/archive integrity without starting a new
-engine campaign or uploading a player. Consult the current
-[competition documentation](https://aichessathon.com/docs) and
-[rules](https://aichessathon.com/terms) before future release work.
+The newest batch has 1,073 legal plies and 537 matching SearchMate runtime rows.
+No recorded position in rounds 65–75 is exact KQK. R71's king attack is a useful
+next diagnostic case; the saved line does not prove a particular correction.
+These ladder results and v14's two clean drawn smoke games are not Elo estimates.
+The [9 September progress note](research/PROGRESS_2026-09-09.md) explains the
+repair coverage, remaining weaknesses and evidence limits.
 
-## Starter provenance
+## Research process and provenance
 
-This fork retains supplied baselines and the harness from
+The researcher collects evidence, defines a bounded question, freezes a candidate
+and checks, evaluates it, and preserves failures and uncertainty. The player does
+not learn automatically from rated games. The process is inspired by
+[Recuris](https://github.com/Gen-Verse/Recuris); its causal memory benefit remains
+unmeasured. See the [research index](research/README.md) and
+[current research state](research/CURRENT_STATE.md).
+
+Private runtime logs, withheld inputs, reference engines and the bulk corpus
+remain local. The publication contains selected summaries and hashes. Earlier
+dated reports retain their original statuses. The supplied `harness/` is
+unchanged, and generic repository CI exercises root v0, not v14. This update
+publishes the completed evidence without running a new engine campaign or
+uploading to the competition.
+
+The starter comes from
 [advitrocks9/aichessathon-starter](https://github.com/advitrocks9/aichessathon-starter).
-The original license is in [LICENSE](LICENSE). SearchMate's player implementation
-and research tooling were created with Codex assistance; research records separate
-implementation, observations and unresolved causal explanations.
+Its license is in [LICENSE](LICENSE). The v14 release includes separate
+attribution for generated Syzygy tablebase data. SearchMate's original player
+and research tooling were developed with Codex assistance.

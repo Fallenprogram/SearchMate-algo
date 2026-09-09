@@ -1,31 +1,31 @@
 # SearchMate research records
 
-## Current index: 8 September 2026
+## Current index: 9 September 2026
 
-The dashboard-confirmed active entry is **competition v3, internal v7-01**. Use its
-[release source and exact delivered ZIP](releases/competition-v3-internal-v7-01/README.md),
-not root `agent.py` or root packaging commands, which preserve historical v0.
+The last confirmed accepted entry is **competition v3/internal v7-01**.
+**Internal v14-01**, intended competition v4, has qualified for the targeted
+queen-versus-king repair; current platform acceptance is unconfirmed.
 
-- [Progress and complete version mapping](PROGRESS_2026-09-08.md): curated outcomes
-  through v9, evidence limits, rated-game continuity and the Recuris approach.
-- [Release identity](releases/competition-v3-internal-v7-01/release.json): source,
-  archive, observed active status, reported submission boundary and rollback hashes.
-- [Platform acceptance observation](releases/competition-v3-internal-v7-01/platform-acceptance.json):
-  matching dashboard hash prefix and sanitized validation facts; private log retained locally.
-- [Rated rounds 54-60](releases/competition-v3-internal-v7-01/rated-games-54-60.md):
-  four wins, three losses, legal replay and public game links; the
-  [machine-readable record](releases/competition-v3-internal-v7-01/rated-games-54-60.json)
-  preserves individual PGN hashes and attributed platform estimates.
-- [Selected evidence and decision provenance](releases/competition-v3-internal-v7-01/evidence-summary.json):
-  original local report/ledger identities without private logs or withheld inputs.
-- [Previous released v2](releases/v2-01/STATUS.md) and
-  [historical v0](releases/v0/STATUS.md): preserved dated release evidence.
+- [Current state](CURRENT_STATE.md): release identities, supplied match coverage,
+  actionable research lessons and the next unresolved question.
+- [V14 release](releases/competition-v4-internal-v14-01/README.md): exact qualified
+  ZIP, source, tablebase data and portable qualification evidence.
+- [Progress: 9 September](PROGRESS_2026-09-09.md): conversion repair and the new
+  attack evidence, with no broad strength claim.
+- [Rated results through 75](rated-results/README.md): per-game results and
+  attribution, source hashes, duplicate handling and the round-30 discrepancy.
+- [V7 release and rollback](releases/competition-v3-internal-v7-01/README.md):
+  preserved source, package and original acceptance observation.
+- [Earlier progress through v9](PROGRESS_2026-09-08.md),
+  [released v2](releases/v2-01/STATUS.md), and
+  [historical v0](releases/v0/STATUS.md): original dated evidence retained.
 
-The working memory, ledger and protocols below retain their original published
-history. Their old active/pending statuses are superseded by the current release
-and progress records; they are not instructions to resume a completed experiment.
-The complete ongoing local corpus is not published. Recuris remains inspiration
-for the external research process; a causal memory benefit has not been measured.
+The original working memory and protocols below preserve their published
+historical snapshots. CURRENT_STATE.md supersedes their old active/pending
+status. The public ledger receives a dated publication event; the full private
+research ledger, raw logs, source caches and withheld inputs remain local.
+Recuris-inspired memory guides research decisions; a causal benefit has not been
+measured. No experiment resumes merely because its old procedure appears here.
 
 ## Historical v0 documentation, preserved
 

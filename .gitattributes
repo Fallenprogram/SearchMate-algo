@@ -13,3 +13,8 @@
 # Raw CI/container logs intentionally retain their original timestamp spacing.
 /research/releases/**/ci-logs/** -whitespace
 /research/releases/**/linux-compatibility/*.txt -whitespace
+
+# Preserve the v14 release ZIP and generated table data as binary artifacts.
+/research/releases/competition-v4-internal-v14-01/*.zip binary
+/research/releases/competition-v4-internal-v14-01/player/tables/*.rtbw binary
+/research/releases/competition-v4-internal-v14-01/player/tables/*.rtbz binary

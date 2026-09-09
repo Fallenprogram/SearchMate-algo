@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-09-09",
+  "candidate_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+  "baseline_sha256": "768f9112d2740a8a6704f41c5f59e5b7cc7a401fb893f72c904a5fb585848e33",
+  "method": "Selected facts from retained local qualification receipts, with file-only archive, source and frozen-inventory verification; no new player import, JIT, search, game or tablebase probe.",
+  "source_scope": {
+    "unchanged_original_functions_as_text": 35,
+    "changed_original_functions": [
+      "get_move"
+    ],
+    "new_helpers": [
+      "_kqk_initialize",
+      "_kqk_load",
+      "_kqk_select",
+      "_kqk_supported",
+      "_kqk_validate_values"
+    ]
+  },
+  "mandatory_validation": {
+    "passed": true,
+    "complete": true,
+    "scheduled_groups": 11,
+    "attempted_groups": 11,
+    "ordinary_fixed_depth_calls": 8,
+    "depth": 3,
+    "parity_pairs": 4,
+    "all_parity_pairs_passed": true,
+    "seeded_KQK_positions": 64,
+    "initially_winning_seeded_cases": 61,
+    "winning_trajectories_ended_in_mate": true,
+    "seed_defender_policy": "distance-maximizing defense; finite recorded trajectories, not all-defense proof over the whole material class",
+    "all_defense_roots": 4,
+    "all_defense_states": 289,
+    "all_defense_selector_calls": 179,
+    "root_maximum_verified_plies_to_mate": [
+      12,
+      12,
+      7,
+      7
+    ],
+    "proof_scope": "Four fixed exposed roots, including color mirrors, and their supplied known history; bounded traversal with every legal defender branch, fixed candidate selector, and draw/cycle rejection. Not a proof for every KQK state or every clock.",
+    "technical_checks": "Asset identity/loading, missing/corrupt assets, deadline/board restoration, legal queen capture, terminal and promotion cases, color mirrors, fifty-move margin and finite low-clock calls."
+  },
+  "compatibility": {
+    "games": 2,
+    "fresh_processes": true,
+    "opening": "standard start with colors reversed",
+    "base_seconds": 120,
+    "increment_seconds": 0.5,
+    "wins": 0,
+    "draws": 2,
+    "losses": 0,
+    "legal_plies": 224,
+    "player_faults": 0,
+    "points_threshold": null,
+    "covered_KQK_replies": 0,
+    "interpretation": "Compatibility only; no Elo or broad-strength claim, and zero covered game replies supplies no conversion evidence.",
+    "referee_limit": "External adapter used actual threefold repetition, claimable fifty-move and 600-ply draws; exact fifty-move equivalence to the platform was not established."
+  },
+  "exact_package": {
+    "passed": true,
+    "source_and_assets_equal_qualified_payload": true,
+    "archive_crc_passed": true,
+    "fresh_import_and_persistent_wire_passed": true,
+    "public_calls_per_role": 8,
+    "contemporary_baseline": "internal-v7-01",
+    "one_ms_stress": false,
+    "clock_screen_remaining_ms": [
+      250,
+      100,
+      50,
+      10
+    ],
+    "details": [
+      {
+        "role": "baseline",
+        "import_s": 36.57975810000789,
+        "peak_process_MiB": 174.44140625,
+        "peak_job_MiB": 200.9921875,
+        "low_clock_elapsed_ms": [
+          32.367,
+          8.426,
+          3.835,
+          3.291
+        ],
+        "passed": true,
+        "cleanup": true
+      },
+      {
+        "role": "candidate",
+        "import_s": 41.23875040000712,
+        "peak_process_MiB": 175.42578125,
+        "peak_job_MiB": 201.98828125,
+        "low_clock_elapsed_ms": [
+          11.785,
+          5.749,
+          2.924,
+          6.251
+        ],
+        "passed": true,
+        "cleanup": true
+      }
+    ],
+    "limits": "Finite local Windows observations with diagnostic wire overhead; not an all-clock or future-import guarantee."
+  },
+  "compute": {
+    "elapsed_minutes": 45.40117071666667,
+    "ordinary_fixed_depth_calls": 8,
+    "seeded_public_api_calls": 439,
+    "technical_public_api_calls": 9,
+    "technical_direct_selector_calls": 11,
+    "exhaustive_states": 289,
+    "exhaustive_selector_calls": 179,
+    "optional_fixed_depth_calls": 4,
+    "smoke_games": 2,
+    "smoke_plies": 224,
+    "package_public_api_calls": 16,
+    "new_reference_engine_queries": 0,
+    "new_training_positions": 0,
+    "fresh_imports": 10,
+    "all_engine_workloads_sequential": true
+  },
+  "publication_verification": {
+    "checked_date": "2026-09-09",
+    "archive_bytes_verified": 17746,
+    "source_bytes_verified": 47120,
+    "frozen_manifests": [
+      {
+        "stage": "validation",
+        "manifest_sha256": "eb5c393010cd25c8bf8889bbace4855b371edb906764cbb7c05999ab15abcd64",
+        "bound_files_verified": 16,
+        "mismatches": 0
+      },
+      {
+        "stage": "games",
+        "manifest_sha256": "013d874303718fa3f3818abca3f2ce2c0a58a3b2ac86a166b02e9429c042f530",
+        "bound_files_verified": 42,
+        "mismatches": 0
+      },
+      {
+        "stage": "package",
+        "manifest_sha256": "dfc0fcfb4598a457f8a6665122e7317a9dcfb3d0a5bf5faa1f368f190b535956",
+        "bound_files_verified": 49,
+        "mismatches": 0
+      }
+    ],
+    "new_engine_calls": 0
+  },
+  "retained_private_receipt_hashes": [
+    {
+      "label": "qualification outcome",
+      "sha256": "98800ba25322ae26dfbd69b64730eddfc2659c980e6c55ad37d58348c43ebea8"
+    },
+    {
+      "label": "validation outcome",
+      "sha256": "636f08bd4ef59302da030abc18ffce30b96460ab7ea659cf081ed1282494e41a"
+    },
+    {
+      "label": "saved-game audit",
+      "sha256": "16f2bf8f2b7979bcb394677c08d381b726ac8ab845b6b829a6ab87c69ea5e3c6"
+    },
+    {
+      "label": "covered-game-reply audit",
+      "sha256": "0c29b4d2ee6bad952356d419a41eb1c9ffb907b921c3745ab23d7287fac0f08b"
+    },
+    {
+      "label": "exact-package outcome",
+      "sha256": "e766cb23ce2a83ccfc1f7970426b605f47ca3672ae133e9da9c9f99d6f742219"
+    },
+    {
+      "label": "compute accounting",
+      "sha256": "60e54561cbfb81317e726627ce0087407a4bf88fa735c641128d398e11bb3670"
+    },
+    {
+      "label": "retained source review",
+      "sha256": "b8046e3c33ca65ca6c9dbdd5e20fa04e5f4cc723e95b474c9d2df46f8b12a019"
+    },
+    {
+      "label": "original preservation check",
+      "sha256": "d05b86cff2dd5545d4fcc7d0cb6a44105e7da478c111f2f3a59f0f289652de8b"
+    }
+  ],
+  "privacy": "Raw private logs, local absolute paths, process metadata and private game identifiers are omitted. Hashes identify the retained source receipts; this summary does not publish their full contents."
+}

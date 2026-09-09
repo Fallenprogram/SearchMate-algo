@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-09-09",
+  "release_id": "competition-v4-internal-v14-01",
+  "internal_candidate": "v14-01",
+  "intended_competition_label": "v4",
+  "status": "qualified_targeted_repair_platform_acceptance_unconfirmed",
+  "qualified_at_utc": "2026-09-08T12:10:32.070243+00:00",
+  "agent_path": "player/agent.py",
+  "agent_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+  "zip_path": "SearchMate-competition-v4-internal-v14-01.zip",
+  "zip_sha256": "466bebe215e1d93b2b97d41fec4d35f9f097eed00ac51ad44f7c5958db8591b8",
+  "zip_bytes": 17746,
+  "uncompressed_bytes": 53784,
+  "members": [
+    {
+      "path": "TABLEBASES.txt",
+      "bytes": 1000,
+      "sha256": "002e1961a4bf3444b3590bfbbdd0a1d8a86b51456f38b425ee4df4e052f8ebc2"
+    },
+    {
+      "path": "agent.py",
+      "bytes": 47120,
+      "sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61"
+    },
+    {
+      "path": "tables/KQvK.rtbw",
+      "bytes": 272,
+      "sha256": "517667dff787162dbb1ed9d5d6484d30ee854e686ee0675c08d99ecf045d2d50"
+    },
+    {
+      "path": "tables/KQvK.rtbz",
+      "bytes": 5392,
+      "sha256": "71ea9444fa5bd42897d781a0c356975ea6f23e0f65a4254e470897031c161c8c"
+    }
+  ],
+  "artifact_action": "Publish byte-identical copies of the previously qualified source, table assets, attribution and ZIP; no rebuild or engine change.",
+  "public_api": "get_move(fen, time_left_ms) -> str",
+  "submission": {
+    "acceptance_confirmed": false,
+    "accepted": null,
+    "platform_validation_status": "unconfirmed",
+    "remote_archive_sha256": null,
+    "automatic_upload": false,
+    "latest_confirmed_release": "competition-v3-internal-v7-01",
+    "qualification_is_not_platform_acceptance": true
+  },
+  "change": {
+    "base_release": "competition-v3-internal-v7-01",
+    "base_source_sha256": "768f9112d2740a8a6704f41c5f59e5b7cc7a401fb893f72c904a5fb585848e33",
+    "scope": "Exact KQ-versus-K root selector using shipped Syzygy WDL and DTZ data; original ordinary search, evaluation, quiescence and general clock policy retained.",
+    "fallbacks": "Existing legal fallback at <=50 ms; v7 search shares the original deadline when material is unsupported, probing fails/is incomplete, values are unexpected or the conservative fifty-move margin is insufficient.",
+    "dtz_caveat": "Rounded distance-to-zero, not exact distance-to-mate."
+  },
+  "qualification": {
+    "type": "targeted_KQK_repair",
+    "mandatory_checks_passed": true,
+    "compatibility_games": 2,
+    "wins": 0,
+    "draws": 2,
+    "losses": 0,
+    "WDL_threshold": null,
+    "exact_package_passed": true,
+    "broad_strength_gain_established": false,
+    "evidence": "evidence-summary.json"
+  },
+  "rollback": {
+    "release_id": "competition-v3-internal-v7-01",
+    "agent_path": "../competition-v3-internal-v7-01/player/agent.py",
+    "agent_sha256": "768f9112d2740a8a6704f41c5f59e5b7cc7a401fb893f72c904a5fb585848e33",
+    "zip_path": "../competition-v3-internal-v7-01/SearchMate-competition-v3-internal-v7-01.zip",
+    "zip_sha256": "0053272feb11a4a6f1595a10baa8591bd33d524ac15f01790be87e61c3ee2a7d"
+  },
+  "root_agent_identity": "historical v0; root agent.py and make zip are not this qualified release",
+  "remaining_limits": [
+    "Only exact KQK is covered; other endgames and general played-game repetition reconstruction remain unchanged.",
+    "Near-fifty-move, unavailable-table and short-deadline fallbacks do not promise conversion optimality.",
+    "The finite compatibility screen does not establish Elo improvement or predict rankings."
+  ],
+  "recuris": {
+    "research_record": "Recuris-inspired evidence and decision records",
+    "causal_memory_evolution_benefit_measured": false
+  },
+  "new_engine_calls_for_publication": 0,
+  "automatic_competition_upload": false
+}

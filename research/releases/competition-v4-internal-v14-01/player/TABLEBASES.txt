@@ -1,0 +1,16 @@
+SearchMate internal v14-01 — permitted endgame tablebase data
+
+The original SearchMate engine uses the preinstalled python-chess Syzygy reader.
+The two KQvK data files were generated with Ronald de Man's Syzygy tablebase
+generator and obtained from the Lichess public mirror. Generated tablebase data
+may be freely redistributed under the upstream statement; generator source
+licensing is separate. No generator or third-party engine code is shipped.
+
+Upstream: https://github.com/syzygy1/tb
+Permission: https://github.com/syzygy1/tb#terms-of-use
+Catalog: https://github.com/niklasf/syzygy-tables.info/tree/9d79edb273faa1217760b53ed0df642ee8596896/checksums
+
+KQvK.rtbw  272 bytes  SHA-256 517667dff787162dbb1ed9d5d6484d30ee854e686ee0675c08d99ecf045d2d50
+https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KQvK.rtbw
+KQvK.rtbz  5392 bytes  SHA-256 71ea9444fa5bd42897d781a0c356975ea6f23e0f65a4254e470897031c161c8c
+https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KQvK.rtbz
