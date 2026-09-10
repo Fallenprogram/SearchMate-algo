@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "internal_version": "v16-01",
+  "published_at": "2026-09-10T05:42:44.634718+00:00",
+  "status": "user-confirmed submitted exact file",
+  "competition_label": "v5 was the intended label in the archived filename; actual current-build identity is tracked separately",
+  "zip_path": "SearchMate-competition-v5-internal-v16-01.zip",
+  "zip_sha256": "00f244998b54c1d116a4af99ef9c3a2caf1eba262b3c5b59a19d0ae8e73b9084",
+  "zip_bytes": 21694,
+  "uncompressed_bytes": 75399,
+  "agent_path": "player/agent.py",
+  "agent_sha256": "fdcdea36ad030dd534c2607408b399673d0fee728aeafc0ea456f96871f8f787",
+  "members": [
+    {
+      "path": "TABLEBASES.txt",
+      "bytes": 1000,
+      "sha256": "002e1961a4bf3444b3590bfbbdd0a1d8a86b51456f38b425ee4df4e052f8ebc2"
+    },
+    {
+      "path": "agent.py",
+      "bytes": 68735,
+      "sha256": "fdcdea36ad030dd534c2607408b399673d0fee728aeafc0ea456f96871f8f787"
+    },
+    {
+      "path": "tables/KQvK.rtbw",
+      "bytes": 272,
+      "sha256": "517667dff787162dbb1ed9d5d6484d30ee854e686ee0675c08d99ecf045d2d50"
+    },
+    {
+      "path": "tables/KQvK.rtbz",
+      "bytes": 5392,
+      "sha256": "71ea9444fa5bd42897d781a0c356975ea6f23e0f65a4254e470897031c161c8c"
+    }
+  ],
+  "rollback": {
+    "agent_path": "../competition-v4-internal-v14-01/player/agent.py",
+    "agent_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+    "zip_path": "../competition-v4-internal-v14-01/SearchMate-competition-v4-internal-v14-01.zip",
+    "zip_sha256": "466bebe215e1d93b2b97d41fec4d35f9f097eed00ac51ad44f7c5958db8591b8"
+  },
+  "platform_validation_log_in_latest_intake": false,
+  "no_automatic_competition_upload": true
+}

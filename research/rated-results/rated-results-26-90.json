@@ -1,0 +1,1301 @@
+{
+  "schema_version": 1,
+  "title": "SearchMate preserved rated results: rounds26\u201390",
+  "as_of_date": "2026-09-10",
+  "scope": "Portable inventory of65 supplied games across multiple builds and opponents; no controlled strength inference.",
+  "known_rounds": {
+    "first": 26,
+    "last": 90,
+    "count": 65,
+    "missing": []
+  },
+  "result_perspective": "SearchMate",
+  "scored_results": {
+    "win": 25,
+    "draw": 16,
+    "loss": 23
+  },
+  "scored_games": 64,
+  "points": 33.0,
+  "exported_game_results_including_void": {
+    "loss": 23,
+    "win": 25,
+    "draw": 17
+  },
+  "provisional_version_totals": [
+    {
+      "provisional_internal_version": "v0",
+      "first_round": 26,
+      "last_round": 35,
+      "records": 10,
+      "results": {
+        "win": 3,
+        "draw": 1,
+        "loss": 5,
+        "void": 1
+      },
+      "scored_games": 9,
+      "points": 3.5
+    },
+    {
+      "provisional_internal_version": "v2",
+      "first_round": 36,
+      "last_round": 53,
+      "records": 18,
+      "results": {
+        "win": 6,
+        "draw": 5,
+        "loss": 7,
+        "void": 0
+      },
+      "scored_games": 18,
+      "points": 8.5
+    },
+    {
+      "provisional_internal_version": "v7-01",
+      "first_round": 54,
+      "last_round": 75,
+      "records": 22,
+      "results": {
+        "win": 9,
+        "draw": 6,
+        "loss": 7,
+        "void": 0
+      },
+      "scored_games": 22,
+      "points": 12.0
+    },
+    {
+      "provisional_internal_version": "v14",
+      "first_round": 76,
+      "last_round": 79,
+      "records": 4,
+      "results": {
+        "win": 2,
+        "draw": 2,
+        "loss": 0
+      },
+      "scored_games": 4,
+      "points": 3
+    },
+    {
+      "provisional_internal_version": "uncertain_v14_or_v16",
+      "first_round": 80,
+      "last_round": 80,
+      "records": 1,
+      "results": {
+        "win": 0,
+        "draw": 1,
+        "loss": 0
+      },
+      "scored_games": 1,
+      "points": 0.5
+    },
+    {
+      "provisional_internal_version": "v16-01",
+      "first_round": 81,
+      "last_round": 90,
+      "records": 10,
+      "results": {
+        "win": 5,
+        "draw": 1,
+        "loss": 4
+      },
+      "scored_games": 10,
+      "points": 5.5
+    }
+  ],
+  "version_attribution": {
+    "v0_reported": {
+      "internal_version": "v0",
+      "rounds": "26\u201334",
+      "basis": "User identification recorded in contemporaneous intake receipts; no per-game player or ZIP hash."
+    },
+    "v0_tentative": {
+      "internal_version": "v0",
+      "rounds": "35",
+      "basis": "Tentative user identification retained by the intake receipt; no per-game player or ZIP hash."
+    },
+    "v2_tentative": {
+      "internal_version": "v2",
+      "rounds": "36\u201337",
+      "basis": "Tentative user identification retained by the intake receipt; no per-game player or ZIP hash."
+    },
+    "v2_reported": {
+      "internal_version": "v2",
+      "rounds": "38",
+      "basis": "User identified the round as v2; the game export itself contains no build hash."
+    },
+    "v2_context": {
+      "internal_version": "v2",
+      "rounds": "39\u201345",
+      "basis": "Provisional ongoing-v2 context recorded by intake; no exact build identifier in game exports."
+    },
+    "v2_transition": {
+      "internal_version": "v2",
+      "rounds": "46\u201353",
+      "basis": "Provisional association from the user-reported transition to competition v3 after round 53 had begun; no per-game build hash."
+    },
+    "v7_reported": {
+      "internal_version": "v7-01",
+      "competition_submission_label": "v3",
+      "rounds": "54\u201375",
+      "basis": "User-associated internal v7 / competition v3; no per-game player or ZIP hash in the exports. This inventory does not independently verify each game container."
+    },
+    "v14_reported": {
+      "internal_version": "v14-01",
+      "rounds": "76\u201379",
+      "basis": "User-reported submission history; no per-game build hash."
+    },
+    "uncertain_v14_or_v16": {
+      "internal_version": null,
+      "rounds": "80",
+      "basis": "Queued-game transition unknown; user favors v14, timing resembles v16. No forced attribution."
+    },
+    "v16_reported_exact_zip": {
+      "internal_version": "v16-01",
+      "rounds": "81\u201390",
+      "basis": "User confirms exact delivered v16 ZIP was submitted and associates these rounds; no per-game build hash."
+    }
+  },
+  "v14_note": "User reports v14 submitted and active in rounds76\u201379; round80 uncertain. No KQK position occurred in supplied rounds76\u201390.",
+  "limitations": [
+    "All individual build attributions remain unverified by a per-game source or ZIP hash.",
+    "Round 30 is marked void in a preserved supplied results listing, while its PGN/log described a draw; both facts are retained and it is excluded from scored totals.",
+    "Results span changing opponents, openings, dates and provisional versions, so grouped totals do not establish a causal strength gain.",
+    "The duplicated round-68 PGN is one game, counted once.",
+    "Raw logs, match identifiers, private account metadata and local paths are intentionally absent.",
+    "Source-summary hashes support internal provenance checks; the underlying private intake files are not published by this inventory.",
+    "Round80 excluded from primary version totals; retained as an uncertain draw.",
+    "V16 exact ZIP confirmed by user, not by a per-game build hash.",
+    "Round80 continued at halfmove99 when local can_claim_fifty_moves was true, then ended at100."
+  ],
+  "games": [
+    {
+      "round": 26,
+      "opponent": "ASD",
+      "color": "black",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v0_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "75647ee781d90be8fa2697f2f57c86145aeaeb124193e73e18a442fda0f2077d",
+        "intake_summary_sha256": "96a103fb2460bd33edcc1185b492c973d6cdac2c5031a91b749ff790ea5eea8c",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 27,
+      "opponent": "What the fork",
+      "color": "black",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v0_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "9554ae9a9e93449f5ec719a9d46c1f14fb6100d518b2c82b1b4d306faee37a8e",
+        "intake_summary_sha256": "8d95caa24120111a4ddcbc0291f61d968f8aae3c85169ae90e9166ecb4d97d8a",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 28,
+      "opponent": "Stock-ish",
+      "color": "white",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v0_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "2613a30ca569e1638de85ac0eb350586c2b0174ab13543c5b88ad31106eafd34",
+        "intake_summary_sha256": "20804b61681aeee3dcc9bd06226c64ce27c8cd64b2191c6ec282b5020be57030",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 29,
+      "opponent": "Sun",
+      "color": "white",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v0_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "4abda26378c8d8a7d3840e162dae3c3b047fc82f2c4e40550d45e458a11f723e",
+        "intake_summary_sha256": "b4fec438822b8a6a78cbbef6f3c1ac527964a4f2b21f54c2960dd5fbf2696a7c",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 30,
+      "opponent": "Stockfish",
+      "color": "black",
+      "result": "void",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v0_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "799673adf585ca5302b3a48d78708b8122570e152622cd75b6bde4da6d24abae",
+        "intake_summary_sha256": "a954f07b4c5e2dc171ccdde581dbfdbb824a6e5d6bd85a44195cfa951857c126",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      },
+      "result_conflict": {
+        "exported_game": "draw",
+        "preserved_results_listing": "void",
+        "reason": "Unknown",
+        "score_accounting": "Excluded from scored W/D/L and denominator",
+        "observation_summary_sha256": "3767781ec2d9648f3780fff9e5b0e53315afdec19e4c90ecd2b9619d139e34bd"
+      }
+    },
+    {
+      "round": 31,
+      "opponent": "Buddy's Grill Gambit",
+      "color": "white",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v0_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "24fa09a571ddc5d23292783fe6261edfe2d0fbaa0fa05c99494a6a3a2a33d43f",
+        "intake_summary_sha256": "7e7e4a6a7993359019e50974696ccecc19d1b6ac96616bb4daf601e3e9ef72af",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 32,
+      "opponent": "404 Not Found",
+      "color": "black",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v0_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "3be39ede353dbba36e439f78113694ebbb24356f201fbe949b388a36a10fb469",
+        "intake_summary_sha256": "7e7e4a6a7993359019e50974696ccecc19d1b6ac96616bb4daf601e3e9ef72af",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 33,
+      "opponent": "The Rook",
+      "color": "white",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v0_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "cafb219898055deda6200ab9afd492dc10a0d08c331f0ff0aad5246b51a92d5f",
+        "intake_summary_sha256": "7e7e4a6a7993359019e50974696ccecc19d1b6ac96616bb4daf601e3e9ef72af",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 34,
+      "opponent": "Snake",
+      "color": "black",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v0_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "1bc04825c2415f34362b90d3bac28f49c3a47720827f4df6f3a85610d93d4d27",
+        "intake_summary_sha256": "fd17a91b60af0480ef937c12d9a7f0635508f1503b3b71c8b64a53ec6d037e34",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 35,
+      "opponent": "meow",
+      "color": "white",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v0_tentative",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "0a6b617ae30009f2aa2730828965d4097b3bb0ba176ca49f3a40bb921a687585",
+        "intake_summary_sha256": "382e9d09115d0ff038d709f435cec5933138cd9743b0c3236deed9fa86b49beb",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 36,
+      "opponent": "Stockfish",
+      "color": "black",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v2_tentative",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "4912cbc0b174d77b5098ffe6233551036bb6b78f56c517ceeb01997349f3f1e5",
+        "intake_summary_sha256": "382e9d09115d0ff038d709f435cec5933138cd9743b0c3236deed9fa86b49beb",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 37,
+      "opponent": "Stocked Fish",
+      "color": "white",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v2_tentative",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "a15833bb3487a06c07da53fcc33897f8fd4cc738eccc1a20c5bbf7d731bf1dbb",
+        "intake_summary_sha256": "382e9d09115d0ff038d709f435cec5933138cd9743b0c3236deed9fa86b49beb",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 38,
+      "opponent": "How does the knight move?",
+      "color": "white",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v2_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "ffd1b779eed03725b988dded4396850330656a50096c2176bfe2f1e634e76436",
+        "intake_summary_sha256": "3f08db097b980dd1727608265dfeb4a27aaa39f44343ad051274e0e675000ce0",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 39,
+      "opponent": "The Smart Guy(s)",
+      "color": "black",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v2_context",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "496ce38bb467af2f439803f5fd4018d23b9678ea468e2b69ade443a5f18c795f",
+        "intake_summary_sha256": "b352569f7cf9dc15e07db057503d2221ed54e47dfd4b3405b76dbe725c2075aa",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 40,
+      "opponent": "SAC",
+      "color": "black",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v2_context",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "f1bed5a9b7edc0a6f0ffc08a877bb90ac9f6355357cd67757169b304cf2b7e22",
+        "intake_summary_sha256": "11f40996b71f55e523245c238195f00b983e61977a38907eb343eacbaf4a9019",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 41,
+      "opponent": "dhav",
+      "color": "black",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v2_context",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "cf0d6ac96b92b0297ccf8068bfdbf899ed2b63e4d6f455080986d16c40b4b055",
+        "intake_summary_sha256": "11e6fdc06ca579aa9b619f125e3bcc336d843c21c2edf714498607360ae05c09",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 42,
+      "opponent": "Alpha",
+      "color": "white",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v2_context",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "fca87a8681dcd07dcfd1df3fcd52aba4acc6dfccf05f5f03046c31ace62dfaaa",
+        "intake_summary_sha256": "875b591466228aafa3e07a510d5a2fdad7c0513d513feab86e902fd53b5fda74",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 43,
+      "opponent": "Cagnus_Marlsen",
+      "color": "white",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v2_context",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "191e775d2b8259d1f91e099d998899e97540e0363a7a17622b1c51a79c11fb1b",
+        "intake_summary_sha256": "2bb2295cc13e6e4b0b25ba82a335703d7bd2a9032fb394858ad8232d61139ef9",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 44,
+      "opponent": "Snake",
+      "color": "black",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v2_context",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "704add61256874d9d78ef60bfb4d03ac2ffa4229abb5f31a6701a254395e1268",
+        "intake_summary_sha256": "db21c91fa789fd1a792aa89c4a44c16563b332b874c39957e6302be4859d0af5",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 45,
+      "opponent": "Entangled_99",
+      "color": "white",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v2_context",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "fe40e92bdbe65d8578f39eae6598795fabf997b2ceee29704df04bc00a3707d6",
+        "intake_summary_sha256": "b288bf4244276b751f507abfc7b4536ee5415a5d4584f8ac9f8c8f1451a54fe5",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 46,
+      "opponent": "son",
+      "color": "black",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v2_transition",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "57cc6c03c52f966188ae9415319bc45372c89ff86e5f515e88f3ea3463a4c037",
+        "intake_summary_sha256": "ca1f72fafb2a795e26f3f903db56abe3258ac15cafbf3b84dedc43081a9d5f08",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 47,
+      "opponent": "Columbia Trader",
+      "color": "white",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v2_transition",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "3add22c23022d5041bd56d4569ac9e38fe1e52d69db233b52dd1fb19280f74bb",
+        "intake_summary_sha256": "55f06fdb3bdc30959203e6ce9f8472c3dcfef56f4ba692fdbae38f19035ec861",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 48,
+      "opponent": "Team name",
+      "color": "white",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v2_transition",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "5f8aadf5a56ea159fb34981b9cf1174957d93f25c93bfe30114a376713d3ed09",
+        "intake_summary_sha256": "026a6a401254792a539f9890ba7e5850afd59cec129d80f6b53aa4b4134d3684",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 49,
+      "opponent": "Modus",
+      "color": "black",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v2_transition",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "04caeb158f7200ec8ab9efd7f2a1fe8648eb3d81a9dc0878640f78f4f82e6891",
+        "intake_summary_sha256": "66350397060af65cdd5834b2f4cc15fe88fc3600c0a8d96a579b264c4299e46e",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 50,
+      "opponent": "Chess",
+      "color": "black",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v2_transition",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "68ce6339d1692864753acf1948868c8ed2364be46369e7b3f44465348102e6a2",
+        "intake_summary_sha256": "eb9b7301b2e745e918755ef1b8e29718f1d068ce29842e11e16024297f18bfd6",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 51,
+      "opponent": "MrGreedy",
+      "color": "white",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v2_transition",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "37068974cef854f8303112e8912856f97672d0006394e4a57200d14ab4c115b4",
+        "intake_summary_sha256": "fce98ce37cd9a431cb7eb052d098fbd4dfcdf581c3ca40c9f240d6bcdd601d8f",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 52,
+      "opponent": "Ultimate32",
+      "color": "black",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v2_transition",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "f8e3c99a0dd4af7b8dd14634d7f4c9edc9c215a484b6be4c5391eee874742dbd",
+        "intake_summary_sha256": "e9b25de7a03388c6c02b25bb8f808f7284b8e3372c8f23d912d7eae0fe8a66d5",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 53,
+      "opponent": "The Smart Guy(s)",
+      "color": "white",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v2_transition",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "635cd64ee0c1061b01b7aa16cd072fe0d448daa5f891a70c13b0554982792d7e",
+        "intake_summary_sha256": "cc9206025391acba213a3840b79a0db21ecdd065a8aa2ae34210debc8c396034",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 54,
+      "opponent": "Cagnus_Marlsen",
+      "color": "black",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "2e33f8ac095baba3393d879171ca1e509a602ffc5cd6c8f7a28f89a38ab90977",
+        "intake_summary_sha256": "9178af5f308fc82c82ae8a8bc90a047e2df0287fc86f99740879bc61703269d3",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 55,
+      "opponent": "Rook and Roll",
+      "color": "white",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "07ecfc36234665994268b4b4f07ff63281e36461c10af3ffb1403d198ae5b4d6",
+        "intake_summary_sha256": "9178af5f308fc82c82ae8a8bc90a047e2df0287fc86f99740879bc61703269d3",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 56,
+      "opponent": "Brownies",
+      "color": "white",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "46b4fbdb7cee508f9ab3c76940a0434182a7aa79160efc98a4952806055adb0d",
+        "intake_summary_sha256": "9178af5f308fc82c82ae8a8bc90a047e2df0287fc86f99740879bc61703269d3",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 57,
+      "opponent": "Columbia Trader",
+      "color": "black",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "1a9940d3bf3f3c2d2ac00fbbc76099eef73f3d7ac7b1dc51a65de1f52d776a19",
+        "intake_summary_sha256": "9178af5f308fc82c82ae8a8bc90a047e2df0287fc86f99740879bc61703269d3",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 58,
+      "opponent": "Stocked Fish",
+      "color": "white",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "9ff4c7a163ef096dbea9dded0efa83aefc1bfe06232839fa21a8b5e2301e76b8",
+        "intake_summary_sha256": "9178af5f308fc82c82ae8a8bc90a047e2df0287fc86f99740879bc61703269d3",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 59,
+      "opponent": "404 Not Found",
+      "color": "white",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "c0e1a2eaaca897e3efe0d558749371740de5a0f859fdbd23fc643faabdabf9b2",
+        "intake_summary_sha256": "9178af5f308fc82c82ae8a8bc90a047e2df0287fc86f99740879bc61703269d3",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 60,
+      "opponent": "dhav",
+      "color": "black",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "3edca1bbbd25be3f1c7e9ba7f123f32dd6ce252e28825146a9812afa056c8d19",
+        "intake_summary_sha256": "9178af5f308fc82c82ae8a8bc90a047e2df0287fc86f99740879bc61703269d3",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 61,
+      "opponent": "Left Right",
+      "color": "white",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "03a672466a15ebae63efb8e0e678350a99b124e2159e285b67bfa8c7cc2c0b72",
+        "intake_summary_sha256": "b516af538f8fe52c47dec283b4653b9bc0c7db4f2e83f88aa157d2507bdbcc96",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 62,
+      "opponent": "Brownies",
+      "color": "black",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "c0239640668adf010b32212b699c9f67a7353491d11c9acb534cfed6cc002522",
+        "intake_summary_sha256": "b516af538f8fe52c47dec283b4653b9bc0c7db4f2e83f88aa157d2507bdbcc96",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 63,
+      "opponent": "#niche",
+      "color": "black",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "c1bbd716aac719cb13e69133e40dd38d87ac8f7e5d150eb0281a17ed0432f537",
+        "intake_summary_sha256": "94156380829b38deec87315bd120880c7712c12794da564051c48f9ca8d1c2f2",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 64,
+      "opponent": "Entangled_99",
+      "color": "black",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "29bcb09463b4d5fc72bc685b02db38aad2e844d3938ff98d4cf0bf815289348c",
+        "intake_summary_sha256": "5c285ffd68b5d676b7914f4095e8bd54fb9cf7b506aa0107b091620e949d647c",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 65,
+      "opponent": "ScholarsMate",
+      "color": "white",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "f242db511cc0f5acbdef902966d071f462cdeb783de5ce831147a196f7d0bcfa",
+        "intake_summary_sha256": "02980fdf17bbe69e347f8cae4aaca5c42238718ca51787f93cb4a8d50d80a36f",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 66,
+      "opponent": "Terminal",
+      "color": "black",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "4c393030b08b1d5752b157abb98b90b526eff92567ea1edb47f519f9b2a1d984",
+        "intake_summary_sha256": "02980fdf17bbe69e347f8cae4aaca5c42238718ca51787f93cb4a8d50d80a36f",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 67,
+      "opponent": "Pawxn",
+      "color": "black",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "2aaa7497cd2567e3f27f487a930ab95e98b151e4c5108af900c39a66c50dacb4",
+        "intake_summary_sha256": "02980fdf17bbe69e347f8cae4aaca5c42238718ca51787f93cb4a8d50d80a36f",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 68,
+      "opponent": "Prophylaxis",
+      "color": "white",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "ac30453f9c21f336031866cfc90ad466c0c782ff03de05773bfede56e551fb83",
+        "intake_summary_sha256": "02980fdf17bbe69e347f8cae4aaca5c42238718ca51787f93cb4a8d50d80a36f",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 69,
+      "opponent": "LeoMax",
+      "color": "white",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "5268e6121b6e67766c7969538b53efbacac702a0cb664c4e168293891d61264a",
+        "intake_summary_sha256": "02980fdf17bbe69e347f8cae4aaca5c42238718ca51787f93cb4a8d50d80a36f",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 70,
+      "opponent": "The Monkey's Bum",
+      "color": "black",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "56f93b1690c1fe3781eb8cefa82431deca224ddce8d22d30b45e35ef3a1125c3",
+        "intake_summary_sha256": "02980fdf17bbe69e347f8cae4aaca5c42238718ca51787f93cb4a8d50d80a36f",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 71,
+      "opponent": "Stock-ish",
+      "color": "white",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "d6fe009ad3c4765233be9c04b4e3ef34dbce6f17a207fc5a133867c751e14386",
+        "intake_summary_sha256": "02980fdf17bbe69e347f8cae4aaca5c42238718ca51787f93cb4a8d50d80a36f",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 72,
+      "opponent": "Modus",
+      "color": "black",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "9aff76a18e5281bc868547019d1950282be90bd3836a8249b4142905e2e4fa2f",
+        "intake_summary_sha256": "02980fdf17bbe69e347f8cae4aaca5c42238718ca51787f93cb4a8d50d80a36f",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 73,
+      "opponent": "StockZero",
+      "color": "white",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "d92639344c2694c1ac3db029d123ea4384380f9766ffa6ecc60b5f25151f1361",
+        "intake_summary_sha256": "02980fdf17bbe69e347f8cae4aaca5c42238718ca51787f93cb4a8d50d80a36f",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 74,
+      "opponent": "e=mc^2",
+      "color": "black",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "b3704a3e460a1bbd812479b6c8bb597950dbc9bdf37c318325111026e7f9bb72",
+        "intake_summary_sha256": "02980fdf17bbe69e347f8cae4aaca5c42238718ca51787f93cb4a8d50d80a36f",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 75,
+      "opponent": "meow",
+      "color": "white",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v7_reported",
+      "per_game_build_hash_verified": false,
+      "evidence": {
+        "pgn_sha256": "e632d1899d6f244048d05c59040bba74fee52afef76b22aad85ff8a96d56d16c",
+        "intake_summary_sha256": "02980fdf17bbe69e347f8cae4aaca5c42238718ca51787f93cb4a8d50d80a36f",
+        "basis": "Preserved PGN and existing intake/replay summary"
+      }
+    },
+    {
+      "round": 76,
+      "opponent": "Entangled_99",
+      "color": "black",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v14_reported",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 84.865,
+      "legal_plies": 72,
+      "matched_runtime_rows": 36,
+      "evidence": {
+        "pgn_sha256": "dd41efdfa233e5681940f1e1870f3e8cba3980c27af8d971e2e6b523601361da",
+        "log_sha256": "db90b1e7abca3dfc8476183cea90ac4e598e7ca4a7a88bf40e4838dd8530dfd2",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 77,
+      "opponent": "Check_Mate",
+      "color": "white",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v14_reported",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 55.31,
+      "legal_plies": 134,
+      "matched_runtime_rows": 67,
+      "evidence": {
+        "pgn_sha256": "0b06c9bc55c97f6e3c5371002df9751908ff8435462a0ae7c432fcd5e182ee87",
+        "log_sha256": "51cc93a21a68e946c2008e0799586bdcd177c4d74cf71c50b9c09ba3e8ec6549",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 78,
+      "opponent": "Terminal",
+      "color": "black",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v14_reported",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 62.594,
+      "legal_plies": 131,
+      "matched_runtime_rows": 66,
+      "evidence": {
+        "pgn_sha256": "8daed3f3d255871c69e16f0f6eba7bac3cf82cd400dfada282b23428a3c39337",
+        "log_sha256": "84b60c9adafd9e120975179beeb5c9a72ea641ea98d513f7002ac11b8a294af1",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 79,
+      "opponent": "Chelsea's very own JP Morgan",
+      "color": "white",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v14_reported",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 84.802,
+      "legal_plies": 84,
+      "matched_runtime_rows": 42,
+      "evidence": {
+        "pgn_sha256": "c23930608d7a999b78eebc33aba5f18bae180c04942033b801bc7a4e9fce11e9",
+        "log_sha256": "01cdc35fb8355976f4b04364646709631b444098caacce17b26e42fdf7efd22e",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 80,
+      "opponent": "does 4th place get a trophy",
+      "color": "black",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "fifty_moves",
+      "attribution": "uncertain_v14_or_v16",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 12.448,
+      "legal_plies": 255,
+      "matched_runtime_rows": 128,
+      "evidence": {
+        "pgn_sha256": "bd862f94a9e6c454c1828f699874571a6fcdda011d7836dba1e65e5cd01c6fb2",
+        "log_sha256": "1058279502019dbb2b1142793294cf4f32ee680f9c44bd78115f7eb99a11ca86",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 81,
+      "opponent": "Magnus.AI",
+      "color": "white",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v16_reported_exact_zip",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 58.153,
+      "legal_plies": 74,
+      "matched_runtime_rows": 37,
+      "evidence": {
+        "pgn_sha256": "5f01423fc90d53562be2a15440c5d4f6084a3268d654dc45ebd5549642b2716d",
+        "log_sha256": "f0303e5b4a62b6f8e5f60f355d743337e7de32b0b0ee065f0b9a2e06d19a4bc3",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 82,
+      "opponent": "while True: win()",
+      "color": "white",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v16_reported_exact_zip",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 74.329,
+      "legal_plies": 49,
+      "matched_runtime_rows": 24,
+      "evidence": {
+        "pgn_sha256": "4f7407a69eeb341d25a0b82aa4fd3d55862fd1bd0a8c3c1333c391178aeffe43",
+        "log_sha256": "25f3586a4877670b277b076f37d249bbb42e0a04d836487f446e45cc1eee0f13",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 83,
+      "opponent": "drunkenmaster",
+      "color": "black",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v16_reported_exact_zip",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 32.304,
+      "legal_plies": 93,
+      "matched_runtime_rows": 46,
+      "evidence": {
+        "pgn_sha256": "393df0e873e7e204a5e2e59a27b9ac12f74f6f3fcbf41f24643e6ba5e20d987c",
+        "log_sha256": "686c671af266e92e9c0574ff59c3c95f3d3481cef07ec79941e93a96f47004cd",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 84,
+      "opponent": "0x88",
+      "color": "white",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v16_reported_exact_zip",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 84.96,
+      "legal_plies": 48,
+      "matched_runtime_rows": 24,
+      "evidence": {
+        "pgn_sha256": "4de15824f810feef9972212f24406b18a87d0acc0e2801405c83a824e7357923",
+        "log_sha256": "392760361d5103f6f6fd6704ab4abc2c1657405aa3df668687097e2ff970543d",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 85,
+      "opponent": "Stalemate",
+      "color": "white",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v16_reported_exact_zip",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 16.55,
+      "legal_plies": 178,
+      "matched_runtime_rows": 89,
+      "evidence": {
+        "pgn_sha256": "83703e914695129e4c142e5a245ca1eac810497badfef5b7c43246aca0ec802a",
+        "log_sha256": "5f046bb58debada1cd4cb181bb1fb24df6fad0c203794fd1bcb4d0661951e8cf",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 86,
+      "opponent": "Check_Mate",
+      "color": "black",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v16_reported_exact_zip",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 28.721,
+      "legal_plies": 101,
+      "matched_runtime_rows": 51,
+      "evidence": {
+        "pgn_sha256": "a6be6762df532dc087044c888664b2f68155facfc00bf3f890203c5bf809a617",
+        "log_sha256": "b5fb4461aa1c8b9beaf2693e5326f1da807ea58c99d25cc4f34b07b899ccbd26",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 87,
+      "opponent": "does 4th place get a trophy",
+      "color": "white",
+      "result": "draw",
+      "exported_result": "draw",
+      "pgn_result": "1/2-1/2",
+      "termination": "threefold_repetition",
+      "attribution": "v16_reported_exact_zip",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 56.348,
+      "legal_plies": 51,
+      "matched_runtime_rows": 25,
+      "evidence": {
+        "pgn_sha256": "c0a72e3728eeba7594cdd1aa3a05e0aff301c96e15e05f314ba0977a47b2b62c",
+        "log_sha256": "c4964633ce47def36b6b8661e24c1dd540ab50e09d7577a7ed2ac45c1ca490c4",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 88,
+      "opponent": "The Veritys",
+      "color": "black",
+      "result": "loss",
+      "exported_result": "loss",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v16_reported_exact_zip",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 38.006,
+      "legal_plies": 81,
+      "matched_runtime_rows": 40,
+      "evidence": {
+        "pgn_sha256": "c306dd82f79257e15740357d127a7d8f1186ca2fddbf90d3e408f9ab7fcd2fba",
+        "log_sha256": "e55a3ac036297da7c461bc1a7aa89073673c7ffb282846fa43c936eb2e50b807",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 89,
+      "opponent": "The Rooks Rest",
+      "color": "white",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "1-0",
+      "termination": "checkmate",
+      "attribution": "v16_reported_exact_zip",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 44.131,
+      "legal_plies": 80,
+      "matched_runtime_rows": 40,
+      "evidence": {
+        "pgn_sha256": "5c81e6cd6bfd16e1f6dd4edbdd83d4d825b7b29e2677f3eae14fe4083059af4b",
+        "log_sha256": "54a22e6aaf3c530d2c00aafd704056295a5ce99cf78d0f6e248dff50c656de02",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    },
+    {
+      "round": 90,
+      "opponent": "A weapon to surpass Metal Gear",
+      "color": "black",
+      "result": "win",
+      "exported_result": "win",
+      "pgn_result": "0-1",
+      "termination": "checkmate",
+      "attribution": "v16_reported_exact_zip",
+      "per_game_build_hash_verified": false,
+      "own_clock_left_seconds": 43.418,
+      "legal_plies": 77,
+      "matched_runtime_rows": 39,
+      "evidence": {
+        "pgn_sha256": "3110d7e4f0097b4524ad3c134593219328ca6da8396a18ca0b1926ee9fc34c63",
+        "log_sha256": "ae7e682c908b9d7ff93f7bbce23542eaa05cd7ff3d39a6fbb8201b6fd5a5556b",
+        "intake_summary_sha256": "496eb0c7909df3941f1cffa1aad40934d5de682a93215cc78ca79389fd032780",
+        "basis": "Preserved supplied PGN/log; legal replay and clock-row agreement. Raw private logs not published."
+      }
+    }
+  ],
+  "record_totals": {
+    "loss": 23,
+    "win": 25,
+    "void": 1,
+    "draw": 16
+  },
+  "void_rounds": [
+    30
+  ],
+  "current_attribution": {
+    "submitted_file_confirmed": "SearchMate-competition-v5-internal-v16-01.zip",
+    "source_sha256": "fdcdea36ad030dd534c2607408b399673d0fee728aeafc0ea456f96871f8f787",
+    "round80": "Uncertain. User favors v14, but queued-game binding is unknown and request timing resembles v16.",
+    "sensitivity": {
+      "if_v14": "v14 2W3D0L /5,3.5points; v16 5W1D4L /10,5.5points",
+      "if_v16": "v14 2W2D0L /4,3points; v16 5W2D4L /11,6points"
+    },
+    "per_game_source_hashes": "absent"
+  }
+}

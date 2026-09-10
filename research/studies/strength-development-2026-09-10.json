@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-10T05:42:44.634718+00:00",
+  "scope": "Portable summaries of the original CPU strength-development studies; raw private evidence remains local.",
+  "hypotheses": [
+    {
+      "id": "H16",
+      "hypothesis": "Ordinary quiet move ordering",
+      "status": "screened development"
+    },
+    {
+      "id": "H17",
+      "hypothesis": "Adaptive soft/hard clock allocation",
+      "status": "clock02 independently qualified and package delivered"
+    },
+    {
+      "id": "H18",
+      "hypothesis": "Actual persistent-game repetition knowledge",
+      "status": "native validated and screened"
+    },
+    {
+      "id": "H19",
+      "hypothesis": "Guarded one-ply late quiet-move reductions",
+      "status": "screened development"
+    },
+    {
+      "id": "H20",
+      "hypothesis": "Direct tactical move generation in quiescence",
+      "status": "native validated and screened"
+    },
+    {
+      "id": "H21",
+      "hypothesis": "Position-matched transposition move hints independent of score-history key",
+      "status": "screened alone and in combination"
+    },
+    {
+      "id": "H22",
+      "hypothesis": "Guarded null-move search pruning",
+      "status": "zero-game native preflight incomplete"
+    },
+    {
+      "id": "H23",
+      "hypothesis": "Evaluation and quiet tactical threats",
+      "status": "unresolved"
+    },
+    {
+      "id": "H24",
+      "hypothesis": "General winning endgame conversion beyond KQK",
+      "status": "unresolved"
+    },
+    {
+      "id": "H25",
+      "hypothesis": "Combined original ordering/history/tactical core",
+      "status": "leading development core"
+    },
+    {
+      "id": "H26",
+      "hypothesis": "Incremental piece-placement hash without changing TT context",
+      "status": "source and pure checks prepared; native untested"
+    },
+    {
+      "id": "H27",
+      "hypothesis": "Omit repetition-unreachable history before an in-search pawn move or capture",
+      "status": "qualification-03 closed: candidate initialization fault; no v17 package"
+    },
+    {
+      "id": "H28",
+      "hypothesis": "Exact board equality reduces repetition-history recovery cost",
+      "status": "diagnostic complete; no demonstrated improvement"
+    },
+    {
+      "id": "H29",
+      "hypothesis": "Direct exact opponent-move recovery from board delta",
+      "status": "technical admission passed; actual-win qualification rejected"
+    },
+    {
+      "id": "H31",
+      "hypothesis": "Fixed Numba optimization level one to reduce compilation cost while preserving chess logic",
+      "status": "closed; full actual-win gate rejected, no v18 package"
+    },
+    {
+      "id": "H32",
+      "hypothesis": "Explicit root ply int64 to remove duplicate literal recursive specializations",
+      "status": "incomplete_baseline_initialization_fault",
+      "candidate_sha256": "f2bc04f532fbe8aa86c076dc9b4c7a71519c8e427c7232e6f6ca099f7c7011c0"
+    },
+    {
+      "id": "H33",
+      "hypothesis": "Incremental piece hashing while retaining exact existing position-key semantics",
+      "status": "qualified_local_upload_acceptance_pending",
+      "candidate_sha256": "401ee761ed94175309c4e0f1a9249691835a1ed4e329c7aa3c1effd5f4cea714"
+    },
+    {
+      "id": "H34",
+      "hypothesis": "Internal reversible search-cycle draw estimate before third occurrence",
+      "status": "rejected_development_actual_win_gate",
+      "candidate_sha256": "6842c76a72e760d4766dae2daa59550cc911c37dd8913c017f518d12f247d364",
+      "development": {
+        "wins": 10,
+        "draws": 5,
+        "losses": 1,
+        "games": 16,
+        "required_actual_wins": 13
+      }
+    },
+    {
+      "id": "H35",
+      "hypothesis": "Draw lower bound from forced checking cycle while preserving profitable deviations",
+      "status": "rejected_development_actual_win_gate",
+      "candidate_sha256": "3973f05192295e67033a8b3c10896c536b3a4dfb8b2b2f4faf3d470b0ff1dba0",
+      "development": {
+        "wins": 12,
+        "draws": 3,
+        "losses": 1,
+        "games": 16,
+        "required_actual_wins": 13
+      }
+    },
+    {
+      "id": "H36",
+      "hypothesis": "Skip forced-cycle helper calls whose necessary conditions cannot hold",
+      "status": "rejected_development_actual_win_gate; saved-data audit completed before publication",
+      "candidate_sha256": "2e4e91b975b5f99a6c9c0ee70fa60b70ff68b5c39def17068b13a965aebab7e0",
+      "development": {
+        "games": 16,
+        "wins": 12,
+        "draws": 3,
+        "losses": 1,
+        "required_actual_wins": 13
+      }
+    }
+  ],
+  "development_screens": [
+    {
+      "study": "combined-clock-02",
+      "candidate_sha256": "fdcdea36ad030dd534c2607408b399673d0fee728aeafc0ea456f96871f8f787",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "completed_development_screen",
+      "games": 16,
+      "wins": 14,
+      "draws": 2,
+      "losses": 0,
+      "points": 15.0,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "0e61edef2c5b2ea3dab542ae1b7cd92d98844de39c480ddc4c1846d7110902f1",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "combined-compile-opt1-01",
+      "candidate_sha256": "5ce4c7c81fd3aa598b38d0e23a462e81aeea7e138ce92918dfdf9082b774963b",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "completed_development_screen",
+      "games": 16,
+      "wins": 14,
+      "draws": 2,
+      "losses": 0,
+      "points": 15.0,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "ceb3fa3377fc3d9ae033a5e5106251113cf56c5b178f4639ce11dbe5e424aafe",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "combined-context-horizon-01",
+      "candidate_sha256": "0ec05a15a278cc156a0489a2c8898a81110a6c10d3380814be2f000fce5cbe77",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "completed_development_screen",
+      "games": 16,
+      "wins": 16,
+      "draws": 0,
+      "losses": 0,
+      "points": 16.0,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "cf54019f8a53880ae719d9ad255c1e0db1bcd5bc7ace2f67de74b55586ed942a",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "combined-forced-cycle-bound-01",
+      "candidate_sha256": "3973f05192295e67033a8b3c10896c536b3a4dfb8b2b2f4faf3d470b0ff1dba0",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "completed_development_screen",
+      "games": 16,
+      "wins": 12,
+      "draws": 3,
+      "losses": 1,
+      "points": 13.5,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "d93be4960a3ad9104a63d905087b931d84aa7470351e995a607dd4f171539e60",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "combined-forced-cycle-guard-01",
+      "candidate_sha256": "2e4e91b975b5f99a6c9c0ee70fa60b70ff68b5c39def17068b13a965aebab7e0",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "completed_development_screen",
+      "games": 16,
+      "wins": 12,
+      "draws": 3,
+      "losses": 1,
+      "points": 13.5,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "46ce0d4694b69e89ee3963a30e6e4bc6bac5be1426645730edd07e6a9b9df38c",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "combined-incremental-hash-02",
+      "candidate_sha256": "401ee761ed94175309c4e0f1a9249691835a1ed4e329c7aa3c1effd5f4cea714",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "completed_development_screen",
+      "games": 16,
+      "wins": 14,
+      "draws": 1,
+      "losses": 1,
+      "points": 14.5,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "d58df3e664f95eb7db3f1552fb3383cee7d6a21a932836558ff6a9d94d9a466f",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "combined-root-ply-type-01",
+      "candidate_sha256": "f2bc04f532fbe8aa86c076dc9b4c7a71519c8e427c7232e6f6ca099f7c7011c0",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "completed_development_screen",
+      "games": 16,
+      "wins": 15,
+      "draws": 0,
+      "losses": 1,
+      "points": 15.0,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "e3610a73444f895c01fcae6f0c048488d899a4485858caec95f0b1c7c9cd16f7",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "combined-search-01",
+      "candidate_sha256": "93e5456d1d67ee71b3bed30f033464abd75b6d26825b94985e3c52039d42aafa",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "completed_development_screen",
+      "games": 16,
+      "wins": 10,
+      "draws": 3,
+      "losses": 3,
+      "points": 11.5,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "ca91bd87366eed03e1f7a2c8330f4c9ab62fd285acb1f8c86489b53a6979d48e",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "combined-search-cycle-01",
+      "candidate_sha256": "6842c76a72e760d4766dae2daa59550cc911c37dd8913c017f518d12f247d364",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "completed_development_screen",
+      "games": 16,
+      "wins": 10,
+      "draws": 5,
+      "losses": 1,
+      "points": 12.5,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "7be1e3fb9333196b895e01b72a0ad43bfa8bd6a3d8eb1ca0850fa6a7301de74c",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "history-01",
+      "candidate_sha256": "aef0aeb7f54d948026e88d209b522cbbd292e0606f78200326b1c732418ee1fb",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "incomplete",
+      "games": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "points": 0.0,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "1eba4131dc1f9563824fd094645b3eb5c4633de7c4673df9a4a267103e7785b1",
+      "runtime_error_recorded": true
+    },
+    {
+      "study": "history-02",
+      "candidate_sha256": "bf1b0a710e5bde484ce5ed25dca020ef2f1f89416203894911a28eeba9a8765c",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "completed_development_screen",
+      "games": 16,
+      "wins": 7,
+      "draws": 4,
+      "losses": 5,
+      "points": 9.0,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "4651a1154a9994e944211a040bd8ccccffd5a33acf17c5b4a0009a7ddeb58ea4",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "ordering-01",
+      "candidate_sha256": "ed76b30d5424a94302a0a4ce759a205ce5b7ac9b11444ce930d345b588704af6",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "completed_development_screen",
+      "games": 16,
+      "wins": 7,
+      "draws": 7,
+      "losses": 2,
+      "points": 10.5,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "795cee3283bd0a194cc62d1b5900de64cbecfc874731a6925db396e84e650a1f",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "ordering-hints-01",
+      "candidate_sha256": "b9afcbf071018329f699bd3c76451b6539de13b39dd8b82634ad46a3a39a6e8c",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "stopped_development_screen",
+      "games": 8,
+      "wins": 1,
+      "draws": 5,
+      "losses": 2,
+      "points": 3.5,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "7b663c360050dbaf3308401e95c0005c56feb5a5c2d031a2572c48fa5dd64631",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "ordering-lmr-01",
+      "candidate_sha256": "be58e1e490a3b69c682ac220baa8735a18326a0c626c4b09779b2cbb89e0e813",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "completed_development_screen",
+      "games": 16,
+      "wins": 7,
+      "draws": 7,
+      "losses": 2,
+      "points": 10.5,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "182972cb52e542c9ea1cdcc80d21060ba05bf130a4afdee83e0548a3d3051327",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "ordering-null-01",
+      "candidate_sha256": "94070d0683155f26faf1a413a3db87d12921dc5af71e1b9dd9511b886153cf18",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "incomplete",
+      "games": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "points": 0.0,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "63264f187f9b3a8ca00b303b3a41b9f09a26d29788a3a3faed677c29b76e34b7",
+      "runtime_error_recorded": true
+    },
+    {
+      "study": "tactical-01",
+      "candidate_sha256": "614c5a4895035eacf6a73d4df0d4265ee9ead695412b1c47a7562d2d4ba36bfd",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "stopped_development_screen",
+      "games": 8,
+      "wins": 3,
+      "draws": 2,
+      "losses": 3,
+      "points": 4.0,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "6ab4143a8bc4676d546501719e18f19ccb92f18452eed27240a95cedde1f2da4",
+      "runtime_error_recorded": false
+    },
+    {
+      "study": "time-01",
+      "candidate_sha256": "7d1510e5d5a8290cdd6408f020dc98f40bf0837e6cdb6b5fe7700ae1a87bf7e8",
+      "baseline_sha256": "5664d65c91e8981f2980ecf7630f8231c2986d736d54c86a8d454085b6fcfc61",
+      "status": "stopped_development_screen",
+      "games": 8,
+      "wins": 1,
+      "draws": 6,
+      "losses": 1,
+      "points": 4.0,
+      "scope": "reused development only; never pooled across candidates",
+      "private_outcome_sha256": "4187e819e5ceb84fdac56d16efa34dbd78619b2f7dd7d7a0c8dbc702fc02046b",
+      "runtime_error_recorded": false
+    }
+  ],
+  "qualified_v16_v20": {
+    "v16-01": {
+      "source_sha256": "fdcdea36ad030dd534c2607408b399673d0fee728aeafc0ea456f96871f8f787",
+      "ZIP_sha256": "00f244998b54c1d116a4af99ef9c3a2caf1eba262b3c5b59a19d0ae8e73b9084",
+      "qualification_against_v14": {
+        "short": {
+          "wins": 13,
+          "draws": 2,
+          "losses": 1,
+          "points": 14.0,
+          "bound_saved_files_reverified": 76
+        },
+        "full": {
+          "wins": 17,
+          "draws": 3,
+          "losses": 0,
+          "points": 18.5,
+          "bound_saved_files_reverified": 269
+        }
+      }
+    },
+    "v20-01": {
+      "source_sha256": "401ee761ed94175309c4e0f1a9249691835a1ed4e329c7aa3c1effd5f4cea714",
+      "ZIP_sha256": "616e3f3659e0a7090e8dd46f72e2209171776abace156401acb2f83cfc5bbd5a",
+      "qualification_against_v14": {
+        "short": {
+          "wins": 15,
+          "draws": 0,
+          "losses": 1,
+          "points": 15.0,
+          "bound_saved_files_reverified": 2261
+        },
+        "full": {
+          "wins": 17,
+          "draws": 2,
+          "losses": 1,
+          "points": 18.0,
+          "bound_saved_files_reverified": 2331
+        }
+      }
+    }
+  },
+  "later_rejected": [
+    {
+      "internal": "v21-01",
+      "WDL": [
+        10,
+        5,
+        1
+      ]
+    },
+    {
+      "internal": "v22-01",
+      "WDL": [
+        12,
+        3,
+        1
+      ]
+    },
+    {
+      "internal": "v23-01",
+      "WDL": [
+        12,
+        3,
+        1
+      ]
+    }
+  ],
+  "v23_audit_sha256": "81520c8b292752a9bebf19c9b14d01aaf3a26b3731df4dff496a6b7d8974b1da",
+  "qualification06_full": "Incomplete after14W2D in16 completed games during a later startup interruption. Preserved separately; not pooled into qualification07.",
+  "next": "After this GitHub update, a separately frozen comparison of unchanged v20 with submitted v16 is authorized. No score exists yet.",
+  "memory_causal_benefit": "unmeasured",
+  "private_logs_or_reference_engines_published": false
+}

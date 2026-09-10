@@ -1,31 +1,18 @@
 # SearchMate research records
 
-## Current index: 9 September 2026
+## Current index — 10 September 2026
 
-The last confirmed accepted entry is **competition v3/internal v7-01**.
-**Internal v14-01**, intended competition v4, has qualified for the targeted
-queen-versus-king repair; current platform acceptance is unconfirmed.
+The user confirmed submitting **internal v16-01**. **V20-01** is a qualified local alternative, without established superiority to v16. Latest supplied rated round:90; round80's v14/v16 boundary remains uncertain.
 
-- [Current state](CURRENT_STATE.md): release identities, supplied match coverage,
-  actionable research lessons and the next unresolved question.
-- [V14 release](releases/competition-v4-internal-v14-01/README.md): exact qualified
-  ZIP, source, tablebase data and portable qualification evidence.
-- [Progress: 9 September](PROGRESS_2026-09-09.md): conversion repair and the new
-  attack evidence, with no broad strength claim.
-- [Rated results through 75](rated-results/README.md): per-game results and
-  attribution, source hashes, duplicate handling and the round-30 discrepancy.
-- [V7 release and rollback](releases/competition-v3-internal-v7-01/README.md):
-  preserved source, package and original acceptance observation.
-- [Earlier progress through v9](PROGRESS_2026-09-08.md),
-  [released v2](releases/v2-01/STATUS.md), and
-  [historical v0](releases/v0/STATUS.md): original dated evidence retained.
+- [Current state](CURRENT_STATE.md): actual submission identity and authorized next question.
+- [Submitted v16](releases/competition-v5-internal-v16-01/README.md): preserved exact ZIP/source/assets and portable qualification evidence.
+- V20 remains local pending direct comparison with the submitted v16. Its source and ZIP are intentionally excluded from this publication.
+- [Progress and rated review](PROGRESS_2026-09-10.md): verified new games, remaining weaknesses and comparison limits.
+- [Rated inventory through90](rated-results/README.md): results, attribution and source hashes.
+- [Strength-development summaries](studies/strength-development-2026-09-10.json): prepared, failed, incomplete and qualified studies retained separately.
+- [Previous9 September repair record](PROGRESS_2026-09-09.md), [v14 release](releases/competition-v4-internal-v14-01/README.md), [v7 release](releases/competition-v3-internal-v7-01/README.md), and [8 September progress](PROGRESS_2026-09-08.md): preserved dated history.
 
-The original working memory and protocols below preserve their published
-historical snapshots. CURRENT_STATE.md supersedes their old active/pending
-status. The public ledger receives a dated publication event; the full private
-research ledger, raw logs, source caches and withheld inputs remain local.
-Recuris-inspired memory guides research decisions; a causal benefit has not been
-measured. No experiment resumes merely because its old procedure appears here.
+The public ledger receives a publication event. Raw own-team runtime logs, bulk studies, offline references and sealed inputs remain local. Historical protocols do not authorize a new run merely by being published. The Recuris-inspired record supports research decisions; its causal benefit remains unmeasured.
 
 ## Historical v0 documentation, preserved
 

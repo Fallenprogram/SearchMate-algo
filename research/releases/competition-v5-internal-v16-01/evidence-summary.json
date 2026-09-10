@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "source_sha256": "fdcdea36ad030dd534c2607408b399673d0fee728aeafc0ea456f96871f8f787",
+  "ZIP_sha256": "00f244998b54c1d116a4af99ef9c3a2caf1eba262b3c5b59a19d0ae8e73b9084",
+  "qualification_against_internal_v14": {
+    "short": {
+      "wins": 13,
+      "draws": 2,
+      "losses": 1,
+      "points": 14.0,
+      "bound_saved_files_reverified": 76
+    },
+    "full": {
+      "wins": 17,
+      "draws": 3,
+      "losses": 0,
+      "points": 18.5,
+      "bound_saved_files_reverified": 269
+    }
+  },
+  "exact_package_gate_passed": true,
+  "current_platform_status_basis": "User confirms v16 exact ZIP submission; no source hash in rated logs",
+  "native_and_package_evidence": "Reused completed source-bound evidence; publication runs no engine",
+  "private_report_sha256": "09395671fa67cb6499569f276f4f70b93d9273d041884f45ae1eb32612801c3d",
+  "private_review_sha256": "9b9626670baa7b7b447988c8ef7a4bad8da42d5c4753d0d02dfe92161ded56ae",
+  "limitations": [
+    "Different qualification roots; not a direct comparison between v16 and v20.",
+    "Finite local scores do not establish Elo, ladder rank or population win rate.",
+    "KQK, deadline, memory and history validation have the documented finite coverage.",
+    "Public summaries and hashes do not include private runtime logs or the bulk research corpus."
+  ]
+}

@@ -18,3 +18,7 @@
 /research/releases/competition-v4-internal-v14-01/*.zip binary
 /research/releases/competition-v4-internal-v14-01/player/tables/*.rtbw binary
 /research/releases/competition-v4-internal-v14-01/player/tables/*.rtbz binary
+
+# Preserve exact v16 submission data.
+/research/releases/competition-v5-internal-v16-01/*.zip binary
+/research/releases/competition-v5-internal-v16-01/player/tables/* binary
