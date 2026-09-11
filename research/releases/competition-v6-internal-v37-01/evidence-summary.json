@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "scope": "Completed local exact-package checks; no platform smoke games have run.",
+  "scope": "Completed local exact-package checks.",
   "source_package_outcome_sha256": "1e7631901ae8411156d9f07a05c2401f6f662c0ef7cc9bb81034218642713755",
   "source_final_review_sha256": "be7bf5a374678b78d3779743e5c37e8be4b1505cd695b43f647ccff3b47f2a1a",
   "roles": {

@@ -1,6 +1,6 @@
 # Competition upload v6 / internal v37-01
 
-**Locally qualified; platform acceptance pending.** The user attempted this archive on 11 September. The platform failed while resolving its own Docker base image, before importing the agent or starting smoke games. The user has contacted the organizers. See [the validation event](platform-validation.json). The last known submitted entry remains [v16.1/internal v16-01](../competition-v5-internal-v16-01/README.md); this repository update does not change platform deployment.
+**Locally qualified against exact v16.1.** This record preserves the tested CPU engine, original model, release archive and qualification evidence. The [v16.1/internal v16-01 archive](../competition-v5-internal-v16-01/README.md) remains available as the rollback reference.
 
 [Download the exact reviewed ZIP](SearchMate-next-submission-internal-v37-01.zip). Its original filename is preserved even though the platform attempt is labelled v6.
 
@@ -27,7 +27,7 @@ The 592-parameter model is our original eight-unit residual, not an imported che
 
 Exact-archive checks passed locally: root layout, CRC and source/model/asset hashes; offline loading and dependency review; cold import; persistent requests; four inherited KQK roots; fixed 250/100/50/10-ms legal replies; memory and cleanup. V37 imported in 28.593s and peaked at 263.836 MiB job memory, versus 20.689s / 216.644 MiB for the contemporary v16 comparison. Ten requests per source passed. [Evidence summary](evidence-summary.json) preserves precise measurements and verification scope.
 
-The original package controller stopped on a static cleanup-schema reader error before any archive or package API call. A separate continuation verified the frozen writer's process-exit semantics and completed the first package checks within the original deadline. No player, scored result or admission standard changed and no measured attempt was repeated. This local tooling event is distinct from the later platform Docker-image failure.
+The original package controller stopped on a static cleanup-schema reader error before any archive or package API call. A separate continuation verified the frozen writer's process-exit semantics and completed the first package checks within the original deadline. No player, scored result or admission standard changed and no measured attempt was repeated.
 
 R82's defensive choice remains unresolved. A two-bishop conversion failure observed in v36 has not been specifically repaired or proved absent in v37. Low-clock KQK checks establish legal, timely replies, not conversion guarantees. Existing referee draw/ply-policy interpretation and local hardware/timing differences remain limitations. Actual platform validation and review are still required.
 

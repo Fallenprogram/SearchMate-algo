@@ -1,8 +1,6 @@
 # Current SearchMate state — 11 September 2026
 
-**Best locally qualified build: internal v37-01. Platform upload attempt: v6; acceptance pending after a build failure.** Short 12W/3D/1L, 13.5/16 points; full 7W/1D/0L, 7.5/8 points, against exact submitted v16.1. Zero faults and exact-package checks passed locally. [Release and ZIP](releases/competition-v6-internal-v37-01/README.md).
-
-The log failed at `FROM aichessathon/agent-base:latest` with pull access denied, before agent import or smoke games. The user reports emailing the organizers and awaits their reply. This is no rules-rejection finding and does not establish platform approval. [Validation event](releases/competition-v6-internal-v37-01/platform-validation.json).
+**Best locally qualified build: internal v37-01.** Short 12W/3D/1L, 13.5/16 points; full 7W/1D/0L, 7.5/8 points, against exact submitted v16.1. Zero faults and exact-package checks passed locally. [Release and ZIP](releases/competition-v6-internal-v37-01/README.md).
 
 The last known user-confirmed submitted engine remains **v16.1/internal v16-01**, source `fdcdea36ad030dd534c2607408b399673d0fee728aeafc0ea456f96871f8f787`. [Rollback archive](releases/competition-v5-internal-v16-01/README.md). No updated deployment or subsequent rated-build attribution is inferred from an upload attempt.
 

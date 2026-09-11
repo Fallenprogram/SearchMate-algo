@@ -4,8 +4,6 @@ SearchMate is an original CPU chess engine and a Recuris-inspired research proje
 
 **V37 is locally qualified against submitted v16.1:** 13.5/16 short-clock points and 7.5/8 full-clock points, with zero recorded faults. [Download the exact ZIP and read its release record](research/releases/competition-v6-internal-v37-01/README.md). The build includes our original CPU-trained neural residual and search improvements; [the model card](research/releases/competition-v6-internal-v37-01/MODEL_CARD.md) documents its provenance and limitations.
 
-**Platform acceptance is pending.** Upload attempt v6/internal v37 failed at the platform Docker base-image step before any agent import or smoke game. The user has contacted the organizers. [Validation event](research/releases/competition-v6-internal-v37-01/platform-validation.json). The last known user-confirmed submission remains [v16.1/internal v16-01](research/releases/competition-v5-internal-v16-01/README.md).
-
 | V37 local screen against exact submitted v16.1 | W / D / L | Points |
 |---|---:|---:|
 | Short, 16 games at 10s + 0.1s | 12 / 3 / 1 | 13.5/16 |

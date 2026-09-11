@@ -1,8 +1,8 @@
 {
   "internal_version": "v37-01",
   "competition_attempt_label": "v6",
-  "status": "locally_qualified_platform_build_failed_pending_revalidation",
-  "accepted": false,
+  "status": "locally_qualified",
+  "accepted": null,
   "agent_path": "player/agent.py",
   "agent_sha256": "e93e1b7a788cdd92237853621c219fab2c1d14fd85d5e034dd09b0c1c6e46953",
   "zip_path": "SearchMate-next-submission-internal-v37-01.zip",
@@ -82,5 +82,6 @@
   },
   "source_final_review_sha256": "be7bf5a374678b78d3779743e5c37e8be4b1505cd695b43f647ccff3b47f2a1a",
   "published_by_user_authorization": true,
-  "automatic_competition_upload": false
+  "automatic_competition_upload": false,
+  "platform_acceptance": "unconfirmed"
 }

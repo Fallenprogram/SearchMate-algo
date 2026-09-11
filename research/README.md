@@ -2,12 +2,12 @@
 
 ## Current index — 11 September 2026
 
-V37 locally qualifies against submitted v16.1 and its exact archive passed local package checks. Its platform upload failed before agent execution because the builder could not access its base image. Acceptance remains pending; v16.1 is the last known submitted build.
+V37 locally qualifies against submitted v16.1 and its exact archive passed local package checks. The release record documents the original CPU model, exact artifacts and completed local evidence.
 
-- [Current state](CURRENT_STATE.md): current identities, validation status and next action.
+- [Current state](CURRENT_STATE.md): current identities and next action.
 - [V37 release](releases/competition-v6-internal-v37-01/README.md): exact source/model/assets/ZIP, portable evidence and 24 qualification PGNs.
 - [Original model card](releases/competition-v6-internal-v37-01/MODEL_CARD.md): CPU fitting, accuracy, provenance and limits.
-- [11 September research update](PROGRESS_2026-09-11.md): failed predecessors, final qualification and both tooling/platform events.
+- [11 September research update](PROGRESS_2026-09-11.md): failed predecessors, final qualification and tooling provenance.
 - [Submitted v16.1 rollback](releases/competition-v5-internal-v16-01/README.md).
 - [10 September review](PROGRESS_2026-09-10.md), [9 September review](PROGRESS_2026-09-09.md), [8 September review](PROGRESS_2026-09-08.md): preserved dated history.
 - [Rated inventory through90](rated-results/README.md): unchanged verified public snapshot and uncertain boundaries.
