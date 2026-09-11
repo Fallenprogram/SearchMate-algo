@@ -1,17 +1,14 @@
 # Current SearchMate state — 11 September 2026
 
-**Best locally qualified build: internal v37-01.** Short 12W/3D/1L, 13.5/16 points; full 7W/1D/0L, 7.5/8 points, against exact submitted v16.1. Zero faults and exact-package checks passed locally. [Release and ZIP](releases/competition-v6-internal-v37-01/README.md).
+**Final user-confirmed competition submission: internal v39-01. Development is stopped by user request.** No further candidate, game campaign or upload is queued; the temporary overnight follow-up remains paused.
 
-The last known user-confirmed submitted engine remains **v16.1/internal v16-01**, source `fdcdea36ad030dd534c2607408b399673d0fee728aeafc0ea456f96871f8f787`. [Rollback archive](releases/competition-v5-internal-v16-01/README.md). No updated deployment or subsequent rated-build attribution is inferred from an upload attempt.
+[Final release and exact ZIP](releases/final-internal-v39-01/README.md)
 
-V37 source: `e93e1b7a788cdd92237853621c219fab2c1d14fd85d5e034dd09b0c1c6e46953`.
+- Source SHA-256: `c3a03de24e3aa9c9caa1ac1323f4955146ee12a6ace3ef4b18d074eb1e8f8bc5`
+- ZIP SHA-256: `bad3347ceae0fed3a09397641f90b4789224e4e7d23206c1fc2c04d0aba8b83f`
 
-V37 ZIP: `6cdee0bee1f877e5af1df0aa19b2444cfebc5163515872debb33c53b8cc8ecd3`.
+V39 inherits the original CPU-trained model and v37 search, the KQK selector and v38's KBBK repair, then corrects premature fifty-move draw evaluation. It passed targeted maintenance and exact-package checks. V39 smoke: **0W/1D/1L** against v38; no broad-strength claim. Historical v37 strength screen against v16.1: **13.5/16 short and 7.5/8 full**. [Lineage, unsuccessful v40-v48 studies and limits](FINAL_SUBMISSION_2026-09-11.md).
 
-The original 592-parameter model is reused unchanged from v31. V37's full combined build is qualified, while the historical v31-only and v36 screens remain failed. No causal component attribution, Elo prediction or resolution of every weakness is claimed. R82 defense and uncovered two-bishop conversion remain open. [Progress and provenance](PROGRESS_2026-09-11.md).
+The user reports v39 **1W/1D**. Public rounds 107 (draw, Fork 72) and 108 (win, berserker) match that report. At 2026-09-11 10:13:35 UTC, the overall profile showed **1647**, **215/465**, **34W/18D/30L**. These overall numbers span builds. Per-game hashes are unavailable; round106 is left unassigned. [Rated update](rated-results/UPDATE_2026-09-11.md).
 
-The local development goal is complete and its overnight follow-up paused. User upload/acceptance is the next step. At most one final focused endgame attempt may follow successful validation if enough time remains; it has not started. Do not interpret historical plans as instructions to launch another campaign.
-
-The public [rated inventory](rated-results/README.md) still covers26–90. Round80's v14/v16 boundary remains uncertain. Private newer observations are not merged into that frozen public snapshot. Prior v20 source/ZIP remain private. Root `agent.py` is historical v0, and `harness/` and all previous release artifacts remain unchanged.
-
-M1-P001 preserves identities and runtime/reset evidence; M1-P002 requires competitive evidence; M1-P003 retains counterevidence and bounded conclusions. Recuris's causal benefit remains unmeasured. No automatic competition upload occurs.
+Root `agent.py` and `make zip` remain historical v0. All prior releases, harness and private studies are preserved. V20 and later unqualified payloads remain unpublished. Earlier working-memory/protocol files and dated updates are historical snapshots, not live work instructions. M1-P001–003 remain the decision lessons; the Recuris causal strength benefit is unmeasured.

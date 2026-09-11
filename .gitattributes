@@ -29,3 +29,9 @@
 /research/releases/competition-v6-internal-v37-01/player/tables/* binary
 # Keep even the frozen source whitespace byte-identical to its tested ZIP.
 /research/releases/competition-v6-internal-v37-01/player/agent.py -whitespace
+
+# Preserve the exact final v39 release payload.
+/research/releases/final-internal-v39-01/*.zip binary
+/research/releases/final-internal-v39-01/player/evaluation.npz binary
+/research/releases/final-internal-v39-01/player/tables/* binary
+/research/releases/final-internal-v39-01/player/agent.py -whitespace

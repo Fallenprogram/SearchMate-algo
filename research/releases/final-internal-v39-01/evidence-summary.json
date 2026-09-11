@@ -1,0 +1,376 @@
+{
+  "at": "2026-09-11T07:01:12.791483+00:00",
+  "status": "qualified_targeted_maintenance",
+  "source_sha256": "c3a03de24e3aa9c9caa1ac1323f4955146ee12a6ace3ef4b18d074eb1e8f8bc5",
+  "baseline_source_sha256": "75d2b020dfe2f063e65cd148d45e514ee0279aa223d200e9388b00ffdf3f29e0",
+  "changed_functions": [
+    "_sm_terminal",
+    "_sm_quiet",
+    "get_move"
+  ],
+  "other_source_and_all_assets_unchanged": true,
+  "diagnosis": {
+    "passed": true,
+    "reference_scores_black_pov": {
+      "d5b4": -435,
+      "d5b6": 0
+    },
+    "improvement_cp": 435,
+    "all_reply_draw_count": 19,
+    "unchanged_stable_controls": [
+      "r103",
+      "r97"
+    ],
+    "interpretation": "Matched histories/settings; one-million-node requested searches. Candidate forced-draw child stops at depth245 below requested node cap. No Elo inference.",
+    "reference_outcome_sha256": "21ac0d3cf766f2f66a3146f62ab800fe2e5b1fabee6d9ded80008433cca6e289",
+    "technical_audit_sha256": "a3b9f5a1fa48b55308bbac2e990cefb6eb4408543943ca70d4048c559ede462e"
+  },
+  "r99_repair": {
+    "move": "d5b6",
+    "child_fen": "8/R7/1n6/4k3/2p1b3/2P5/3K4/8 w - - 99 112",
+    "replies": [
+      {
+        "move": "a7a8",
+        "fen": "R7/8/1n6/4k3/2p1b3/2P5/3K4/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "a7h7",
+        "fen": "8/7R/1n6/4k3/2p1b3/2P5/3K4/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "a7g7",
+        "fen": "8/6R1/1n6/4k3/2p1b3/2P5/3K4/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "a7f7",
+        "fen": "8/5R2/1n6/4k3/2p1b3/2P5/3K4/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "a7e7",
+        "fen": "8/4R3/1n6/4k3/2p1b3/2P5/3K4/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "a7d7",
+        "fen": "8/3R4/1n6/4k3/2p1b3/2P5/3K4/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "a7c7",
+        "fen": "8/2R5/1n6/4k3/2p1b3/2P5/3K4/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "a7b7",
+        "fen": "8/1R6/1n6/4k3/2p1b3/2P5/3K4/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "a7a6",
+        "fen": "8/8/Rn6/4k3/2p1b3/2P5/3K4/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "a7a5",
+        "fen": "8/8/1n6/R3k3/2p1b3/2P5/3K4/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "a7a4",
+        "fen": "8/8/1n6/4k3/R1p1b3/2P5/3K4/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "a7a3",
+        "fen": "8/8/1n6/4k3/2p1b3/R1P5/3K4/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "a7a2",
+        "fen": "8/8/1n6/4k3/2p1b3/2P5/R2K4/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "a7a1",
+        "fen": "8/8/1n6/4k3/2p1b3/2P5/3K4/R7 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "d2e3",
+        "fen": "8/R7/1n6/4k3/2p1b3/2P1K3/8/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "d2e2",
+        "fen": "8/R7/1n6/4k3/2p1b3/2P5/4K3/8 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "d2e1",
+        "fen": "8/R7/1n6/4k3/2p1b3/2P5/8/4K3 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "d2d1",
+        "fen": "8/R7/1n6/4k3/2p1b3/2P5/8/3K4 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      },
+      {
+        "move": "d2c1",
+        "fen": "8/R7/1n6/4k3/2p1b3/2P5/8/2K5 b - - 100 112",
+        "drawn": true,
+        "actual_fifty": true,
+        "checkmate": false
+      }
+    ],
+    "interpretation": "Draw under observed actual100-halfmove policy; also drawable under optional claim policy. Does not assert current platform uses reached-boundary versus claimable-next-move semantics."
+  },
+  "calls": {
+    "direct": 58,
+    "api": 12
+  },
+  "reference": {
+    "queries": 2,
+    "requested_nodes": 2000000,
+    "actual_reported_nodes": 1005007
+  },
+  "smoke": {
+    "wins": 0,
+    "draws": 1,
+    "losses": 1,
+    "points": 0.5,
+    "games": 2,
+    "mode": "fresh_per_game"
+  },
+  "smoke_legal_plies": 321,
+  "smoke_covered_replies": 18,
+  "package_checks": {
+    "baseline": {
+      "import_s": 28.135909299999184,
+      "peak_memory_bytes": 278003712,
+      "requests": 14,
+      "low_clock_ms": {
+        "250": 2.035999999861815,
+        "100": 1.8389999986538896,
+        "50": 1.758700000209501,
+        "10": 2.1503999996639322
+      }
+    },
+    "candidate": {
+      "import_s": 27.93451129999994,
+      "peak_memory_bytes": 269078528,
+      "requests": 14,
+      "low_clock_ms": {
+        "250": 11.052599998947699,
+        "100": 6.879500000650296,
+        "50": 1.672300000791438,
+        "10": 1.785900001777918
+      }
+    }
+  },
+  "inherited_endgame_proof": {
+    "v38_review_sha256": "156b3326b5b8327e3ccd7b10ba3d1edcc5ceee0d8806c14bfcfff067fc849e55",
+    "helpers_unchanged": true,
+    "assets_unchanged": true,
+    "covered_package_roots_matched": true
+  },
+  "retained_development_failure": {
+    "source_unchanged": true,
+    "error": "Boundary helper copied import-warmup control counters (136 nodes) instead of clearing control before direct quiescence. The expired-deadline fixture consequently did not sample the clock on its first node.",
+    "original_raw_results_preserved": true,
+    "additional_direct_calls": 6,
+    "total_direct_calls": 58,
+    "cap": 64,
+    "action": "New bounded diagnostic helper: clear control and rerun only child99, quiet-only99 and expired-deadline qsearch on each source. Preserve all original results. No API, scored-game or player retry."
+  },
+  "retained_package_audit_correction": {
+    "utc": "2026-09-11T06:59:09.923541+00:00",
+    "stage": "read-only post-smoke audit, before archive preparation or package engine calls",
+    "failures": [
+      {
+        "operation": "package_screen.py prepare",
+        "error": "AssertionError: existing forced_move root shortcut absent from allowed covered-ending audit cases"
+      },
+      {
+        "operation": "package_screen.py run",
+        "error": "FileNotFoundError package/manifest.json; no worker launched"
+      }
+    ],
+    "verified_cases": [
+      {
+        "game": "02-black",
+        "ply": 222,
+        "fen": "8/8/8/6Q1/4k3/2K5/8/8 b - - 10 111",
+        "only_legal_move": "e4f3"
+      },
+      {
+        "game": "02-black",
+        "ply": 224,
+        "fen": "8/8/8/6Q1/8/3K1k2/8/8 b - - 12 112",
+        "only_legal_move": "f3f2"
+      },
+      {
+        "game": "02-black",
+        "ply": 228,
+        "fen": "8/8/8/8/6Q1/4K3/8/5k2 b - - 16 114",
+        "only_legal_move": "f1e1"
+      }
+    ],
+    "correction": "Allow forced_move only when the recorded reply equals the sole independently generated legal move. No source or game change, no repeated engine calls.",
+    "package_calls_before_correction": 0,
+    "original_checker_sha256": "f8e2b16bd24b9046e3580c886033ddfb0b8db5a3215c16c01f480a532f1e2d14"
+  },
+  "protected_unchanged": 40,
+  "verified_frozen_files": 67,
+  "no_source_changes_after_scored_freeze": true,
+  "no_scored_retries": true,
+  "no_neural_training": true,
+  "limitations": [
+    "Specific draw-boundary repair; no broad Elo or ranking claim from two smoke games.",
+    "Round103 remains unresolved, as do other general tactical and evaluation limitations.",
+    "Public docs say the referee claims fifty-move draws automatically but do not precisely settle claimable-next-move versus reached-boundary behavior. The fix follows the recorded R99 continuation and observed actual 100-halfmove policy. The Nb6 line draws under either optional claims or reached-boundary semantics.",
+    "Reference score difference is a bounded matched-position estimate; the 19-reply draw verification is separate exact legal replay under the stated termination policy.",
+    "Finite import, memory and low-clock checks on this Windows CPU are not a platform acceptance or all-clock guarantee.",
+    "Both endgame selectors retain their existing low-clock/probe-failure/near-fifty fallbacks.",
+    "Recuris causal strength benefit remains unmeasured."
+  ],
+  "lessons": {
+    "M1-P001": "Fresh full-clock and package processes; correct the diagnostic warmup counter, preserve its failed audit and use only six bounded supplemental calls.",
+    "M1-P002": "Freeze a targeted maintenance gate with matched-position evidence and two clean smoke games; no new 75% competitive-strength claim.",
+    "M1-P003": "Trace the actual R99 terminal return and stronger legal capture; do not infer a R103 repair or conflate platform draw interpretations."
+  },
+  "historical_review_sha256": "c0e6ef725fc767c4f876f7a4ac7b16e7bb99d2d4492d303b708c617d251bb156",
+  "v38_inherited_conversion": {
+    "source_sha256": "75d2b020dfe2f063e65cd148d45e514ee0279aa223d200e9388b00ffdf3f29e0",
+    "proof": {
+      "passed": true,
+      "rows": [
+        {
+          "id": "kbb-86",
+          "passed": true,
+          "acyclic_graph_nodes": 207,
+          "fixed_policy_consistent": true,
+          "maximum_plies_to_mate": 23,
+          "states_cumulative": 243,
+          "helper_calls_cumulative": 134
+        },
+        {
+          "id": "kbb-86-mirror",
+          "passed": true,
+          "acyclic_graph_nodes": 211,
+          "fixed_policy_consistent": true,
+          "maximum_plies_to_mate": 23,
+          "states_cumulative": 491,
+          "helper_calls_cumulative": 271
+        },
+        {
+          "id": "kbb-100",
+          "passed": true,
+          "acyclic_graph_nodes": 14,
+          "fixed_policy_consistent": true,
+          "maximum_plies_to_mate": 11,
+          "states_cumulative": 503,
+          "helper_calls_cumulative": 278
+        },
+        {
+          "id": "kbb-100-mirror",
+          "passed": true,
+          "acyclic_graph_nodes": 14,
+          "fixed_policy_consistent": true,
+          "maximum_plies_to_mate": 11,
+          "states_cumulative": 515,
+          "helper_calls_cumulative": 285
+        }
+      ],
+      "states": 515,
+      "helper_calls": 285,
+      "elapsed_s": 5.597074400000565
+    },
+    "generated": {
+      "positions": 64,
+      "winning_conversions": 51,
+      "drawn_positions": 13,
+      "api_calls": 740,
+      "elapsed_s": 24.79872720000094
+    },
+    "regression": {
+      "positions": 4,
+      "fixed_depth": 3,
+      "calls": 8,
+      "all_pairs_equal": true
+    },
+    "smoke": {
+      "games": 2,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "points": 2.0,
+      "mode": "fresh_per_game"
+    },
+    "package_checks": {
+      "baseline": {
+        "import_s": 33.19888709999941,
+        "peak_memory_bytes": 275931136,
+        "requests": 14,
+        "low_clock_ms": {
+          "250": 9.493300000031013,
+          "100": 4.215900000417605,
+          "50": 2.006999999139225,
+          "10": 1.5954999998939456
+        }
+      },
+      "candidate": {
+        "import_s": 31.1322123000009,
+        "peak_memory_bytes": 277098496,
+        "requests": 14,
+        "low_clock_ms": {
+          "250": 24.289599999974598,
+          "100": 13.737400000536582,
+          "50": 1.5007000001787674,
+          "10": 2.3322999986703508
+        }
+      }
+    }
+  },
+  "interpretation": "Historical local measurements, reused without new engine calls for this publication."
+}

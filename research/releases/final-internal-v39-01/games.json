@@ -1,0 +1,18 @@
+{
+  "scope": "Two historical fresh-process smoke games against exact v38 at 120s + 0.5s",
+  "wins": 0,
+  "draws": 1,
+  "losses": 1,
+  "points": 0.5,
+  "points_threshold": null,
+  "games": [
+    {
+      "path": "games/01-white.pgn",
+      "sha256": "234a529f32541ca88bd25d90910d87cb24b83984a2e1b7e2179df32313cbb7cc"
+    },
+    {
+      "path": "games/02-black.pgn",
+      "sha256": "04e4339f721127fec8b295883499d60baff62eb794f5cc62b43743c8f5cf7056"
+    }
+  ]
+}

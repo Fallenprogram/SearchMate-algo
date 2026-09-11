@@ -1,0 +1,73 @@
+{
+  "internal_version": "v39-01",
+  "status": "final_submission_confirmed_by_user",
+  "recorded_at": "2026-09-11T10:19:19.218044+00:00",
+  "submission_evidence": "User explicitly confirmed v39 as the final competition submission and stopped further development.",
+  "competition_version_label": null,
+  "zip_path": "SearchMate-next-submission-internal-v39-01.zip",
+  "zip_sha256": "bad3347ceae0fed3a09397641f90b4789224e4e7d23206c1fc2c04d0aba8b83f",
+  "zip_bytes": 220247,
+  "agent_path": "player/agent.py",
+  "agent_sha256": "c3a03de24e3aa9c9caa1ac1323f4955146ee12a6ace3ef4b18d074eb1e8f8bc5",
+  "uncompressed_bytes": 300468,
+  "members": [
+    {
+      "path": "TABLEBASES.txt",
+      "bytes": 1806,
+      "sha256": "46dd53fb8a56bb522a662473fd35cbb2d8a7f80bd7ef779399f585a80e64a8e3"
+    },
+    {
+      "path": "agent.py",
+      "bytes": 95446,
+      "sha256": "c3a03de24e3aa9c9caa1ac1323f4955146ee12a6ace3ef4b18d074eb1e8f8bc5"
+    },
+    {
+      "path": "evaluation.npz",
+      "bytes": 3120,
+      "sha256": "c3c9b7f815e920c88d87974b8a0f63b66c0527c9b52525040ab7b0f20c0b7263"
+    },
+    {
+      "path": "tables/KBBvK.rtbw",
+      "bytes": 58000,
+      "sha256": "3afa74fcfd6100df851c3b18ca255acd9d68c31c7c74cb02b2d5236ffd610ed6"
+    },
+    {
+      "path": "tables/KBBvK.rtbz",
+      "bytes": 136272,
+      "sha256": "d3786ba13d73b1ed61b8be4fd301ceed56b9af5e7c4fbf4a252ef77d2ea3d3db"
+    },
+    {
+      "path": "tables/KBvK.rtbw",
+      "bytes": 80,
+      "sha256": "bc0d8ab3560de9038460f0e8f61e3b7efd3e3d0327d19ae0387c0da7ddeb244d"
+    },
+    {
+      "path": "tables/KBvK.rtbz",
+      "bytes": 80,
+      "sha256": "6246c8a5c643eec9d4758d55ed843e31cc28a9b82a6f630c1c950d8b7755975b"
+    },
+    {
+      "path": "tables/KQvK.rtbw",
+      "bytes": 272,
+      "sha256": "517667dff787162dbb1ed9d5d6484d30ee854e686ee0675c08d99ecf045d2d50"
+    },
+    {
+      "path": "tables/KQvK.rtbz",
+      "bytes": 5392,
+      "sha256": "71ea9444fa5bd42897d781a0c356975ea6f23e0f65a4254e470897031c161c8c"
+    }
+  ],
+  "api": "get_move(fen, time_left_ms) -> str",
+  "qualification": "targeted draw-boundary maintenance; not a new broad strength screen",
+  "predecessor": {
+    "version": "v38-01",
+    "agent_sha256": "75d2b020dfe2f063e65cd148d45e514ee0279aa223d200e9388b00ffdf3f29e0",
+    "zip_sha256": "5ba39348175d96b07118c7bdc099ac6f4075933757e8f758f948f79994ceeea7"
+  },
+  "neural_provenance": "../competition-v6-internal-v37-01/MODEL_CARD.md",
+  "historical_strength_baseline": "../competition-v6-internal-v37-01/README.md",
+  "historical_v16_1": "../competition-v5-internal-v16-01/README.md",
+  "development_status": "stopped_by_user",
+  "automatic_upload": false,
+  "rated_attribution_limit": "The public game pages do not expose the submitted source/ZIP hash; attribution uses user submission history."
+}

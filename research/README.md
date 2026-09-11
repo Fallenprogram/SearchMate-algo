@@ -2,7 +2,7 @@
 
 ## Current index — 11 September 2026
 
-V37 locally qualifies against submitted v16.1 and its exact archive passed local package checks. The release record documents the original CPU model, exact artifacts and completed local evidence.
+**Final submission is user-confirmed v39; development is stopped.** [Exact final release](releases/final-internal-v39-01/README.md), [closed research window](FINAL_SUBMISSION_2026-09-11.md), and [rated update through108](rated-results/UPDATE_2026-09-11.md) supersede earlier current-state and next-action statements. V37 remains the historical broader strength-qualified predecessor.
 
 - [Current state](CURRENT_STATE.md): current identities and next action.
 - [V37 release](releases/competition-v6-internal-v37-01/README.md): exact source/model/assets/ZIP, portable evidence and 24 qualification PGNs.

@@ -1,0 +1,22 @@
+SearchMate internal v14-01 — permitted endgame tablebase data
+
+The original SearchMate engine uses the preinstalled python-chess Syzygy reader.
+The two KQvK data files were generated with Ronald de Man's Syzygy tablebase
+generator and obtained from the Lichess public mirror. Generated tablebase data
+may be freely redistributed under the upstream statement; generator source
+licensing is separate. No generator or third-party engine code is shipped.
+
+Upstream: https://github.com/syzygy1/tb
+Permission: https://github.com/syzygy1/tb#terms-of-use
+Catalog: https://github.com/niklasf/syzygy-tables.info/tree/9d79edb273faa1217760b53ed0df642ee8596896/checksums
+
+KQvK.rtbw  272 bytes  SHA-256 517667dff787162dbb1ed9d5d6484d30ee854e686ee0675c08d99ecf045d2d50
+https://tablebase.lichess.ovh/tables/standard/3-4-5-wdl/KQvK.rtbw
+KQvK.rtbz  5392 bytes  SHA-256 71ea9444fa5bd42897d781a0c356975ea6f23e0f65a4254e470897031c161c8c
+https://tablebase.lichess.ovh/tables/standard/3-4-5-dtz/KQvK.rtbz
+
+Additional KBBK maintenance data: KBBvK WDL/DTZ and KBvK reader dependencies. Generated tablebase data may be freely redistributed (Ronald de Man, https://github.com/syzygy1/tb#terms-of-use). Data downloaded from https://tablebase.lichess.ovh/tables/standard/ and checked against https://github.com/niklasf/syzygy-tables.info at commit 9d79edb273faa1217760b53ed0df642ee8596896. No generator or external engine code ships.
+KBBvK.rtbw 58000 bytes SHA-256 3afa74fcfd6100df851c3b18ca255acd9d68c31c7c74cb02b2d5236ffd610ed6
+KBBvK.rtbz 136272 bytes SHA-256 d3786ba13d73b1ed61b8be4fd301ceed56b9af5e7c4fbf4a252ef77d2ea3d3db
+KBvK.rtbw 80 bytes SHA-256 bc0d8ab3560de9038460f0e8f61e3b7efd3e3d0327d19ae0387c0da7ddeb244d
+KBvK.rtbz 80 bytes SHA-256 6246c8a5c643eec9d4758d55ed843e31cc28a9b82a6f630c1c950d8b7755975b

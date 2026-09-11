@@ -2,20 +2,26 @@
 
 SearchMate is an original CPU chess engine and a Recuris-inspired research project for [AI Chessathon](https://aichessathon.com/).
 
-**V37 is locally qualified against submitted v16.1:** 13.5/16 short-clock points and 7.5/8 full-clock points, with zero recorded faults. [Download the exact ZIP and read its release record](research/releases/competition-v6-internal-v37-01/README.md). The build includes our original CPU-trained neural residual and search improvements; [the model card](research/releases/competition-v6-internal-v37-01/MODEL_CARD.md) documents its provenance and limitations.
+**Final submitted engine: internal v39-01, confirmed by the user on 11 September 2026. Development is stopped.** [Download the exact final ZIP and see its source, model and validation record](research/releases/final-internal-v39-01/README.md).
 
-| V37 local screen against exact submitted v16.1 | W / D / L | Points |
+V39 contains our original CPU-trained neural residual and Numba search, covered queen-versus-king and two-bishop-versus-king tablebase selectors, and the round-99 fifty-move draw-boundary repair. The source and archive are frozen. Later v40-v48 experiments did not qualify and are not included.
+
+The user reports **1 win and 1 draw** with v39; the public profile's latest rounds 107 and 108 match this. At 2026-09-11 10:13:35 UTC, the profile showed **rating 1647, rank 215 of 465**. This overall rating spans engine versions; two games do not establish a strength gain. [Rated results and attribution](research/rated-results/UPDATE_2026-09-11.md).
+
+V39 qualified as targeted maintenance. Its clean two-game smoke against v38 scored **0W/1D/1L**. The broader local strength evidence belongs to predecessor v37:
+
+| Historical v37 screen against exact submitted v16.1 | W / D / L | Points |
 |---|---:|---:|
 | Short, 16 games at 10s + 0.1s | 12 / 3 / 1 | 13.5/16 |
 | Full, 8 games at 120s + 0.5s | 7 / 1 / 0 | 7.5/8 |
 
-[All 24 qualification PGNs and game metadata](research/releases/competition-v6-internal-v37-01/games.json) are published. These finite screens after multiple candidate attempts do not establish Elo or predict ladder results. R82 defense and the uncovered two-bishop conversion question remain unresolved. The prior neural-only v31 and full-clock v36 failures are retained in the [11 September research update](research/PROGRESS_2026-09-11.md).
+[V37 qualification PGNs](research/releases/competition-v6-internal-v37-01/games.json), [original model card](research/releases/competition-v6-internal-v37-01/MODEL_CARD.md), and [final research record](research/FINAL_SUBMISSION_2026-09-11.md) distinguish broader qualification, maintenance and failed experiments. No Elo forecast or claim to resolve every weakness follows from these screens.
 
-Root `agent.py` and root `make zip` remain historical v0. Use the exact named modern release archive; v37 also requires its weight file, tablebase assets and attribution notice. The API remains `get_move(fen: str, time_left_ms: int) -> str`.
+Root `agent.py` and root `make zip` remain historical v0. Use the exact named v39 archive; it includes its weight file, six tablebase files and attribution notice. The API remains `get_move(fen: str, time_left_ms: int) -> str`.
 
 ## Results and version history
 
-The [rated inventory](research/rated-results/README.md) covers65 supplied records, rounds26–90, preserving the round30 void/export discrepancy and uncertain version boundaries.
+The preserved [rated inventory through90](research/rated-results/README.md) covers 65 supplied records. The [new update through108](research/rated-results/UPDATE_2026-09-11.md) adds later verified-batch summaries and public observations, retaining uncertain version boundaries.
 
 | Supplied rounds | User-attributed internal build | W / D / L | Points |
 |---|---|---:|---:|
@@ -36,10 +42,10 @@ These finite results qualify alternatives against v14; they do not rank v20 over
 
 ## Engine and research
 
-V37 combines the original Numba board/search core with a small symmetric neural correction, guarded late-move reductions, exact runtime static-evaluation caching, revised iteration forecasting and reversible-history score-table context. The KQK ending repair is inherited unchanged. There is no runtime GPU, external engine, network call or automatic learning from uploaded matches.
+V37 combines the original Numba board/search core with a small symmetric neural correction, guarded late-move reductions, exact runtime static-evaluation caching, revised iteration forecasting and reversible-history score-table context. V39 inherits that core and adds the documented KBBK and draw-boundary maintenance changes after v37. There is no runtime GPU, external engine, network call or automatic learning from uploaded matches.
 
-[Current state](research/CURRENT_STATE.md), [11 September progress](research/PROGRESS_2026-09-11.md) and [research index](research/README.md) distinguish local qualification, deployment, historical failures and open questions. V20 source/ZIP remain private under the prior publication boundary; its older against-v14 results above are historical, not a recommendation over v37 or v16.
+[Current state](research/CURRENT_STATE.md), [final research record](research/FINAL_SUBMISSION_2026-09-11.md) and [research index](research/README.md) distinguish local qualification, deployment, historical failures and open questions. V20 source/ZIP remain private under the prior publication boundary; its older against-v14 results above are historical, not a recommendation over the final v39.
 
 Recuris inspires the evidence and decision record: retrieve narrow lessons, freeze a question, measure, and retain failures and uncertainty. Its causal strength benefit remains unmeasured. Private runtime logs, machine identifiers, bulk training/reference corpora and sealed inputs remain local. Publication is not a competition upload.
 
-Historical releases and `harness/` remain unchanged. Generic repository CI exercises root v0, not the archived v37 player. The starter and license come from [advitrocks9/aichessathon-starter](https://github.com/advitrocks9/aichessathon-starter); packaged tablebase data has its own attribution.
+Historical releases and `harness/` remain unchanged. Generic repository CI exercises root v0, not the archived v39 player; its artifact verifier checks the preserved final release separately. The starter and license come from [advitrocks9/aichessathon-starter](https://github.com/advitrocks9/aichessathon-starter); packaged tablebase data has its own attribution.

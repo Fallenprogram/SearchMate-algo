@@ -1,0 +1,144 @@
+{
+  "recorded_at": "2026-09-11T10:19:19.218044+00:00",
+  "status": "closed_without_successor",
+  "studies": [
+    {
+      "internal_version": "v40",
+      "status": "failed_competitive_screen",
+      "source_sha256": "2a806ebb1f7698e22b6df2f8a7f27c0ae6a139a239dd9ab8f4d09357a9986d5e",
+      "historical_review_sha256": "6c9791557a76f76e88b4443800e9031eedb3b453f5370a8266d8d11e407ac321",
+      "promoted": false,
+      "package_delivered": false,
+      "full_games": 0,
+      "short": {
+        "wins": 6,
+        "draws": 2,
+        "losses": 4,
+        "points": 7.0,
+        "games": 12,
+        "required": 12,
+        "planned_maximum": 16,
+        "stopped": "threshold mathematically unreachable"
+      }
+    },
+    {
+      "internal_version": "v41",
+      "status": "failed_targeted_development_filter",
+      "source_sha256": "6113e912d3250e08ef2859a01a9a4ada1fa73dc56b064b94e90629826af658b7",
+      "historical_review_sha256": "7be9ab5bc785e8714aebc999c6ce4efb456a722a8ff10f65ddc5ff2916d214c0",
+      "promoted": false,
+      "package_delivered": false,
+      "full_games": 0,
+      "short": null
+    },
+    {
+      "internal_version": "v42",
+      "status": "failed_competitive_screen",
+      "source_sha256": "764f8e1f6d4b10d2af1789bb974895717ed2a9916a7b10e7256f840397ff0eec",
+      "historical_review_sha256": "bd7cc361b3ea70e16d5a92d658aaaaf89a50173061a2bc709829e4eef4fc8c61",
+      "promoted": false,
+      "package_delivered": false,
+      "full_games": 0,
+      "short": {
+        "wins": 1,
+        "draws": 3,
+        "losses": 3,
+        "points": 2.5,
+        "games": 7,
+        "required": 12,
+        "planned_maximum": 16,
+        "stopped": "threshold mathematically unreachable"
+      }
+    },
+    {
+      "internal_version": "v43",
+      "status": "failed_accuracy_admission",
+      "source_sha256": "a55fd47d36f870d51f7bd87586af5ec051f58b940f7373ab72b60f4cbc7f96c9",
+      "historical_review_sha256": "ebbbac808bd90afc498cc776b530f674944426a177780bf27eabe5abc6a14313",
+      "promoted": false,
+      "package_delivered": false,
+      "full_games": 0,
+      "short": null
+    },
+    {
+      "internal_version": "v44",
+      "status": "failed_competitive_screen",
+      "source_sha256": "d50b006d1483750864b727b28ea2e17f06f84eea271f99f6577a07f6fa0b6b95",
+      "historical_review_sha256": "368075f091c810ddade7d64bab6fe2fd3b9abded995d1c971ecb5e99a3b11f55",
+      "promoted": false,
+      "package_delivered": false,
+      "full_games": 0,
+      "short": {
+        "wins": 1,
+        "draws": 0,
+        "losses": 5,
+        "points": 1.0,
+        "games": 6,
+        "required": 12,
+        "planned_maximum": 16,
+        "stopped": "threshold mathematically unreachable"
+      }
+    },
+    {
+      "internal_version": "v45",
+      "status": "failed_targeted_development_filter",
+      "source_sha256": "2d5f7db9c75c168907618296d235c38911267bab7d5e84782136bf4e91d75c30",
+      "historical_review_sha256": "242e0635d7413fbcccdff545d463f3b2addd4bf47d323ff6ef8abba47d091e83",
+      "promoted": false,
+      "package_delivered": false,
+      "full_games": 0,
+      "short": null
+    },
+    {
+      "internal_version": "v46",
+      "status": "failed_competitive_screen",
+      "source_sha256": "bad593014eb3b047df99e9ab79c26e4043b047b21732c9d64a02bb79a622632d",
+      "historical_review_sha256": "902c0635f0f39f3a462a54c5af7cf8dfb2e523ce826233466d839301659604c8",
+      "promoted": false,
+      "package_delivered": false,
+      "full_games": 0,
+      "short": {
+        "wins": 0,
+        "draws": 3,
+        "losses": 3,
+        "points": 1.5,
+        "games": 6,
+        "required": 12,
+        "planned_maximum": 16,
+        "stopped": "threshold mathematically unreachable"
+      }
+    },
+    {
+      "internal_version": "v47",
+      "status": "failed_targeted_development_filter",
+      "source_sha256": "6df5c0d57bb2b27a5223247f592984721c14d766195ed9c3980ffe0f0d4b3085",
+      "historical_review_sha256": "38f59988415280e6998321d54c85a7630e94f8b34ef4ed80fd4b7e6c7cceaaaf",
+      "promoted": false,
+      "package_delivered": false,
+      "full_games": 0,
+      "short": null
+    },
+    {
+      "internal_version": "v48",
+      "status": "failed_competitive_screen",
+      "source_sha256": "1bfa73c4facd0703c4298dddd3090756b709eb3f96cd8e05d30ed09f3cd95874",
+      "historical_review_sha256": "831a0d6d9376d4f0053f1a026129ee0e13039d1c7e2e14e6f7915936e0c58c8e",
+      "promoted": false,
+      "package_delivered": false,
+      "full_games": 0,
+      "short": {
+        "wins": 3,
+        "draws": 3,
+        "losses": 3,
+        "points": 4.5,
+        "games": 9,
+        "required": 12,
+        "planned_maximum": 16,
+        "stopped": "threshold mathematically unreachable"
+      }
+    }
+  ],
+  "decision": "Retain user-confirmed final v39; user stopped further development.",
+  "v48_limit": "The selected R103 move improved to Qc5 (-35 vs -726 reference cp), but 4.5/9 points failed its mandatory short gate. No maintenance requalification was executed.",
+  "memory": "M1-P001 process/identity evidence; M1-P002 competitive gates; M1-P003 negative and counterexample evidence. Causal Recuris benefit unmeasured."
+}
