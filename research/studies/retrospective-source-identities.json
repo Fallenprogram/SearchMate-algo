@@ -1,0 +1,185 @@
+{
+  "note": "Hashes identify retained originals; they do not imply that private raw evidence is publicly downloadable. No private report instruction is incorporated.",
+  "sources": [
+    {
+      "study": "v25-lmr-01",
+      "retained_report_sha256": "36c6ae7e8b6cc2f53af8456abbe9579a3d06dc9a03da92caf3ba77cb0c399bbc",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v26-verified-null-01",
+      "retained_report_sha256": "cce46b5d3506b840e7eec6ef22f1ffa95d6bb516db9c2598598701ff15ffd3ba",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v27-guarded-null-01",
+      "retained_report_sha256": "edb3d69171c257546349bfec29f63b47951db0108a06cc6c682f7f433b02936d",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v28-selectivity-01",
+      "retained_report_sha256": "b82836f4d5a74aa9f8cbdad4dddf2524442de34692829b863b8bc3f13e612740",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v29-cpu-residual-01",
+      "retained_report_sha256": "52a4bc9d40e91cc78a994eede7d8c36a96c12552da74fb9d7b78061b73cd7d31",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v30-generalized-residual-01",
+      "retained_report_sha256": "329c933ebd555caf1f9cdf4bea42513807895d905446c4d9a2009f979c6e48dd",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v31-loss-diagnosis-01",
+      "retained_report_sha256": "5b68d5a01211ea92d36a5096557a3ebfc4e8707d4f1c1f3cb78e50ad792a90f0",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v31-relational-residual-01",
+      "retained_report_sha256": "1127bd4c480b0b8a713820996936156631d0f9bfe0fbdd9aa4fa58caedf6b8bb",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v32-relational-lmr-01",
+      "retained_report_sha256": "179633fbf3669b8e0b1fe8a078cc5d3290bdde6fd7a680c2122f60c98ced9a9a",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v33-static-cache-01",
+      "retained_report_sha256": "f8c7d93c607e0e65f5b4c738c2f1cc1d153df0c55f5c08ca313af54640d48626",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v33-static-cache-02",
+      "retained_report_sha256": "f8c7d93c607e0e65f5b4c738c2f1cc1d153df0c55f5c08ca313af54640d48626",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v33-static-cache-03",
+      "retained_report_sha256": "9f6568203507b61942ace2fea0e1fcf862cdcab3cb6255096a2be44698496c9a",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v34-neural-workspace-01",
+      "retained_report_sha256": "57001104407937151615e7b696692311fdea60a821751af5ffb5279a8e58b0de",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v35-hard-budget-diagnosis-01",
+      "retained_report_sha256": "fc4331f7325baa8adedd13d3d63c99a9766a823f4c8dd2f9ec32b019ab3046b4",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v36-unbuffered-forecast-01",
+      "retained_report_sha256": "e12e693a4f391c73dba90edf753cb58d611560814f7832745d46977e8e65bc37",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v37-final-diagnosis-01",
+      "retained_report_sha256": "67aa075208fb4cbec95ed8a878553818ada8ed6740864340c57a586c2f603cc1",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v37-reversible-context-01",
+      "retained_report_sha256": "decbe7cdc31fa07b5018c4e66abf39aa3d016088eeef9be595659bb403de35d5",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v38-kbb-repair-01",
+      "retained_report_sha256": "999f2d7258ae27b0b275eee4a679b00491a6d8ed56284c50da8391b337640b0c",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v39-draw-boundary-01",
+      "retained_report_sha256": "a0ee924e86f2bdefa53726c32e73a5ccac05daa8b165dff0c251f53980aeb5f5",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v39-r103-defense-trace-02",
+      "retained_report_sha256": "f477f46741c1e120047da042f055936950b4e07d1ed69e06373b62a622067575",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v40-final-king-defense-01",
+      "retained_report_sha256": "c6d89acbd5a33fe89af10de5dc37a8e909e221dba8aeb2d1dddffb24fb52bbcd",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v41-pv-check-defense-01",
+      "retained_report_sha256": "c2532a2e78feb776e5b600957185c04f08df1442b868ecdcc42b4c9b80c250cd",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v42-queen-check-defense-01",
+      "retained_report_sha256": "74d4265d74afc44f1c0ecdfdccd8dc86bbd6464fac94fc215112b2065cdceb2d",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v43-wide-eval-01",
+      "retained_report_sha256": "6c66cb52ef6168d8fed7ccc7f9c94c2c3cdc7d67c43716a7ae90aa8a846ddf8c",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v44-zeroing-check-01",
+      "retained_report_sha256": "f5c0640c5d38d3e17a910bcdfff806e27e680c05a5131f2df4415b634d3c7d19",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v45-pin-threat-01",
+      "retained_report_sha256": "b5a33410f10d88ef2f1dec4c87c7437d9f9f86672a632071765efc66491b297f",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v46-advanced-king-checks-01",
+      "retained_report_sha256": "d6dc7358ef42f80bc43780596353b19d07a51bbe3635337ebca46bdb694a4ee1",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v47-hash-precompute-01",
+      "retained_report_sha256": "6db252b5836c8792bdb9d3c1e07b0ca0cdef12c0ded7499c21e7aded049f9426",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v48-two-ply-forecast-01",
+      "retained_report_sha256": "4163a1eef918334684962ec7c8038d41bf19c50e0878b0ec3aab11daabb93d24",
+      "access": "Private detailed report; selected factual results reproduced in the public retrospective."
+    },
+    {
+      "study": "v15-qchecks-01",
+      "retained_report_sha256": "c30fb9a12ab0deef52b60945c595fb01dabb6760ab312c11c1c38ababd9e2d81",
+      "access": "Private detailed report; selected results reproduced publicly."
+    },
+    {
+      "study": "strength-first-20260908",
+      "retained_report_sha256": "e7719dc33c3a4bb50bd657e8350bc1710873d28d77afa03fd1e830ec21e80830",
+      "access": "Private detailed report; selected results reproduced publicly."
+    },
+    {
+      "study": "v12-cpu-eval-01",
+      "retained_report_sha256": "a563c9d7a7b7b77fc104fbea8ed0eaf2238457f47cfe2daeabf24cf850b7c951",
+      "access": "Private detailed report; selected results reproduced in the public retrospective."
+    },
+    {
+      "study": "v12-game-qualification-01",
+      "retained_report_sha256": "25b774165e0b3da850d07f460897dcaf7f687378442ffde65267595bff8fdc3c",
+      "access": "Private detailed report; selected results reproduced in the public retrospective."
+    },
+    {
+      "study": "v13-doubled-pawns-01",
+      "retained_report_sha256": "5dbd69aae21d787c4cec7733498d219118b29ad8f5bab9dad0b004cb84862ce0",
+      "access": "Private detailed report; selected results reproduced in the public retrospective."
+    },
+    {
+      "study": "v14-kqk-repair-01",
+      "retained_report_sha256": "21b62605c970d87b5c0c4275dd9426d14e64fabe443ebe707d3868536b2b14c6",
+      "access": "Private detailed report; selected results reproduced in the public retrospective."
+    },
+    {
+      "study": "v7-decision-trace-01",
+      "retained_report_sha256": "63279a7ec3327abd07c4e1641439c27738b57d8da6ce5d6a2767fc039ffaeac2",
+      "access": "Private detailed report; selected results reproduced in the public retrospective."
+    }
+  ]
+}

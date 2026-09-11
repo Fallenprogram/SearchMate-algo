@@ -11,7 +11,7 @@ The user confirmed **v39 as the final competition submission on 11 September 202
 
 ## What this final version contains
 
-V39 inherits v37's original CPU-trained neural residual, Numba search and board core, guarded late-move reductions, evaluation cache and history-aware score table. Neural experiments began in internal v29 and v30; v31 introduced the particular neural component retained here. V31 itself did not qualify, but the same model was retained in the later qualifying v37 combined build. The preceding submitted v16.1 used handcrafted evaluation without a trained network. V39 therefore replaces that classical-only submission with a hybrid classical/neural evaluator. The neural file is unchanged from v31: 72 inputs, eight hidden units, 592 trained parameters. No later experimental model or search change is included.
+V39 inherits v37's original CPU-trained neural residual, Numba search and board core, guarded late-move reductions, evaluation cache and history-aware score table. The trained neural component first appeared in internal v31. V31 itself did not qualify, but the same model was retained in the later qualifying v37 combined build. The preceding submitted v16.1 used handcrafted evaluation without a trained network. V39 therefore replaces that classical-only submission with a hybrid classical/neural evaluator. The neural file is unchanged from v31: 72 inputs, eight hidden units, 592 trained parameters. No later experimental model or search change is included.
 
 The inherited KQK selector handles the covered queen-versus-king ending. V38 added a tablebase selector for two opposite-coloured bishops versus a bare king, covering both players and either turn, with safe fallback paths. Its four-root exhaustive defending-reply traversal completed over 515 states; 51 seeded winning cases converted and 13 drawn cases were preserved. V39 reuses that evidence through verified helper and asset identity.
 
@@ -37,9 +37,9 @@ The exact ZIP passed its recorded CRC, identity, dependency, offline loading, pe
 
 ## Early rated observations and remaining limits
 
-At the frozen through 109 observation, the user reports **2 wins and 1 draw** for v39. The public profile shows round 107 drawn against Fork 72 and rounds 108/109 won against berserker/Black Box, consistent with that report. Attribution follows user submission history because no per-game build hash is visible. Round 106 is left unassigned. [Timestamped rated inventory through 109](../../rated-results/rated-results-26-109.json).
+The user reports **1 win and 1 draw** for v39. The public profile shows round 107 drawn against Fork 72 and round 108 won against berserker, consistent with that report. Attribution follows user submission history because no per-game build hash is visible. Round 106 is left unassigned. [Timestamped rated snapshot](../../rated-results/snapshot-2026-09-11-through108.json).
 
-King safety and longer tactical continuations remain weaknesses; round 103 is not claimed fixed. Near-boundary/probe-failure and low-clock endgame fallbacks may not convert. Historical platform wording did not precisely resolve prospective-claim versus reached-boundary semantics; the repair follows the recorded continuation. Neither three rated games nor maintenance smoke games establish a ranking gain.
+King safety and longer tactical continuations remain weaknesses; round 103 is not claimed fixed. Near-boundary/probe-failure and low-clock endgame fallbacks may not convert. Historical platform wording did not precisely resolve prospective-claim versus reached-boundary semantics; the repair follows the recorded continuation. Neither two rated games nor maintenance smoke games establish a ranking gain.
 
 Later internal v40-v48 experiments did not qualify and were never included in this ZIP. The user retained v39 and ended development. [Final research record](../../FINAL_SUBMISSION_2026-09-11.md). Recuris remains the evidence and decision process; its causal strength benefit has not been measured.
 

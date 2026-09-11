@@ -1,0 +1,62 @@
+{
+  "note": "Each row is a separate candidate/comparator campaign; do not pool protocols or infer an isolated component effect.",
+  "campaigns": [
+    {
+      "candidate": "v2",
+      "comparator": "v0",
+      "short": {
+        "wins": 70,
+        "draws": 33,
+        "losses": 25,
+        "base_seconds": 10,
+        "increment_seconds": 0.1
+      },
+      "full": {
+        "wins": 21,
+        "draws": 10,
+        "losses": 1,
+        "base_seconds": 120,
+        "increment_seconds": 0.5
+      },
+      "source": "../releases/v2-01/README.md"
+    },
+    {
+      "candidate": "v7",
+      "comparator": "v2",
+      "short": {
+        "wins": 18,
+        "draws": 4,
+        "losses": 2,
+        "base_seconds": 10,
+        "increment_seconds": 0.1
+      },
+      "full": {
+        "wins": 3,
+        "draws": 1,
+        "losses": 0,
+        "base_seconds": 120,
+        "increment_seconds": 0.5
+      },
+      "source": "../releases/competition-v3-internal-v7-01/README.md"
+    },
+    {
+      "candidate": "v37",
+      "comparator": "v16.1",
+      "short": {
+        "wins": 12,
+        "draws": 3,
+        "losses": 1,
+        "base_seconds": 10,
+        "increment_seconds": 0.1
+      },
+      "full": {
+        "wins": 7,
+        "draws": 1,
+        "losses": 0,
+        "base_seconds": 120,
+        "increment_seconds": 0.5
+      },
+      "source": "../releases/competition-v6-internal-v37-01/games.json"
+    }
+  ]
+}

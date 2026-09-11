@@ -1,0 +1,85 @@
+round,opponent,color,result,opening,attribution,per_game_build_hash_verified,displayed_rating_after_round,evidence_level,public_game_url
+26,ASD,black,loss,Scotch Game,v0_provisional,False,1429,preserved_inventory_plus_public_result,https://aichessathon.com/game/5a4a3ea7-007e-4ea7-bac9-28e7aaf3fe4e
+27,What the fork,black,loss,Sicilian Closed,v0_provisional,False,1328,preserved_inventory_plus_public_result,https://aichessathon.com/game/91676cb0-661f-462b-9aa8-617f8a094254
+28,Stock-ish,white,loss,French Advance,v0_provisional,False,1279,preserved_inventory_plus_public_result,https://aichessathon.com/game/03d0e9d0-cfb5-42c6-865a-fb7486e4c276
+29,Sun,white,win,London System,v0_provisional,False,1305,preserved_inventory_plus_public_result,https://aichessathon.com/game/47d1c125-d3d2-47de-8972-b8c8ec109db9
+30,Stockfish,black,void,London System,v0_provisional,False,1298,preserved_inventory_plus_public_result,https://aichessathon.com/game/a4c0e061-3097-4c7c-871d-058d5c679857
+31,Buddy's Grill Gambit,white,win,Petroff Defence,v0_provisional,False,1347,preserved_inventory_plus_public_result,https://aichessathon.com/game/47e1c2f1-5f7c-442c-97d8-c6ee67a12e00
+32,404 Not Found,black,loss,Dutch Stonewall,v0_provisional,False,1296,preserved_inventory_plus_public_result,https://aichessathon.com/game/c895c2a4-4876-48d7-8453-d38f446877a2
+33,The Rook,white,win,Caro-Kann Classical,v0_provisional,False,1341,preserved_inventory_plus_public_result,https://aichessathon.com/game/6adc2b99-2e8b-4465-997d-1ede6d80c6ed
+34,Snake,black,loss,English Symmetrical,v0_provisional,False,1312,preserved_inventory_plus_public_result,https://aichessathon.com/game/c84fb347-e0f6-4650-a44f-69276c7dbf56
+35,meow,white,draw,Slav Defence,v0_provisional,False,1302,preserved_inventory_plus_public_result,https://aichessathon.com/game/6b9bc0fa-3938-4d99-bd4b-0448cdcfcda3
+36,Stockfish,black,win,Caro-Kann Exchange,v2_reported,False,1372,preserved_inventory_plus_public_result,https://aichessathon.com/game/585c1878-6ee2-41c0-9f63-0357e94fcf83
+37,Stocked Fish,white,win,Sicilian Taimanov,v2_reported,False,1431,preserved_inventory_plus_public_result,https://aichessathon.com/game/16112bc6-be15-4117-87bf-68f9417b450f
+38,How does the knight move?,white,loss,Scotch Game,v2_reported,False,1372,preserved_inventory_plus_public_result,https://aichessathon.com/game/dacc305d-8e38-47c0-95a7-84d35fa6579c
+39,The Smart Guy(s),black,win,English Symmetrical,v2_reported,False,1422,preserved_inventory_plus_public_result,https://aichessathon.com/game/0ca55ebd-a26d-400a-a878-0f9dc853b76d
+40,SAC,black,loss,Sicilian Najdorf,v2_reported,False,1381,preserved_inventory_plus_public_result,https://aichessathon.com/game/8a74e4bf-18dd-406c-a630-482aa7bbddc2
+41,dhav,black,loss,Sicilian Closed,v2_reported,False,1340,preserved_inventory_plus_public_result,https://aichessathon.com/game/7c7200d9-0acf-4c12-95ed-1be3c262b5d8
+42,Alpha,white,win,Semi-Slav Defence,v2_reported,False,1366,preserved_inventory_plus_public_result,https://aichessathon.com/game/b6192eb5-713f-4480-94f6-d34094d96554
+43,Cagnus_Marlsen,white,draw,Sicilian Closed,v2_reported,False,1363,preserved_inventory_plus_public_result,https://aichessathon.com/game/29938883-290a-4836-86ae-944531470a60
+44,Snake,black,loss,Sicilian Closed,v2_reported,False,1331,preserved_inventory_plus_public_result,https://aichessathon.com/game/825ae056-a66a-42f8-b21b-a76f79c3aee5
+45,Entangled_99,white,draw,English Symmetrical,v2_reported,False,1324,preserved_inventory_plus_public_result,https://aichessathon.com/game/932049bd-a884-4780-95c3-244c340c6626
+46,son,black,win,Reti Opening,v2_reported,False,1347,preserved_inventory_plus_public_result,https://aichessathon.com/game/ba7a90b2-5467-416a-9a83-2d5fa7a1cc0c
+47,Columbia Trader,white,draw,English Symmetrical,v2_reported,False,1344,preserved_inventory_plus_public_result,https://aichessathon.com/game/114da7a1-ab1c-47de-9e3d-a8d8adc372dc
+48,Team name,white,loss,Italian Game,v2_reported,False,1320,preserved_inventory_plus_public_result,https://aichessathon.com/game/4b25559d-0499-487c-b08a-575e875e042b
+49,Modus,black,loss,Nimzo-Indian Defence,v2_reported,False,1292,preserved_inventory_plus_public_result,https://aichessathon.com/game/dd51b98b-43ee-4411-94a6-f4e4d72bf35a
+50,Chess,black,draw,Slav Defence,v2_reported,False,1293,preserved_inventory_plus_public_result,https://aichessathon.com/game/03997190-f50b-4f97-a8d1-c07f07b77382
+51,MrGreedy,white,draw,Nimzo-Indian Defence,v2_reported,False,1289,preserved_inventory_plus_public_result,https://aichessathon.com/game/67789c3d-e41a-4fee-8527-4989c9de4c53
+52,Ultimate32,black,win,Sicilian Closed,v2_reported,False,1306,preserved_inventory_plus_public_result,https://aichessathon.com/game/053c454a-ba6e-4e81-90ed-f16959dade7d
+53,The Smart Guy(s),white,loss,Sicilian Taimanov,v2_reported,False,1291,preserved_inventory_plus_public_result,https://aichessathon.com/game/ae35518f-2e85-4507-ad40-4fd7d56ce7bb
+54,Cagnus_Marlsen,black,win,Italian Game,v7_reported,False,1362,preserved_inventory_plus_public_result,https://aichessathon.com/game/77175286-01dd-42e2-adc6-140ae93fc723
+55,Rook and Roll,white,loss,Petroff Defence,v7_reported,False,1303,preserved_inventory_plus_public_result,https://aichessathon.com/game/5ea2d0ac-1d19-422f-b0b6-290c82e993de
+56,Brownies,white,win,Catalan Opening,v7_reported,False,1347,preserved_inventory_plus_public_result,https://aichessathon.com/game/1f35185d-387f-45b0-88e7-468031323f59
+57,Columbia Trader,black,win,English Symmetrical,v7_reported,False,1395,preserved_inventory_plus_public_result,https://aichessathon.com/game/91abd2af-f54b-4903-a7bb-fd369b84e07b
+58,Stocked Fish,white,win,Four Knights Game,v7_reported,False,1436,preserved_inventory_plus_public_result,https://aichessathon.com/game/0c2e7026-4ebd-4d48-9a4a-2e6549da07e5
+59,404 Not Found,white,loss,"Ruy Lopez, Closed",v7_reported,False,1403,preserved_inventory_plus_public_result,https://aichessathon.com/game/9efa9ab5-53c6-478f-9181-5bb5ed43feb8
+60,dhav,black,loss,English Symmetrical,v7_reported,False,1362,preserved_inventory_plus_public_result,https://aichessathon.com/game/0fe9126b-cf2e-490c-bd9a-2462e47d86ee
+61,Left Right,white,draw,Sicilian Closed,v7_reported,False,1362,preserved_inventory_plus_public_result,https://aichessathon.com/game/e41b28df-bad4-41c3-89b4-dc599c10cb95
+62,Brownies,black,draw,French Tarrasch,v7_reported,False,1366,preserved_inventory_plus_public_result,https://aichessathon.com/game/4396ec5a-4610-42ae-b67d-afb713762727
+63,#niche,black,win,Sicilian Sveshnikov,v7_reported,False,1389,preserved_inventory_plus_public_result,https://aichessathon.com/game/c285d453-374c-4ad4-bcd2-a709c3490b54
+64,Entangled_99,black,draw,London System,v7_reported,False,1386,preserved_inventory_plus_public_result,https://aichessathon.com/game/4d8f3e63-0ef6-43dc-860f-0a8960286723
+65,ScholarsMate,white,loss,Nimzo-Indian Defence,v7_reported,False,1357,preserved_inventory_plus_public_result,https://aichessathon.com/game/68bd9005-cccd-4573-b922-a1646c746330
+66,Terminal,black,win,Grunfeld Defence,v7_reported,False,1385,preserved_inventory_plus_public_result,https://aichessathon.com/game/365cf055-9cae-44b6-a441-d0e29aa19153
+67,Pawxn,black,win,Sicilian Sveshnikov,v7_reported,False,1406,preserved_inventory_plus_public_result,https://aichessathon.com/game/ab3f8d78-a18e-4524-8a40-48931b14acbb
+68,Prophylaxis,white,loss,Queen's Gambit Declined,v7_reported,False,1383,preserved_inventory_plus_public_result,https://aichessathon.com/game/fcd74dcd-101a-4903-9f7c-e5c29602f7e1
+69,LeoMax,white,loss,"Ruy Lopez, Closed",v7_reported,False,1360,preserved_inventory_plus_public_result,https://aichessathon.com/game/7d3044d2-a6c3-4090-91bd-b155cfc1fd22
+70,The Monkey's Bum,black,draw,Sicilian Closed,v7_reported,False,1361,preserved_inventory_plus_public_result,https://aichessathon.com/game/cbce601c-7f54-42cd-ad36-1daf8cef0a5c
+71,Stock-ish,white,loss,French Winawer,v7_reported,False,1340,preserved_inventory_plus_public_result,https://aichessathon.com/game/2ac6d3db-8105-431f-82ea-7f4c37692797
+72,Modus,black,draw,Caro-Kann Exchange,v7_reported,False,1340,preserved_inventory_plus_public_result,https://aichessathon.com/game/9a1cc5ff-2414-492d-a80b-556cf87aa012
+73,StockZero,white,win,"Ruy Lopez, Closed",v7_reported,False,1361,preserved_inventory_plus_public_result,https://aichessathon.com/game/a022103e-f3b8-4895-99b7-b0498c9d059e
+74,e=mc^2,black,win,Scotch Game,v7_reported,False,1381,preserved_inventory_plus_public_result,https://aichessathon.com/game/7a3f550e-8bbb-433e-b2a9-011f749ef3ef
+75,meow,white,draw,French Tarrasch,v7_reported,False,1382,preserved_inventory_plus_public_result,https://aichessathon.com/game/37f98c37-0cfb-41ce-bb08-f435a35ecf26
+76,Entangled_99,black,draw,French Tarrasch,v14_reported,False,1379,preserved_inventory_plus_public_result,https://aichessathon.com/game/ae914181-1f45-41e9-b1a1-ad99f8fd09d7
+77,Check_Mate,white,draw,Sicilian Closed,v14_reported,False,1379,preserved_inventory_plus_public_result,https://aichessathon.com/game/c546e7e4-1902-4a1e-b8d3-bfbf83dbc5cf
+78,Terminal,black,win,English Symmetrical,v14_reported,False,1441,preserved_inventory_plus_public_result,https://aichessathon.com/game/0c357ce6-b418-406a-bc42-ed537d90bb27
+79,Chelsea's very own JP Morgan,white,win,Sicilian Closed,v14_reported,False,1493,preserved_inventory_plus_public_result,https://aichessathon.com/game/9bfc5211-ea40-438a-806f-46244afd840c
+80,does 4th place get a trophy,black,draw,Sicilian Najdorf,v14_or_v16_uncertain,False,1491,preserved_inventory_plus_public_result,https://aichessathon.com/game/7c0d3d88-dc94-4309-bf84-b372e0f23b63
+81,Magnus.AI,white,win,Pirc Defence,v16.1_reported,False,1559,preserved_inventory_plus_public_result,https://aichessathon.com/game/29952adf-42ec-442c-80ed-3c901be73f14
+82,while True: win(),white,loss,Sicilian Najdorf,v16.1_reported,False,1491,preserved_inventory_plus_public_result,https://aichessathon.com/game/dbb9ac1e-77d2-49bc-a435-e4d4a7ea967c
+83,drunkenmaster,black,loss,Catalan Opening,v16.1_reported,False,1429,preserved_inventory_plus_public_result,https://aichessathon.com/game/51cdf2aa-4259-420b-81e3-993a12497bd0
+84,0x88,white,win,Reti Opening,v16.1_reported,False,1470,preserved_inventory_plus_public_result,https://aichessathon.com/game/0ebbaf18-aa23-4ed9-ac16-b755b52da315
+85,Stalemate,white,loss,Catalan Opening,v16.1_reported,False,1428,preserved_inventory_plus_public_result,https://aichessathon.com/game/7892c7d4-5415-445e-aed3-fa2a2bf3d2d3
+86,Check_Mate,black,win,Sicilian Closed,v16.1_reported,False,1469,preserved_inventory_plus_public_result,https://aichessathon.com/game/1ee1a7b1-0701-4039-9322-6f6fdc15e4d0
+87,does 4th place get a trophy,white,draw,Sicilian Sveshnikov,v16.1_reported,False,1471,preserved_inventory_plus_public_result,https://aichessathon.com/game/7afddb55-7b0f-4606-be3c-2f5565415800
+88,The Veritys,black,loss,Scotch Game,v16.1_reported,False,1440,preserved_inventory_plus_public_result,https://aichessathon.com/game/c37c9f4b-6cff-4539-9691-edf3f90d5ed4
+89,The Rooks Rest,white,win,Scotch Game,v16.1_reported,False,1472,preserved_inventory_plus_public_result,https://aichessathon.com/game/8f6349d6-8c86-44ef-bca3-e557032c31f8
+90,A weapon to surpass Metal Gear,black,win,Sicilian Najdorf,v16.1_reported,False,1508,preserved_inventory_plus_public_result,https://aichessathon.com/game/0d2155a7-b17d-44c2-afc1-ddcbceb033cd
+91,Hanging Pawns,black,win,Sicilian Sveshnikov,v16.1_reported,False,1535,public_result_only,https://aichessathon.com/game/5faebf61-5e44-4d5a-88a0-526068c0ff26
+92,Dominated Horses,black,loss,Sicilian Closed,v16.1_reported,False,1502,public_result_only,https://aichessathon.com/game/629334e3-57bc-437c-a7c5-9f239e5619a7
+93,The big H,white,win,Sicilian Closed,v16.1_reported,False,1527,pgn_and_runtime_log_replay_verified,https://aichessathon.com/game/b9938b0b-7907-493e-a5f1-30f25c391008
+94,"Atheon, Time's Conflux",white,loss,King's Indian Classical,v16.1_reported,False,1504,pgn_and_runtime_log_replay_verified,https://aichessathon.com/game/0130d03d-f723-491b-adca-a3ef16a17200
+95,IDK,black,win,French Classical,v16.1_reported,False,1530,pgn_and_runtime_log_replay_verified,https://aichessathon.com/game/a6fc07c3-3bee-4dce-b15a-ad1376f5bff0
+96,Zagreus 2.3.1,white,win,Sicilian Classical,v16.1_reported,False,1553,pgn_and_runtime_log_replay_verified,https://aichessathon.com/game/1106425f-0cb0-4eef-9307-4430c324bfc4
+97,Team I Love Fortnite,white,draw,Sicilian Dragon,v16.1_reported,False,1554,pgn_and_runtime_log_replay_verified,https://aichessathon.com/game/cff773e2-4cd3-4166-8c55-63314c87f3b0
+98,AI < human,black,win,Caro-Kann Classical,v16.1_reported,False,1572,pgn_and_runtime_log_replay_verified,https://aichessathon.com/game/ae1be1d0-714f-42c6-ad31-5a79717bdca3
+99,FableEngine,black,loss,London System,v16.1_reported,False,1552,pgn_and_runtime_log_replay_verified,https://aichessathon.com/game/628b4070-b12e-4efb-857d-ec3b6509440b
+100,The Veritys,black,loss,Sicilian Classical,v16.1_reported,False,1534,pgn_and_runtime_log_replay_verified,https://aichessathon.com/game/9899b8de-be44-4017-8d1d-9a47663a5479
+101,"Atheon, Time's Conflux",white,win,Scotch Game,v16.1_reported,False,1554,pgn_and_runtime_log_replay_verified,https://aichessathon.com/game/8e409abd-03c1-470d-be87-ab7bf64a69c7
+102,berserker,white,win,English Symmetrical,v16.1_reported,False,1573,pgn_and_runtime_log_replay_verified,https://aichessathon.com/game/fb519eb3-aa2d-4519-a236-b15b69716c8d
+103,hyperfish,black,loss,Caro-Kann Exchange,v16.1_reported,False,1555,pgn_and_runtime_log_replay_verified,https://aichessathon.com/game/fe38db85-1549-4839-bb7d-7e6012eac394
+104,Team7347,white,loss,Petroff Defence,v16.1_reported,False,1539,pgn_and_runtime_log_replay_verified,https://aichessathon.com/game/1cc90456-8424-4946-8393-8099142ad24e
+105,AI < human,black,win,Sicilian Sveshnikov,v16.1_reported,False,1558,runtime_log_and_public_result_no_supplied_pgn,https://aichessathon.com/game/351a07d9-a483-455b-8145-ef5034a936ad
+106,Left shift,black,loss,French Classical,unassigned,False,1546,public_result_only,https://aichessathon.com/game/d060f1a2-f16f-48bb-9f5d-c459d3e7c72c
+107,Fork 72,white,draw,Sicilian Taimanov,v39_reported,False,1546,public_result_only,https://aichessathon.com/game/b252c4ea-c88b-4207-8372-c2e4125417fd
+108,berserker,white,win,Sicilian Dragon,v39_reported,False,1647,public_result_only,https://aichessathon.com/game/5e558b53-c92a-4ab0-b8ee-a98bf0ed08c0
+109,Black Box,black,win,Sicilian Closed,v39_reported,False,1723,public_result_only,https://aichessathon.com/game/b6e0239c-a88e-4b9c-a61c-ce7af3354327

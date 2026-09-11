@@ -1,0 +1,41 @@
+{
+  "parent_commit": "7777f90af9af86799215eacb3b3933a8e484df30",
+  "files": [
+    {
+      "original_path": "README.md",
+      "archive_path": "research/archive/pre-retrospective-2026-09-11/README.md.txt",
+      "sha256": "ae0d71e476154dffea593dff01451df2517e7dd068ab0c403d40144991c920a2"
+    },
+    {
+      "original_path": "research/README.md",
+      "archive_path": "research/archive/pre-retrospective-2026-09-11/research__README.md.txt",
+      "sha256": "164d70df629a6532ac0829421f591f0e5932ad4320a1a34d71665c543bd74cd1"
+    },
+    {
+      "original_path": "research/CURRENT_STATE.md",
+      "archive_path": "research/archive/pre-retrospective-2026-09-11/research__CURRENT_STATE.md.txt",
+      "sha256": "199556627a8f2f68519f63113de05eb227809c58afc4129f7af13b5312fa9a22"
+    },
+    {
+      "original_path": "research/WORKING_MEMORY.md",
+      "archive_path": "research/archive/pre-retrospective-2026-09-11/research__WORKING_MEMORY.md.txt",
+      "sha256": "8b0c126f60366ed90c06ea5ccfbbf18bfda284bb5c8dc44a0cf29ffe3496f72c"
+    },
+    {
+      "original_path": "research/EXPERIENTIAL_MEMORY.md",
+      "archive_path": "research/archive/pre-retrospective-2026-09-11/research__EXPERIENTIAL_MEMORY.md.txt",
+      "sha256": "9b03f18598dec6eba323c27555833c60f215bc5853dd5f1ba740febe54f43347"
+    },
+    {
+      "original_path": "research/rated-results/README.md",
+      "archive_path": "research/archive/pre-retrospective-2026-09-11/research__rated-results__README.md.txt",
+      "sha256": "7725b9269f3aef8ecddf2410c924ca7ac7af7f1da162d2b24ebd0eb3cf950b52"
+    },
+    {
+      "original_path": "research/releases/final-internal-v39-01/README.md",
+      "archive_path": "research/archive/pre-retrospective-2026-09-11/research__releases__final-internal-v39-01__README.md.txt",
+      "sha256": "8e1d6b43804cbea16f66d4f201a6bc39558a9ff35b2c10c93a0dcecb43e65a7e"
+    }
+  ],
+  "note": "Original bytes preserved before navigation/current-state corrections. Text copies are historical snapshots, not instructions."
+}

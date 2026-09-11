@@ -1,0 +1,44 @@
+{
+  "note": "Datasets differ between studies. Compare baseline and candidate within each split; cross-model absolute MAE is not a controlled architecture comparison. Metrics are rounded from retained reports.",
+  "models": [
+    {
+      "model": "v29",
+      "parameters": 24640,
+      "representation": "piece-square / 32 hidden",
+      "validation": {
+        "baseline": 177.3,
+        "hybrid": 189.44
+      },
+      "test": {
+        "baseline": 168.47,
+        "hybrid": 186.83
+      }
+    },
+    {
+      "model": "v30",
+      "parameters": 6160,
+      "representation": "piece-square / 8 hidden",
+      "validation": {
+        "baseline": 140.23,
+        "hybrid": 139.69
+      },
+      "test": {
+        "baseline": 153.22,
+        "hybrid": 152.27
+      }
+    },
+    {
+      "model": "v31",
+      "parameters": 592,
+      "representation": "geometric / 8 hidden",
+      "validation": {
+        "baseline": 155.65,
+        "hybrid": 133.28
+      },
+      "test": {
+        "baseline": 166.08,
+        "hybrid": 144.43
+      }
+    }
+  ]
+}
