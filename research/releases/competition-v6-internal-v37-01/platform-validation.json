@@ -1,0 +1,23 @@
+{
+  "reported_date": "2026-09-11",
+  "platform_attempt_label_from_log_filename": "v6",
+  "internal_version": "v37-01",
+  "status": "build_failed_before_agent_execution",
+  "accepted": false,
+  "logged_time_utc": "02:46:52Z–02:46:53Z",
+  "zip_sha256": "6cdee0bee1f877e5af1df0aa19b2444cfebc5163515872debb33c53b8cc8ecd3",
+  "expanded_bytes": 94255,
+  "source_log_sha256": "eee2e7b092ce5bbed1ad4f914d21eb752a945a7a9a6cc343ce7bca3e40606b81",
+  "source_log_bytes": 538,
+  "stage": "FROM aichessathon/agent-base:latest",
+  "error": "pull access denied for aichessathon/agent-base, repository does not exist or may require docker login",
+  "classification": "Platform base-image resolution/access failure; exact server cause unconfirmed.",
+  "agent_import_started": false,
+  "platform_smoke_games_started": false,
+  "organizers_contacted": "User reports email sent; awaiting reply.",
+  "candidate_modified": false,
+  "automatic_upload_or_retry": false,
+  "last_known_submitted_version": "internal v16-01; user label v16.1",
+  "last_known_entry_source": "User submission history; dashboard not independently rechecked.",
+  "source_log_is_public": false
+}

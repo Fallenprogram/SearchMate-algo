@@ -1,0 +1,86 @@
+{
+  "internal_version": "v37-01",
+  "competition_attempt_label": "v6",
+  "status": "locally_qualified_platform_build_failed_pending_revalidation",
+  "accepted": false,
+  "agent_path": "player/agent.py",
+  "agent_sha256": "e93e1b7a788cdd92237853621c219fab2c1d14fd85d5e034dd09b0c1c6e46953",
+  "zip_path": "SearchMate-next-submission-internal-v37-01.zip",
+  "zip_sha256": "6cdee0bee1f877e5af1df0aa19b2444cfebc5163515872debb33c53b8cc8ecd3",
+  "zip_bytes": 26201,
+  "uncompressed_bytes": 94255,
+  "members": [
+    {
+      "path": "TABLEBASES.txt",
+      "bytes": 1000,
+      "sha256": "002e1961a4bf3444b3590bfbbdd0a1d8a86b51456f38b425ee4df4e052f8ebc2"
+    },
+    {
+      "path": "agent.py",
+      "bytes": 84471,
+      "sha256": "e93e1b7a788cdd92237853621c219fab2c1d14fd85d5e034dd09b0c1c6e46953"
+    },
+    {
+      "path": "evaluation.npz",
+      "bytes": 3120,
+      "sha256": "c3c9b7f815e920c88d87974b8a0f63b66c0527c9b52525040ab7b0f20c0b7263"
+    },
+    {
+      "path": "tables/KQvK.rtbw",
+      "bytes": 272,
+      "sha256": "517667dff787162dbb1ed9d5d6484d30ee854e686ee0675c08d99ecf045d2d50"
+    },
+    {
+      "path": "tables/KQvK.rtbz",
+      "bytes": 5392,
+      "sha256": "71ea9444fa5bd42897d781a0c356975ea6f23e0f65a4254e470897031c161c8c"
+    }
+  ],
+  "stages": {
+    "short": {
+      "games": 16,
+      "wins": 12,
+      "draws": 3,
+      "losses": 1,
+      "points": 13.5,
+      "required_points": 12,
+      "plies": 2223,
+      "faults": 0,
+      "stage_elapsed_s": 486.68070912361145,
+      "mode": "warm",
+      "limitations": [
+        "Finite direct screen, not Elo or ladder prediction.",
+        "History scalar mismatch is recorded; v16 bounded recovery may legitimately reset.",
+        "Clock audit checks first request/increment bounds and recorded outcomes, not an exact reconstruction from different timer scopes."
+      ],
+      "source_audit_sha256": "d65e9a86eb5d82c3169342f2be41b0d54f651c990dbf8c19cd59b631c05195ba"
+    },
+    "full": {
+      "games": 8,
+      "wins": 7,
+      "draws": 1,
+      "losses": 0,
+      "points": 7.5,
+      "required_points": 6,
+      "plies": 781,
+      "faults": 0,
+      "stage_elapsed_s": 2385.748030900955,
+      "mode": "fresh_per_game",
+      "limitations": [
+        "Finite direct screen, not Elo or ladder prediction.",
+        "History scalar mismatch is recorded; v16 bounded recovery may legitimately reset.",
+        "Clock audit checks first request/increment bounds and recorded outcomes, not an exact reconstruction from different timer scopes."
+      ],
+      "source_audit_sha256": "367972f2bde6b383e5a18d44e1f686f5f1c4a39c1090fb997bb7f7369d26ff26"
+    }
+  },
+  "rollback": {
+    "agent_path": "../competition-v5-internal-v16-01/player/agent.py",
+    "agent_sha256": "fdcdea36ad030dd534c2607408b399673d0fee728aeafc0ea456f96871f8f787",
+    "zip_path": "../competition-v5-internal-v16-01/SearchMate-competition-v5-internal-v16-01.zip",
+    "zip_sha256": "00f244998b54c1d116a4af99ef9c3a2caf1eba262b3c5b59a19d0ae8e73b9084"
+  },
+  "source_final_review_sha256": "be7bf5a374678b78d3779743e5c37e8be4b1505cd695b43f647ccff3b47f2a1a",
+  "published_by_user_authorization": true,
+  "automatic_competition_upload": false
+}

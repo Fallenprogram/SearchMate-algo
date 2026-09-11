@@ -1,0 +1,12 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1/2-1/2"]
+[FEN "rnbqk1nr/ppp1bppp/4p3/8/2PPp3/2N2P2/PP4PP/R1BQKBNR b KQkq - 0 5"]
+[SetUp "1"]
+[Termination "fifty_moves"]
+
+5... Nc6 6. Be3 exf3 7. Nxf3 Nh6 8. Bxh6 gxh6 9. d5 exd5 10. cxd5 Na5 11. Qd4 O-O 12. O-O-O c5 13. Qe3 Bg5 14. Nxg5 Qxg5 15. Re1 f5 16. h4 Qxe3+ 17. Rxe3 f4 18. Re4 Bg4 19. h5 Rf5 20. Rh4 Bxh5 21. Ra4 b6 22. Bd3 Re5 23. Raxf4 Re1+ 24. Kc2 Bg6 25. Bxg6 hxg6 26. Rxh6 Kg7 27. Rfh4 g5 28. Rh7+ Kg6 29. R4h6+ Kf5 30. b3 Rg1 31. Rh2 a6 32. R7h6 b5 33. Re6 Ra7 34. a4 bxa4 35. Nxa4 c4 36. bxc4 Nxc4 37. Nc5 Rc7 38. Nxa6 Rd7 39. g4+ Rxg4 40. Rhh6 Rd4 41. Nb4 Ne3+ 42. Rxe3 Rxb4 43. Kc3 Re4 44. Rd3 Ra7 45. d6 Ra3+ 46. Kc2 Re2+ 47. Kd1 Rxd3+ 48. Kxe2 Rd4 49. Kf3 Ke5 50. Rg6 g4+ 51. Rxg4 Rd3+ 52. Ke2 Rxd6 53. Ke3 Rd1 54. Rg5+ Kf6 55. Rc5 Ke6 56. Ke4 Re1+ 57. Kf4 Kd6 58. Rg5 Ke6 59. Ra5 Kd6 60. Kf5 Re2 61. Kf6 Rf2+ 62. Kg7 Ke6 63. Kg6 Rg2+ 64. Kh7 Kf6 65. Rb5 Rg1 66. Kh8 Kf7 67. Rf5+ Ke6 68. Rc5 Kd6 69. Ra5 Ke6 70. Rc5 Kd7 71. Rd5+ Ke7 72. Rf5 Kd6 73. Rb5 Kc6 74. Re5 Kd7 75. Rd5+ Ke7 76. Re5+ Kf6 77. Rb5 Kf7 78. Rf5+ Ke7 79. Rh5 Kd6 80. Rb5 Kc6 81. Re5 Rg2 82. Rf5 Kd6 83. Rb5 Kc6 84. Re5 Kd6 85. Rb5 Rg1 86. Kh7 Kc6 87. Rf5 Kd6 88. Rb5 Kc6 89. Rf5 Kd7 90. Rf6 Ke7 91. Rb6 Kd7 92. Rf6 Ke7 93. Rc6 Kd8 94. Kh8 Kd7 95. Rh6 Ke7 96. Rc6 Kf7 97. Rh6 Kf8 98. Rf6+ Ke7 99. Rb6 Kd7 100. Rh6 Ke7 101. Rh7+ Kd6 102. Ra7 Kc5 1/2-1/2

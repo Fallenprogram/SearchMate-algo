@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "scope": "Completed local exact-package checks; no platform smoke games have run.",
+  "source_package_outcome_sha256": "1e7631901ae8411156d9f07a05c2401f6f662c0ef7cc9bb81034218642713755",
+  "source_final_review_sha256": "be7bf5a374678b78d3779743e5c37e8be4b1505cd695b43f647ccff3b47f2a1a",
+  "roles": {
+    "baseline": {
+      "source_sha256": "fdcdea36ad030dd534c2607408b399673d0fee728aeafc0ea456f96871f8f787",
+      "zip_sha256": "00f244998b54c1d116a4af99ef9c3a2caf1eba262b3c5b59a19d0ae8e73b9084",
+      "import_seconds": 20.688514499997837,
+      "memory": {
+        "job_limit_bytes": 2147483648,
+        "peak_job_bytes": 227168256,
+        "peak_process_bytes": 198246400
+      },
+      "requests": 10,
+      "all_legal_timely": true,
+      "cleanup_passed": true,
+      "low_clocks": [
+        {
+          "clock_ms": 250,
+          "move": "d4d5",
+          "elapsed_ms_including_wire_recording": 15.39010000124108
+        },
+        {
+          "clock_ms": 100,
+          "move": "d5c4",
+          "elapsed_ms_including_wire_recording": 6.071499999961816
+        },
+        {
+          "clock_ms": 50,
+          "move": "d5c4",
+          "elapsed_ms_including_wire_recording": 3.9469999974244274
+        },
+        {
+          "clock_ms": 10,
+          "move": "a2a3",
+          "elapsed_ms_including_wire_recording": 4.130400004214607
+        }
+      ],
+      "covered_moves": [
+        "g3f2",
+        "g6f5",
+        "d4e3",
+        "d5e5"
+      ]
+    },
+    "candidate": {
+      "source_sha256": "e93e1b7a788cdd92237853621c219fab2c1d14fd85d5e034dd09b0c1c6e46953",
+      "zip_sha256": "6cdee0bee1f877e5af1df0aa19b2444cfebc5163515872debb33c53b8cc8ecd3",
+      "import_seconds": 28.592851100002008,
+      "memory": {
+        "job_limit_bytes": 2147483648,
+        "peak_job_bytes": 276652032,
+        "peak_process_bytes": 247795712
+      },
+      "requests": 10,
+      "all_legal_timely": true,
+      "cleanup_passed": true,
+      "low_clocks": [
+        {
+          "clock_ms": 250,
+          "move": "f3e2",
+          "elapsed_ms_including_wire_recording": 17.02579999982845
+        },
+        {
+          "clock_ms": 100,
+          "move": "d5c4",
+          "elapsed_ms_including_wire_recording": 9.635599999455735
+        },
+        {
+          "clock_ms": 50,
+          "move": "d5c4",
+          "elapsed_ms_including_wire_recording": 3.2069000008050352
+        },
+        {
+          "clock_ms": 10,
+          "move": "a2a3",
+          "elapsed_ms_including_wire_recording": 3.568999993149191
+        }
+      ],
+      "covered_moves": [
+        "g3f2",
+        "g6f5",
+        "d4e3",
+        "d5e5"
+      ]
+    }
+  },
+  "protected_artifacts_unchanged": 37,
+  "frozen_and_evidence_files_verified": 257,
+  "finite_clock_checks_only": true,
+  "platform_hardware_equivalence_claimed": false,
+  "native": {
+    "context_cases": 512,
+    "legal_history_fixtures": 64,
+    "fixed_depth_calls": 16,
+    "API_calls": 12,
+    "reset_fixed_depth_calls": 6,
+    "reset_fallback_calls": 2,
+    "source_technical_audit_sha256": "371ad82c965df7e4905fa4f4e543726eb66a46dbee05f029788858d1d42e62f1"
+  },
+  "reference_opening_queries": {
+    "actual_nodes": 4802876,
+    "attempts": 24,
+    "complete": true,
+    "elapsed_s": 27.2034549999953,
+    "eligible": 16,
+    "error": null,
+    "overshoot": 2876,
+    "requested_nodes": 4800000
+  },
+  "packaging_tooling_correction": {
+    "stage": "static admission before archive creation or package player calls",
+    "error": "Old reader expected numeric returncode; frozen runner wrote stopped:true after verifying poll()!=None.",
+    "remedy": "Separate package-only continuation pins the writer source and validates its existing exit-check semantics.",
+    "actual_cleanup_receipts_checked": 8,
+    "negative_cleanup_mutations": 48,
+    "existing_negative_admission_checks": 10,
+    "measured_attempts_repeated": 0,
+    "candidate_changed": false,
+    "game_evidence_changed": false,
+    "original_incomplete_report_preserved": true
+  }
+}

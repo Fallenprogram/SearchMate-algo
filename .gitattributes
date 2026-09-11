@@ -22,3 +22,10 @@
 # Preserve exact v16 submission data.
 /research/releases/competition-v5-internal-v16-01/*.zip binary
 /research/releases/competition-v5-internal-v16-01/player/tables/* binary
+
+# Preserve exact v37 source weights and release archive.
+/research/releases/competition-v6-internal-v37-01/*.zip binary
+/research/releases/competition-v6-internal-v37-01/player/evaluation.npz binary
+/research/releases/competition-v6-internal-v37-01/player/tables/* binary
+# Keep even the frozen source whitespace byte-identical to its tested ZIP.
+/research/releases/competition-v6-internal-v37-01/player/agent.py -whitespace

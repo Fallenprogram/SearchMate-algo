@@ -1,0 +1,96 @@
+{
+  "at": "2026-09-10T13:41:31.692426+00:00",
+  "passed": true,
+  "metrics": {
+    "train": {
+      "n": 15081,
+      "groups": 164,
+      "baseline_mae": 172.19082068797664,
+      "candidate_mae": 148.52480070222333,
+      "relative_improvement": 0.13744065967742847,
+      "strata": {
+        "0": {
+          "n": 4759,
+          "baseline_mae": 207.39998270013166,
+          "candidate_mae": 177.7157745593635,
+          "deterioration_cp": -29.684208140768163
+        },
+        "1": {
+          "n": 4922,
+          "baseline_mae": 189.9683576618459,
+          "candidate_mae": 152.15189373097104,
+          "deterioration_cp": -37.816463930874875
+        },
+        "2": {
+          "n": 5400,
+          "baseline_mae": 141.76009660558697,
+          "candidate_mae": 131.76146649101426,
+          "deterioration_cp": -9.998630114572705
+        }
+      },
+      "saturated_corrections": 0
+    },
+    "validation": {
+      "n": 678,
+      "groups": 12,
+      "baseline_mae": 155.65036032484514,
+      "candidate_mae": 133.27779680133878,
+      "relative_improvement": 0.14373602140601802,
+      "strata": {
+        "0": {
+          "n": 208,
+          "baseline_mae": 213.5548803688142,
+          "candidate_mae": 172.3106816059757,
+          "deterioration_cp": -41.244198762838494
+        },
+        "1": {
+          "n": 226,
+          "baseline_mae": 157.21022989481406,
+          "candidate_mae": 128.89719521472816,
+          "deterioration_cp": -28.313034680085906
+        },
+        "2": {
+          "n": 244,
+          "baseline_mae": 136.72025464224168,
+          "candidate_mae": 121.00447447624697,
+          "deterioration_cp": -15.715780165994715
+        }
+      },
+      "saturated_corrections": 0
+    },
+    "test": {
+      "n": 649,
+      "groups": 12,
+      "baseline_mae": 166.08395633827382,
+      "candidate_mae": 144.42959904460756,
+      "relative_improvement": 0.13038199336702608,
+      "strata": {
+        "0": {
+          "n": 231,
+          "baseline_mae": 233.88184844312693,
+          "candidate_mae": 199.67614717447498,
+          "deterioration_cp": -34.20570126865195
+        },
+        "1": {
+          "n": 200,
+          "baseline_mae": 161.22625839073206,
+          "candidate_mae": 132.70315640134717,
+          "deterioration_cp": -28.523101989384884
+        },
+        "2": {
+          "n": 218,
+          "baseline_mae": 102.29516361506073,
+          "candidate_mae": 94.87330015438188,
+          "deterioration_cp": -7.42186346067885
+        }
+      },
+      "saturated_corrections": 0
+    }
+  },
+  "candidate_sha256": "2769bb5788e710fa4694b0b882f8687e4e02ad4e359a27c4aa9db8ef7e0ac093",
+  "model_sha256": "c3c9b7f815e920c88d87974b8a0f63b66c0527c9b52525040ab7b0f20c0b7263",
+  "frozen_before_disclosure": true,
+  "rounded_cp_metrics": true,
+  "no_refit": true,
+  "provenance_note": "Historical v31 metrics for identical model bytes; original candidate source differs from v37. Reused evidence, not a new independent accuracy test."
+}

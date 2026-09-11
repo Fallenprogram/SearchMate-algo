@@ -6,3 +6,6 @@ submission.zip
 *.pgn
 !research/runs/**/*.pgn
 research/runs/**/.lock
+
+# Reviewed local qualification games for the public v37 record.
+!research/releases/competition-v6-internal-v37-01/games/**/*.pgn

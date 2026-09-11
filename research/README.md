@@ -1,18 +1,19 @@
 # SearchMate research records
 
-## Current index — 10 September 2026
+## Current index — 11 September 2026
 
-The user confirmed submitting **internal v16-01**. **V20-01** is a qualified local alternative, without established superiority to v16. Latest supplied rated round:90; round80's v14/v16 boundary remains uncertain.
+V37 locally qualifies against submitted v16.1 and its exact archive passed local package checks. Its platform upload failed before agent execution because the builder could not access its base image. Acceptance remains pending; v16.1 is the last known submitted build.
 
-- [Current state](CURRENT_STATE.md): actual submission identity and authorized next question.
-- [Submitted v16](releases/competition-v5-internal-v16-01/README.md): preserved exact ZIP/source/assets and portable qualification evidence.
-- V20 remains local pending direct comparison with the submitted v16. Its source and ZIP are intentionally excluded from this publication.
-- [Progress and rated review](PROGRESS_2026-09-10.md): verified new games, remaining weaknesses and comparison limits.
-- [Rated inventory through90](rated-results/README.md): results, attribution and source hashes.
-- [Strength-development summaries](studies/strength-development-2026-09-10.json): prepared, failed, incomplete and qualified studies retained separately.
-- [Previous9 September repair record](PROGRESS_2026-09-09.md), [v14 release](releases/competition-v4-internal-v14-01/README.md), [v7 release](releases/competition-v3-internal-v7-01/README.md), and [8 September progress](PROGRESS_2026-09-08.md): preserved dated history.
+- [Current state](CURRENT_STATE.md): current identities, validation status and next action.
+- [V37 release](releases/competition-v6-internal-v37-01/README.md): exact source/model/assets/ZIP, portable evidence and 24 qualification PGNs.
+- [Original model card](releases/competition-v6-internal-v37-01/MODEL_CARD.md): CPU fitting, accuracy, provenance and limits.
+- [11 September research update](PROGRESS_2026-09-11.md): failed predecessors, final qualification and both tooling/platform events.
+- [Submitted v16.1 rollback](releases/competition-v5-internal-v16-01/README.md).
+- [10 September review](PROGRESS_2026-09-10.md), [9 September review](PROGRESS_2026-09-09.md), [8 September review](PROGRESS_2026-09-08.md): preserved dated history.
+- [Rated inventory through90](rated-results/README.md): unchanged verified public snapshot and uncertain boundaries.
+- [Earlier strength summaries](studies/strength-development-2026-09-10.json): historical prepared, failed and qualified studies.
 
-The public ledger receives a publication event. Raw own-team runtime logs, bulk studies, offline references and sealed inputs remain local. Historical protocols do not authorize a new run merely by being published. The Recuris-inspired record supports research decisions; its causal benefit remains unmeasured.
+The public ledger receives a focused publication event. Raw private logs, machine paths, bulk corpora, reference engines and sealed inputs stay local. V20 source/ZIP remain unpublished. Root player and harness stay unchanged. Historical working-memory/protocol files are snapshots, not current execution instructions. Recuris's causal benefit remains unmeasured.
 
 ## Historical v0 documentation, preserved
 
