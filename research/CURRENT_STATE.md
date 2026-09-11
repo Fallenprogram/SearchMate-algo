@@ -1,8 +1,10 @@
 # Current SearchMate state
 
-Updated 11 September 2026. Public evidence cutoff: rated round 109. Earlier dated status statements are historical.
+Updated 11 September 2026 after the qualification Swiss. Ladder cutoff: rated 109. Swiss cutoff: Final 122 / round 13. Earlier dated status statements are historical.
 
 **Final user-confirmed competition submission: internal v39-01. Engine development is stopped.** This documentation update launched no engine workload and authorizes no candidate, game campaign or upload.
+
+**Final Swiss result: 103rd of 334; 7W/1D/5L, 7.5/13 points, Buchholz 90.0, displayed Swiss rating 1872.** The participant reports not qualifying. Public Final events 110–122 follow the ladder and are a distinct competition stage. [Result inventory](tournament-results/README.md), [standalone technical report](../publication/README.md).
 
 | Identity | Value |
 |---|---|
@@ -17,6 +19,8 @@ V39 inherits v37's neural/search combination, KQK conversion and v38's KBBK poli
 Neural research began at **v29**. **V31 trained the exact 592-parameter network retained in v37–v39**. V16.1 was classical. The model does not learn during competition play. [Model card](releases/competition-v6-internal-v37-01/MODEL_CARD.md).
 
 The saved public profile through 109 shows **1723, 182/465, 35W/18D/30L**, plus one void. User history attributes rounds 107–109 to v39: **2W/1D**. Round 80 remains v14/v16 uncertain; round 106 remains unassigned. No per-game build hashes are available. The live rating is fitted to the current build according to the rules; cumulative results and the historical graph span submissions. [Rated inventory](rated-results/README.md).
+
+After the Swiss, the combined profile record is **42W/19D/35L**, plus the same void. White won all six Swiss games; Black scored 1W/1D/5L against different opponents/openings. This is a future diagnostic lead, not a demonstrated color defect. No new Swiss PGN/private-log replay audit was performed. V39 attribution follows the final submission history and locked-build rules, not per-game source hashes.
 
 Remaining weaknesses include king safety and longer tactical/quiet continuations, the unresolved round 103 case, uncovered endings, imperfect history recovery and finite low-clock fallbacks. No later v40–v48 payload qualified or entered this archive. [Retrospective](RETROSPECTIVE.md), [closed development record](FINAL_SUBMISSION_2026-09-11.md).
 

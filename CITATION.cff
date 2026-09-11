@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite the exact repository commit for software/evidence, and the standalone technical report for the narrative."
+type: software
+title: "SearchMate CPU chess engine and competition research"
+authors:
+  - name: "SearchMate project"
+version: "final-internal-v39-01"
+date-released: "2026-09-11"
+url: "https://github.com/Fallenprogram/SearchMate-algo"
+repository-code: "https://github.com/Fallenprogram/SearchMate-algo"
+abstract: "Original CPU chess engine, trained neural residual, release evidence and AI Chessathon case study."

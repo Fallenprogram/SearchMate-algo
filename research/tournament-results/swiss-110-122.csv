@@ -1,0 +1,14 @@
+event_number,swiss_round,color,opponent,result,opening,public_game_url,evidence,reported_build,per_game_build_hash_verified,points,cumulative_points
+110,1,white,The Aura Farmers,win,Queen's Gambit Declined,https://aichessathon.com/game/50cee808-3774-4a25-9030-d68bee7ac06b,public_result_observation,v39-01,False,1,1
+111,2,black,xx,loss,French Tarrasch,https://aichessathon.com/game/8fd82306-a09d-48c7-a361-6439c860392c,public_result_observation,v39-01,False,0,1
+112,3,white,neomatica,win,Caro-Kann Classical,https://aichessathon.com/game/bf63eff2-3331-4f70-82ba-10d4f56706f2,public_result_observation,v39-01,False,1,2
+113,4,black,zenith,loss,Queen's Indian Defence,https://aichessathon.com/game/2553753d-840b-480d-bfda-83f746f6fdba,public_result_observation,v39-01,False,0,2
+114,5,white,Grilled Liver,win,French Classical,https://aichessathon.com/game/f16b26c1-3fe1-4efb-bf38-0a25138edadf,public_result_observation,v39-01,False,1,3
+115,6,black,MeshPotato,loss,Scandinavian Defence,https://aichessathon.com/game/0a769f18-0506-47aa-83e1-b2eefea31e10,public_result_observation,v39-01,False,0,3
+116,7,white,Johnny's Sins,win,"Ruy Lopez, Closed",https://aichessathon.com/game/4883f5e4-5db0-46e6-98c9-616678942e00,public_result_observation,v39-01,False,1,4
+117,8,black,The Sandbox,loss,French Tarrasch,https://aichessathon.com/game/5e969704-7091-432c-8d88-8f406291d6fb,public_result_observation,v39-01,False,0,4
+118,9,white,murmp,win,King's Indian Classical,https://aichessathon.com/game/4ac27585-7b74-437d-b415-79d5c48b74f5,public_result_observation,v39-01,False,1,5
+119,10,black,Kaamuli,draw,London System,https://aichessathon.com/game/b3548849-402c-40e0-adff-91fd3c245e5b,public_result_observation,v39-01,False,0.5,5.5
+120,11,white,APEX,win,Scotch Game,https://aichessathon.com/game/66e7efc4-ad8e-44ac-9fc9-69deb83c846f,public_result_observation,v39-01,False,1,6.5
+121,12,black,igamerboii,loss,English Symmetrical,https://aichessathon.com/game/b3727f38-6d34-437a-b2d7-00cc08f94254,public_result_observation,v39-01,False,0,6.5
+122,13,black,OnlyBlunder,win,Scotch Game,https://aichessathon.com/game/7421deb2-28ae-4206-bbd7-7767b913e38c,public_result_observation,v39-01,False,1,7.5

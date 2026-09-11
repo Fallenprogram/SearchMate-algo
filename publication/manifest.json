@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "title": "SearchMate CPU chess engine development and competition results",
+  "author": "SearchMate project",
+  "date": "2026-09-11",
+  "status": "project-authored technical report; not peer reviewed",
+  "pages": 13,
+  "manuscript_whitespace_word_count": 3364,
+  "latest_event": "Final 122 / Swiss round 13",
+  "final_submission": "v39-01",
+  "validation": {
+    "visual_pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "body_paragraphs_matched_in_pdf": 80,
+    "toc_anchors": 20,
+    "renderer": "Microsoft Word isolated read-only document; Poppler PNG review",
+    "template_styles_fonts_numbering_preserved": true,
+    "engine_imports": 0,
+    "engine_searches": 0,
+    "new_games": 0
+  },
+  "files": [
+    {
+      "path": "EVIDENCE_GUIDE.md",
+      "bytes": 3363,
+      "sha256": "5487f209df4285254da04bac4fb9fd569f4de67e52ebe409a5bb31975107c47f"
+    },
+    {
+      "path": "figures/make_figures.py",
+      "bytes": 3430,
+      "sha256": "d6e7732632f1d3c8e24abaf43955bdaa449c1134fef99e5514d773b91fa5f97b"
+    },
+    {
+      "path": "figures/neural-accuracy.png",
+      "bytes": 38833,
+      "sha256": "af6f6e8ce70628776f53738bd798fb0dbdab0a46d74339303c2cf69780418386"
+    },
+    {
+      "path": "figures/neural-accuracy.svg",
+      "bytes": 27871,
+      "sha256": "7b94243f5344c37cabe0ecd8ed9b5968b64d9234a7a9809f68ac7ef10551991a"
+    },
+    {
+      "path": "figures/swiss-result.png",
+      "bytes": 88423,
+      "sha256": "73d639746f08be581a74f99e349a78c981f04e4b3d82a4b5e565d0d2a763a460"
+    },
+    {
+      "path": "figures/swiss-result.svg",
+      "bytes": 46036,
+      "sha256": "818a35e515c4e66b72ce55807354b847c8181b798eb3fc25af56216ddc800ac3"
+    },
+    {
+      "path": "manuscript.md",
+      "bytes": 23329,
+      "sha256": "38c90a8a82aa4cc646e9a6e075aab28ffecdea4df9a404d11e509576edcf1297"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3891,
+      "sha256": "286d0ab96b57125fafe92f85f8f63c9ba7d1795abae5246c1ddb7bcccce3887e"
+    },
+    {
+      "path": "SearchMate-technical-case-study.docx",
+      "bytes": 347412,
+      "sha256": "7808826952f4e8351a223e6cf052634caad4a9ddcc5604755495b18acfd524f3"
+    },
+    {
+      "path": "SearchMate-technical-case-study.pdf",
+      "bytes": 216374,
+      "sha256": "b5934c8600d171f9f3963b252875ac23863e495e9c02be9aab2fcd84942e208d"
+    },
+    {
+      "path": "verify_publication.py",
+      "bytes": 4325,
+      "sha256": "1687a32c12ba435965df84203b460b1e854669825466edd63fbeec1d63745a9e"
+    }
+  ],
+  "limitations": [
+    "Public Swiss results only, no new PGN/private-log audit.",
+    "No isolated neural or research-memory causal strength measurement.",
+    "Local training corpus and private runtime logs are not a complete public reproduction bundle."
+  ]
+}

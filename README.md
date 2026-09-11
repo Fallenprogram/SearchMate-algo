@@ -4,14 +4,21 @@ An original CPU chess engine and a Recuris-inspired research project for [AI Che
 
 **Final submission: internal v39-01, confirmed by the user on 11 September 2026. Engine development is stopped.**
 
-- **[Read the technical retrospective](research/RETROSPECTIVE.md)** — the progression from classical search to the original neural residual, what qualified, what failed, and what rated games can establish.
+- **[Read the standalone technical report](publication/README.md)** — PDF, editable Word edition and manuscript covering the engine, experiments, competition and lessons learned.
+- **[See the completed Swiss results](research/tournament-results/README.md)** — **103rd of 334, 7W/1D/5L and 7.5/13 points**. The qualification goal was not reached.
 - **[Download and verify the exact final v39 ZIP](research/releases/final-internal-v39-01/README.md)** — frozen source, weights, endgame assets, hashes and checks.
 - **[Browse the research](research/README.md)** — current state, release identities, study chronology, evidence and archived snapshots.
 - **[Explore all observed rated rounds, 26–109](research/rated-results/README.md)** — per-round JSON/CSV, attribution limits and the rating timeline.
 
+The standalone report is a project-authored case study, not a peer-reviewed publication. GitHub supplies its evidence companion. The [earlier retrospective](research/RETROSPECTIVE.md) remains the historical pre-Swiss account. [Publication and citation guide](publication/README.md).
+
+## Earlier rated ladder
+
 ![Recorded SearchMate rating history through round 109](research/figures/rated-history.png)
 
 At the frozen round-109 observation, the profile showed **1723, rank 182 of 465**, and a cumulative **35 wins, 18 draws and 30 losses**; one additional round was void. The first user-attributed v39 results were **2 wins and 1 draw**. The historical graph and cumulative record span submissions. The live rules describe current rating as fitted to the current build; this small latest sample is not a stable Elo estimate or a controlled improvement measurement.
+
+The subsequent 13-round Swiss appears as Final events 110–122. Its displayed rating **1872** and rank **103/334** are separate statistics. Adding those results gives **42W/19D/35L** overall, plus the same void. The Swiss outcomes are public observations; this update does not claim a new PGN/runtime replay audit.
 
 ## What the final engine does
 

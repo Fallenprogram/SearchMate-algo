@@ -1,10 +1,13 @@
 # Research reading guide
 
-**Final state: user-confirmed v39; engine development stopped.** Start with the [retrospective](RETROSPECTIVE.md) for the explanation, or [current state](CURRENT_STATE.md) for exact identities. This index supersedes older “current” and “next action” wording inside dated reports.
+**Final state: user-confirmed v39; engine development stopped. Swiss completed: 103/334, 7.5/13 points.** Start with the [standalone report](../publication/README.md) for the complete account, or [current state](CURRENT_STATE.md) for exact identities. This index supersedes older “current” and “next action” wording inside dated reports.
 
 | Read | Purpose |
 |---|---|
-| [Technical retrospective](RETROSPECTIVE.md) | Publication-style account of search, neural training, local games, rated outcomes and limitations |
+| [Standalone technical report](../publication/README.md) | PDF, Word and manuscript including the final Swiss and reflections |
+| [Publication evidence guide](../publication/EVIDENCE_GUIDE.md) | Sources behind the article and public reproduction limits |
+| [Historical technical retrospective](RETROSPECTIVE.md) | Preserved account through rated 109, before the Swiss |
+| [Final qualification Swiss](tournament-results/README.md) | All 13 outcomes, official placing, JSON/CSV and color split |
 | [Current state](CURRENT_STATE.md) | Authoritative final submission identity and scope |
 | [Release index](releases/README.md) | Maps internal versions, archive labels and actual submission history |
 | [Study chronology](studies/README.md) | Qualified, failed and incomplete experiments; avoids treating version numbers as promotions |
