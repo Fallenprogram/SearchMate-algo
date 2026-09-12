@@ -38,6 +38,6 @@ V39 earned targeted repair qualification. V37's stronger local results belong to
 
 The public API is `get_move(fen: str, time_left_ms: int) -> str`. **Root `agent.py`, `make zip` and generic CI still concern historical v0.** Use the named final archive linked above for v39; it includes the weights and tablebase files needed by that player. Its artifact verifier checks hashes, ZIP contents and syntax without running chess searches.
 
-Historical releases and `harness/` are preserved. Private runtime logs, machine identifiers, bulk training/reference corpora, sealed inputs and unqualified payloads stay local. The public source, model recipe, evidence summaries, selected qualification PGNs and figure data support inspection, but do not form a complete standalone training reproduction bundle.
+Historical releases and `harness/` are preserved. Private runtime logs, machine identifiers, bulk training/reference corpora, sealed inputs and unqualified payloads are kept outside this public repository. The public source, model recipe, evidence summaries, selected qualification PGNs and figure data support inspection, but do not form a complete standalone training reproduction bundle.
 
 The starter and license originate from [advitrocks9/aichessathon-starter](https://github.com/advitrocks9/aichessathon-starter); shipped tablebase data carries separate attribution. This repository update documents the final submission; it does not perform an upload or restart development.
