@@ -1,4 +1,5 @@
 .venv/
+.venv-*/
 __pycache__/
 .mypy_cache/
 .ruff_cache/
@@ -9,3 +10,11 @@ research/runs/**/.lock
 
 # Reviewed local qualification games for the public v37 record.
 !research/releases/competition-v6-internal-v37-01/games/**/*.pgn
+
+# Local research and credentials must be reviewed before any public publication.
+/research/platform-feedback/local/
+/research/local-tools/
+.env
+.env.*
+!.env.example
+.firecrawl/

@@ -4,6 +4,7 @@ An original CPU chess engine and a Recuris-inspired research project for [AI Che
 
 **Final submission: internal v39-01, confirmed by the user on 11 September 2026. Engine development is stopped.**
 
+- **[Run the final v39 engine](docs/QUICKSTART_V39.md)** — exact release verification, dependencies and a local API example.
 - **[Read the standalone technical report](publication/README.md)** — PDF, editable Word edition and manuscript covering the engine, experiments, competition and lessons learned.
 - **[See the completed Swiss results](research/tournament-results/README.md)** — **103rd of 334, 7W/1D/5L and 7.5/13 points**. The qualification goal was not reached.
 - **[Download and verify the exact final v39 ZIP](research/releases/final-internal-v39-01/README.md)** — frozen source, weights, endgame assets, hashes and checks.
